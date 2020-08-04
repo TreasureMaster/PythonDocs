@@ -20,4 +20,7 @@
     * [dumps \(\)](khranenie-dannykh/pickle/dumps.md)
     * [load \(\)](khranenie-dannykh/pickle/load.md)
     * [loads \(\)](khranenie-dannykh/pickle/loads.md)
+    * [PickleError](khranenie-dannykh/pickle/pickleerror.md)
+    * [PicklingError](khranenie-dannykh/pickle/picklingerror.md)
+    * [UnpicklingError](khranenie-dannykh/pickle/unpicklingerror.md)
 

@@ -28,3 +28,15 @@
 * [load \(\)](https://treasuremaster.gitbook.io/python-docs/khranenie-dannykh/pickle/load) - загружает объект из файла.
 * [loads \(\)](https://treasuremaster.gitbook.io/python-docs/khranenie-dannykh/pickle/loads) - загружает объект из потока байт.
 
+Модуль pickle определяет следующие исключения:
+
+* pickle.PickleError - общий класс исключений сериализации.
+* pickle.PicklingError - возникает, когда Pickler принимает несериализуемый объект.
+* pickle.UnpicklingError - возникает при невозможности десериализации объекта.
+
+Модуль pickle экспортирует 3 класса:
+
+* pickle.Pickler - используется для записи сериализованных данных в двоичный файл.
+* pickle.Unpickler - используется для чтения сериализованных данных из двоичного файла.
+* pickle.PickleBuffer - оболочка для буфера, представляющего извлекаемые данные.
+
