@@ -30,9 +30,9 @@
 
 Модуль pickle определяет следующие исключения:
 
-* pickle.PickleError - общий класс исключений сериализации.
-* pickle.PicklingError - возникает, когда Pickler принимает несериализуемый объект.
-* pickle.UnpicklingError - возникает при невозможности десериализации объекта.
+* [pickle.PickleError](https://treasuremaster.gitbook.io/python-docs/khranenie-dannykh/pickle/pickleerror) - общий класс исключений сериализации.
+* [pickle.PicklingError](https://treasuremaster.gitbook.io/python-docs/khranenie-dannykh/pickle/picklingerror) - возникает, когда Pickler принимает несериализуемый объект.
+* [pickle.UnpicklingError](https://treasuremaster.gitbook.io/python-docs/khranenie-dannykh/pickle/unpicklingerror) - возникает при невозможности десериализации объекта.
 
 Модуль pickle экспортирует 3 класса:
 
