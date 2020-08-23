@@ -8,9 +8,9 @@
 * не заполнено...
 * [sys.path](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.path) - список строк, определяющих путь поиска модулей Python
 * не заполнено...
-* sys.stdin - файловый объект, использующий стандартный ввод интерпретатора
-* sys.stdout - файловый объект, использующий стандартный вывод интерпретатора
-* sys.stderr - файловый объект, использующий стандартный вывод ошибок
+* [sys.stdin](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr) - файловый объект, использующий стандартный ввод интерпретатора
+* [sys.stdout](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr) - файловый объект, использующий стандартный вывод интерпретатора
+* [sys.stderr](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr) - файловый объект, использующий стандартный вывод ошибок
 * не заполнено...
 
 
