@@ -45,5 +45,6 @@
 * [Упаковка и распространение программ](upakovka-i-rasprostranenie-programm.md)
 * [Службы среды выполнения Python](sluzhby-sredy-vypolneniya-python/README.md)
   * [sys](sluzhby-sredy-vypolneniya-python/sys/README.md)
+    * [sys.argv](sluzhby-sredy-vypolneniya-python/sys/sys.argv.md)
     * [sys.path](sluzhby-sredy-vypolneniya-python/sys/sys.path.md)
 
