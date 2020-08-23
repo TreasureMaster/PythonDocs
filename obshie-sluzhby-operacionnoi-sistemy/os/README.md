@@ -52,7 +52,7 @@
 
 * os.abort \(\)
 * не заполнено...
-* os.system \(\) - исполняет команду \(строку\) в новой оболочке shell
+* [os.system \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.system) - исполняет команду \(строку\) в новой оболочке shell
 * не заполнено...
 
 #### Интерфейс планировщика
