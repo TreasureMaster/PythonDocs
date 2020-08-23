@@ -29,6 +29,10 @@
 * [os.environ](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/environ) - словарь переменных окружения
 * не заполнено...
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - функция описана ниже
+* не заполнено...
+* os.getenv \(\) - возвращает значение ключа переменной среды
+* не заполнено...
+* os.putenv \(\) - задает значение ключа для переменной среды
 
 #### Файлы и директории
 
