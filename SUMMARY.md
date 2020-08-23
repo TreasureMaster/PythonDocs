@@ -30,6 +30,7 @@
 * [Криптографические службы](kriptograficheskie-sluzhby.md)
 * [Общие службы операционной системы](obshie-sluzhby-operacionnoi-sistemy/README.md)
   * [os](obshie-sluzhby-operacionnoi-sistemy/os/README.md)
+    * [environ](obshie-sluzhby-operacionnoi-sistemy/os/environ.md)
     * [getcwd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/getcwd.md)
     * [pathsep](obshie-sluzhby-operacionnoi-sistemy/os/pathsep.md)
 * [Параллельное выполнение](parallelnoe-vypolnenie.md)

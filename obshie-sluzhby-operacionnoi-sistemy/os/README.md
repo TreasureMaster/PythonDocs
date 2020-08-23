@@ -26,7 +26,7 @@
 Эти функции и элементы данных предоставляют информацию и работают с текущим процессом и пользователем.
 
 * os.ctermid \(\)
-* os.environ
+* os.environ - словарь переменных окружения
 * не заполнено...
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
 
