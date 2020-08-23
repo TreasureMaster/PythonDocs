@@ -4,7 +4,7 @@
 
 * sys.abiflags
 * sys.addaudithook \(\)
-* sys.argv - список аргументов командной строки, переданных скрипту Python
+* [sys.argv](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.argv) - список аргументов командной строки, переданных скрипту Python
 * не заполнено...
 * [sys.path](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.path) - список строк, определяющих путь поиска модулей Python
 * не заполнено...
