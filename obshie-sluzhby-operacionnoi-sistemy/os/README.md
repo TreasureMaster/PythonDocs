@@ -48,5 +48,5 @@
 
 * os.confstr \(\)
 * не заполнено...
-* os.pathsep - символ разделения компонентов пути поиска в операционной системе
+* [os.pathsep](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/pathsep) - символ разделения компонентов пути поиска в операционной системе
 
