@@ -31,6 +31,7 @@
 * [Общие службы операционной системы](obshie-sluzhby-operacionnoi-sistemy/README.md)
   * [os](obshie-sluzhby-operacionnoi-sistemy/os/README.md)
     * [getcwd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/getcwd.md)
+    * [pathsep](obshie-sluzhby-operacionnoi-sistemy/os/pathsep.md)
 * [Параллельное выполнение](parallelnoe-vypolnenie.md)
 * [Сетевое и межпроцессное взаимодействие](setevoe-i-mezhprocessnoe-vzaimodeistvie.md)
 * [Обработка интернет данных](obrabotka-internet-dannykh.md)

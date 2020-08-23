@@ -44,3 +44,9 @@
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
 * не заполнено...
 
+#### Разные службы операционной системы
+
+* os.confstr \(\)
+* не заполнено...
+* os.pathsep - символ разделения компонентов пути поиска в операционной системе
+
