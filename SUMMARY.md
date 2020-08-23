@@ -29,7 +29,8 @@
 * [Форматы файлов](formaty-failov.md)
 * [Криптографические службы](kriptograficheskie-sluzhby.md)
 * [Общие службы операционной системы](obshie-sluzhby-operacionnoi-sistemy/README.md)
-  * [os](obshie-sluzhby-operacionnoi-sistemy/os.md)
+  * [os](obshie-sluzhby-operacionnoi-sistemy/os/README.md)
+    * [getcwd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/getcwd.md)
 * [Параллельное выполнение](parallelnoe-vypolnenie.md)
 * [Сетевое и межпроцессное взаимодействие](setevoe-i-mezhprocessnoe-vzaimodeistvie.md)
 * [Обработка интернет данных](obrabotka-internet-dannykh.md)
@@ -43,5 +44,6 @@
 * [Отладка и профилирование](otladka-i-profilirovanie.md)
 * [Упаковка и распространение программ](upakovka-i-rasprostranenie-programm.md)
 * [Службы среды выполнения Python](sluzhby-sredy-vypolneniya-python/README.md)
-  * [sys](sluzhby-sredy-vypolneniya-python/sys.md)
+  * [sys](sluzhby-sredy-vypolneniya-python/sys/README.md)
+    * [sys.path](sluzhby-sredy-vypolneniya-python/sys/sys.path.md)
 
