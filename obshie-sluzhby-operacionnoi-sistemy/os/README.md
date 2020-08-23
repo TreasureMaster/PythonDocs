@@ -28,7 +28,7 @@
 * os.ctermid \(\)
 * os.environ
 * не заполнено...
-* os.getcwd \(\) - возвращает текущий рабочий каталог
+* [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
 
 #### Файлы и директории
 
@@ -41,6 +41,6 @@
 
 * os.access \(\)
 * не заполнено...
-* os.getcwd \(\) - возвращает текущий рабочий каталог
+* [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
 * не заполнено...
 

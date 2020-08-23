@@ -4,6 +4,6 @@
 
 * sys.abiflags
 * не заполнено...
-* sys.path - список строк, определяющих путь поиска модулей Python
+* [sys.path](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.path) - список строк, определяющих путь поиска модулей Python
 * не заполнено...
 
