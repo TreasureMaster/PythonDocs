@@ -1,4 +1,4 @@
-# pathsep
+# os.pathsep
 
 #### os.pathsep
 

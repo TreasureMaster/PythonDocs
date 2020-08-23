@@ -1,4 +1,4 @@
-# getcwd \(\)
+# os.getcwd \(\)
 
 #### getcwd \(\)
 
