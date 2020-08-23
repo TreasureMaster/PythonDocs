@@ -30,9 +30,9 @@
 * не заполнено...
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - функция описана ниже
 * не заполнено...
-* os.getenv \(\) - возвращает значение ключа переменной среды
+* [os.getenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getenv) - возвращает значение ключа переменной среды
 * не заполнено...
-* os.putenv \(\) - задает значение ключа для переменной среды
+* [os.putenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.putenv) - задает значение ключа для переменной среды
 
 #### Файлы и директории
 
