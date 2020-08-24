@@ -34,6 +34,7 @@
     * [os.getcwd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/getcwd.md)
     * [os.getenv \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.getenv.md)
     * [os.putenv \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.putenv.md)
+    * [os.isatty \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.isatty.md)
     * [os.popen \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.popen.md)
     * [os.system \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.system.md)
     * [os.pathsep](obshie-sluzhby-operacionnoi-sistemy/os/pathsep.md)
