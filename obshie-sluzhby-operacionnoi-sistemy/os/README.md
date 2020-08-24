@@ -48,7 +48,7 @@
 
 * os.close \(\)
 * не заполнено...
-* os.isatty \(\) - открыт ли файловый дескриптор и подключен к tty?
+* [os.isatty \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.isatty) - открыт ли файловый дескриптор и подключен к tty?
 * не заполнено...
 
 #### Файлы и директории
