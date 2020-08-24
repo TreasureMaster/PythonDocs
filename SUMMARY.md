@@ -56,4 +56,13 @@
     * [sys.path](sluzhby-sredy-vypolneniya-python/sys/sys.path.md)
     * [sys.platform](sluzhby-sredy-vypolneniya-python/sys/sys.platform.md)
     * [sys.stdin, sys.stdout, sys.stderr](sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr.md)
+* [Пользовательские интерпретаторы Python](polzovatelskie-interpretatory-python.md)
+* [Импортирование модулей](importirovanie-modulei.md)
+* [Службы языка Python](sluzhby-yazyka-python.md)
+* [Разные службы](raznye-sluzhby.md)
+* [Специальные службы MS Windows](specialnye-sluzhby-ms-windows/README.md)
+  * [msvcrt](specialnye-sluzhby-ms-windows/msvcrt/README.md)
+    * [msvcrt.getch \(\)](specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getch.md)
+    * [msvcrt.getche \(\)](specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getche.md)
+    * [msvcrt.putch \(\)](specialnye-sluzhby-ms-windows/msvcrt/msvcrt.putch.md)
 
