@@ -54,5 +54,6 @@
   * [sys](sluzhby-sredy-vypolneniya-python/sys/README.md)
     * [sys.argv](sluzhby-sredy-vypolneniya-python/sys/sys.argv.md)
     * [sys.path](sluzhby-sredy-vypolneniya-python/sys/sys.path.md)
+    * [sys.platform](sluzhby-sredy-vypolneniya-python/sys/sys.platform.md)
     * [sys.stdin, sys.stdout, sys.stderr](sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr.md)
 
