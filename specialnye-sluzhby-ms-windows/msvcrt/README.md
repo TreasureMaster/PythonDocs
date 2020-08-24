@@ -16,11 +16,11 @@ _Изменено в версии 3.3:_ операции в этом модул�
 #### Консольный ввод-вывод
 
 * kbhit \(\)
-* getch \(\) - возвращает значение Unicode
+* [getch \(\)](https://treasuremaster.gitbook.io/python-docs/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getch) - возвращает значение Unicode
 * getwch \(\)
-* getche \(\) - возвращает значение Unicode, если оно представляет печатный символ
+* [getche \(\)](https://treasuremaster.gitbook.io/python-docs/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getche) - возвращает значение Unicode, если оно представляет печатный символ
 * getwche \(\)
-* putch \(\) - вывести на консоль строковый символ
+* [putch \(\)](https://treasuremaster.gitbook.io/python-docs/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.putch) - вывести на консоль строковый символ
 * putwch \(\)
 * ungetch \(\)
 * ungetwch \(\)
