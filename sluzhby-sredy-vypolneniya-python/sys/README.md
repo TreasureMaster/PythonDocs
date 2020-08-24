@@ -7,9 +7,6 @@
 * [sys.argv](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.argv) - список аргументов командной строки, переданных скрипту Python
 * не заполнено...
 * [sys.path](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.path) - список строк, определяющих путь поиска модулей Python
-* sys.path\_hooks
-* sys.path\_importer\_cache
-* [sys.platform](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.platform) - эта строка содержит идентификатор платформы ОС
 * не заполнено...
 * [sys.stdin](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr) - файловый объект, использующий стандартный ввод интерпретатора
 * [sys.stdout](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr) - файловый объект, использующий стандартный вывод интерпретатора
