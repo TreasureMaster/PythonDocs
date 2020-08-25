@@ -9,7 +9,7 @@
 * multiprocessing.shared\_memory
 * concurrent
 * concurrent.futures
-* subprocess
+* subprocess - управление сопроцессами
 * sched
 * queue
 * \_thread
