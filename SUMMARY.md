@@ -72,6 +72,7 @@
     * [subprocess.Popen](parallelnoe-vypolnenie/subprocess/subprocess.popen.md)
     * [Popen.wait \(\)](parallelnoe-vypolnenie/subprocess/popen.wait.md)
     * [Popen.communicate \(\)](parallelnoe-vypolnenie/subprocess/popen.communicate.md)
+    * [Popen.stdin](parallelnoe-vypolnenie/subprocess/popen.stdin.md)
   * [sched](parallelnoe-vypolnenie/sched.md)
   * [queue](parallelnoe-vypolnenie/queue.md)
   * [\_thread](parallelnoe-vypolnenie/_thread.md)
