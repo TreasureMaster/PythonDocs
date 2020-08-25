@@ -29,7 +29,14 @@ _Изменено в версии 3.3:_ операции, которые ран�
   * не заполнено...
   * \_\_del\_\_ \(\)
 * io.**RawIOBase** class
-* io.**BufferedIOBase** class - базовый класс для двоичных потоков, поддерживающих буферизацию
+* [io.**BufferedIOBase**](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.bufferediobase) class - базовый класс для двоичных потоков, поддерживающих буферизацию
+  * raw
+  * detach \(\)
+  * [read \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.bufferediobase/io.bufferediobase.read) - читает и возвращает байты
+  * read1 \(\)
+  * readinto \(\)
+  * readinto1 \(\)
+  * [write \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.bufferediobase/io.bufferediobase.write) - записывает байтовый объект и возвращает количество записанных байтов
 
 #### Ввод-вывод необработанных файлов
 
@@ -41,7 +48,7 @@ _Изменено в версии 3.3:_ операции, которые ран�
 
 * io.**BytesIO** class - реализация потока с использованием байтового буфера в памяти
   * getbuffer \(\)
-  * getvalue \(\) - возвращает все байты, содержащиеся в буфере
+  * [getvalue \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.bytesio/io.bytesio.getvalue) - возвращает все байты, содержащиеся в буфере
   * read1 \(\)
   * readinto1 \(\)
 * io.**BufferedReader** class

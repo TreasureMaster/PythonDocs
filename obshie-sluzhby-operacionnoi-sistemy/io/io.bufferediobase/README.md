@@ -16,11 +16,11 @@
 
 * raw
 * detach \(\)
-* read \(\) - читает и возвращает байты
+* [read \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.bufferediobase/io.bufferediobase.read) - читает и возвращает байты
 * read1 \(\)
 * readinto \(\)
 * readinto1 \(\)
-* write \(\) - записывает байтовый объект и возвращает количество записанных байтов
+* [write \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.bufferediobase/io.bufferediobase.write) - записывает байтовый объект и возвращает количество записанных байтов
 
 
 
