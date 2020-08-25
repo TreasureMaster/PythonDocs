@@ -47,19 +47,19 @@ _Изменено в версии 3.3:_ операции, которые ран�
 
 #### Текстовый ввод-вывод \(Text I/O\)
 
-* io.**TextIOBase** class - базовый класс для текстовых потоков
+* [io.**TextIOBase**](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase) class - базовый класс для текстовых потоков
   * encoding
   * errors
   * newlines
   * buffer
   * detach \(\)
   * read \(\)
-  * readline \(\) - читает до новой строки или EOF и возвращает одну строку
+  * [readline \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase/io.textiobase.readline) - читает до новой строки или EOF и возвращает одну строку
   * seek \(\)
   * tell \(\)
-  * write \(\) - пишет строку в поток и возвращает количество записанных символов
+  * [write \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase/io.textiobase.write) - пишет строку в поток и возвращает количество записанных символов
 * io.**TextIOWrapper** class
-* io.**StringIO** class - поток в памяти для текстового ввода-вывода
-  * getvalue \(\) - метод возвращает строку, содержащую все содержимое буфера
+* [io.**StringIO**](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.stringio) class - поток в памяти для текстового ввода-вывода
+  * [getvalue \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.stringio/io.stringio.getvalue) - метод возвращает строку, содержащую все содержимое буфера
 * io.**IncrementalNewlineDecoder** class
 

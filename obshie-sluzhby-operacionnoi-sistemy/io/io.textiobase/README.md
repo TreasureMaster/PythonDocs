@@ -12,8 +12,8 @@
 * buffer
 * detach \(\)
 * read \(\)
-* readline \(\) - читает до новой строки или EOF и возвращает одну строку
+* [readline \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase/io.textiobase.readline) - читает до новой строки или EOF и возвращает одну строку
 * seek \(\)
 * tell \(\)
-* write \(\) - пишет строку в поток и возвращает количество записанных символов
+* [write \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase/io.textiobase.write) - пишет строку в поток и возвращает количество записанных символов
 

@@ -8,9 +8,9 @@
 
 Аргумент _**newline**_ работает аналогично TextIOWrapper. По умолчанию в качестве концов строк рассматриваются только символы  `'\n'` и не выполняется перевод новой строки. Если для _**newline**_ установлено значение `None`, новые строки записываются как  `'\n'` на всех платформах, но универсальное декодирование новой строки по-прежнему выполняется при чтении.
 
-**StringIO** предоставляет этот метод в дополнение к методам TextIOBase и его родителей:
+**StringIO** предоставляет этот метод в дополнение к методам [TextIOBase](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase) и его родителей:
 
-* getvalue \(\) - метод возвращает строку, содержащую все содержимое буфера
+* [getvalue \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.stringio/io.stringio.getvalue) - метод возвращает строку, содержащую все содержимое буфера
 
 Пример использования:
 
