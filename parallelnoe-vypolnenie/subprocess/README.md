@@ -56,11 +56,11 @@
 * send\_signal \(\)
 * terminate \(\)
 * kill \(\)
-* args
+* args - переданный в Popen аргумент _**args**_
 * stdin - записываемый объект потока, если аргумент `stdin = PIPE`
 * stdout - считываемый объект потока, если аргумент `stdout = PIPE`
 * stderr - считываемый объект потока, если аргумент `stderr = PIPE`
-* pid
+* pid - идентификатор ID дочернего процесса
 * returncode - код завершения дочернего процесса
 
 #### Помощники Popen в Windows
