@@ -73,6 +73,7 @@
   * [\_thread](parallelnoe-vypolnenie/_thread.md)
   * [\_dummy\_thread](parallelnoe-vypolnenie/_dummy_thread.md)
   * [dummy\_threading](parallelnoe-vypolnenie/dummy_threading.md)
+  * [contextvars](parallelnoe-vypolnenie/contextvars.md)
 * [Сетевое и межпроцессное взаимодействие](setevoe-i-mezhprocessnoe-vzaimodeistvie.md)
 * [Обработка интернет данных](obrabotka-internet-dannykh.md)
 * [Обработка упорядоченной разметки](obrabotka-uporyadochennoi-razmetki.md)
