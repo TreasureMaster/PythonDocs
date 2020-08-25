@@ -70,6 +70,8 @@
   * [subprocess](parallelnoe-vypolnenie/subprocess/README.md)
     * [subprocess.PIPE](parallelnoe-vypolnenie/subprocess/subprocess.pipe.md)
     * [subprocess.Popen](parallelnoe-vypolnenie/subprocess/subprocess.popen.md)
+    * [Popen.wait \(\)](parallelnoe-vypolnenie/subprocess/popen.wait.md)
+    * [Popen.communicate \(\)](parallelnoe-vypolnenie/subprocess/popen.communicate.md)
   * [sched](parallelnoe-vypolnenie/sched.md)
   * [queue](parallelnoe-vypolnenie/queue.md)
   * [\_thread](parallelnoe-vypolnenie/_thread.md)
