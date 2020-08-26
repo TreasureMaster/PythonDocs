@@ -89,14 +89,14 @@
 
 Следующие значения данных используются для поддержки операций манипулирования путями. Они определены для всех платформ. Операции более высокого уровня с именами путей определены в модуле os.path.
 
-* os.curdir - строка, используемая операционной системой для ссылки на текущий каталог
-* os.pardir - строка, используемая операционной системой для ссылки на родительский каталог
-* os.sep - символ, используемый операционной системой для разделения компонентов пути
+* [os.curdir](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.curdir) - строка, используемая операционной системой для ссылки на текущий каталог
+* [os.pardir](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.pardir) - строка, используемая операционной системой для ссылки на родительский каталог
+* [os.sep](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.sep) - символ, используемый операционной системой для разделения компонентов пути
 * os.altsep
 * os.extsep
 * [os.pathsep](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/pathsep) - символ разделения компонентов пути поиска в операционной системе
 * os.defpath
-* os.linesep - строка, используемая для разделения \(завершения\) строк на текущей платформе
+* [os.linesep](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.linesep) - строка, используемая для разделения \(завершения\) строк на текущей платформе
 * os.devnull
 * не заполнено...
 
