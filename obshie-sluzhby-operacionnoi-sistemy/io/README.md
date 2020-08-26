@@ -26,7 +26,19 @@ _Изменено в версии 3.3:_ операции, которые ран�
 
 * io.**IOBase** class - абстрактный базовый класс для всех классов ввода-вывода
   * close \(\)
-  * не заполнено...
+  * closed
+  * fileno \(\)
+  * flush \(\)
+  * [isatty \(\)](io.iobase/io.iobase.isatty.md) - поток подключен к терминалу?
+  * readable \(\)
+  * readline \(\)
+  * readlines \(\)
+  * seek \(\)
+  * seekable \(\)
+  * tell \(\)
+  * truncate \(\)
+  * writable \(\)
+  * writelines \(\)
   * \_\_del\_\_ \(\)
 * io.**RawIOBase** class
 * [io.**BufferedIOBase**](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.bufferediobase) class - базовый класс для двоичных потоков, поддерживающих буферизацию
