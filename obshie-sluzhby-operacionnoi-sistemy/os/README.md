@@ -32,6 +32,8 @@
 * не заполнено...
 * [os.getenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getenv) - возвращает значение ключа переменной среды
 * не заполнено...
+* [os.getpid \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getpid) - возвращает текущий идентификатор процесса
+* не заполнено...
 * [os.putenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.putenv) - задает значение ключа для переменной среды
 
 #### Создание файлового объекта
@@ -75,6 +77,7 @@
 * не заполнено...
 * [os.popen \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.popen) - открывает канал команды исполнения оболочки shell
 * не заполнено...
+* [os.startfile \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.startfile) - запускает файл с помощью связанного с ним приложения
 * [os.system \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.system) - исполняет команду \(строку\) в новой оболочке shell
 * не заполнено...
 
@@ -84,5 +87,20 @@
 
 * os.confstr \(\)
 * не заполнено...
+* os.sysconf\_names
+
+Следующие значения данных используются для поддержки операций манипулирования путями. Они определены для всех платформ. Операции более высокого уровня с именами путей определены в модуле os.path.
+
+* [os.curdir](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.curdir) - строка, используемая операционной системой для ссылки на текущий каталог
+* [os.pardir](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.pardir) - строка, используемая операционной системой для ссылки на родительский каталог
+* [os.sep](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.sep) - символ, используемый операционной системой для разделения компонентов пути
+* os.altsep
+* os.extsep
 * [os.pathsep](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/pathsep) - символ разделения компонентов пути поиска в операционной системе
+* os.defpath
+* [os.linesep](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.linesep) - строка, используемая для разделения \(завершения\) строк на текущей платформе
+* os.devnull
+* не заполнено...
+
+#### Случайные числа
 

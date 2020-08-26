@@ -2,7 +2,9 @@
 
 * [Стандартная библиотека Python](README.md)
 * [Введение](vvedenie.md)
-* [Встроенные функции](vstroennye-funkcii.md)
+* [Встроенные функции](vstroennye-funkcii/README.md)
+  * [abs \(\)](vstroennye-funkcii/abs.md)
+  * [open \(\)](vstroennye-funkcii/open.md)
 * [Встроенные типы](vstroennye-tipy.md)
 * [Встроенные исключения](vstroennye-isklyucheniya.md)
 * [Обработка текста](obrabotka-teksta/README.md)
