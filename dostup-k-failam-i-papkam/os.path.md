@@ -6,3 +6,44 @@
 
 В отличие от оболочки Unix, Python не выполняет никаких автоматических расширений пути. Такие функции, как expanduser \(\) и expandvars \(\) могут быть вызваны явно, когда приложению требуется расширение пути, подобное оболочке. \(см. также модуль [glob](https://treasuremaster.gitbook.io/python-docs/dostup-k-failam-i-papkam/glob).\)
 
+{% hint style="warning" %}
+**Смотрите также: м**одуль [pathlib](https://treasuremaster.gitbook.io/python-docs/dostup-k-failam-i-papkam/pathlib) предлагает высокоуровневые объекты пути.
+{% endhint %}
+
+{% hint style="info" %}
+Все эти функции принимают в качестве параметров только байты или только строковые объекты. Результат - объект того же типа, если возвращается путь или имя файла.
+{% endhint %}
+
+{% hint style="info" %}
+Поскольку разные операционные системы имеют разные соглашения об именах путей, в стандартной библиотеке есть несколько версий этого модуля. Модуль **os.path** всегда является модулем пути, подходящим для операционной системы, в которой работает Python, и поэтому может использоваться для локальных путей. Однако вы также можете импортировать и использовать отдельные модули, если хотите управлять путем, который всегда находится в одном из разных форматов. Все они имеют одинаковый интерфейс:
+
+* posixpath - для путей в стиле UNIX
+* ntpath - для путей Windows
+{% endhint %}
+
+_Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), isfile \(\), islink \(\) и ismount \(\) теперь возвращают `False` вместо того, чтобы вызывать исключение для путей, содержащих символы или байты, не представленные на уровне ОС.
+
+Список атрибутов **os.path**:
+
+* os.path.abspath \(\)
+* os.path.basename \(\)
+* os.path.commonpath \(\)
+* os.path.commonprefix \(\)
+* os.path.dirname \(\)
+* os.path.exists \(\)
+* не заполнено...
+* os.path.getsize \(\)
+* os.path.isabs \(\)
+* os.path.isfile \(\)
+* os.path.isdir \(\)
+* os.path.islink \(\)
+* os.path.ismount \(\)
+* os.path.join \(\)
+* os.path.normcase \(\)
+* os.path.normpath \(\)
+* не заполнено...
+* os.path.split \(\)
+* os.path.splitdrive \(\)
+* os.path.splitext \(\)
+* os.path.supports\_unicode\_filenames
+
