@@ -36,6 +36,7 @@
     * [os.putenv \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.putenv.md)
     * [os.isatty \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.isatty.md)
     * [os.popen \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.popen.md)
+    * [os.startfile \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.startfile.md)
     * [os.system \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.system.md)
     * [os.pathsep](obshie-sluzhby-operacionnoi-sistemy/os/pathsep.md)
   * [io](obshie-sluzhby-operacionnoi-sistemy/io/README.md)
