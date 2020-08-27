@@ -1,0 +1,2 @@
+# os.SEEK\_CUR
+
