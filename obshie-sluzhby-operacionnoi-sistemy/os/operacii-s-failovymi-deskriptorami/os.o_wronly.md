@@ -1,0 +1,2 @@
+# os.O\_WRONLY
+

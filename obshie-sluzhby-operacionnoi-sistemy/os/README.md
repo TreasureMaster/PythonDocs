@@ -63,7 +63,19 @@
 * [os.SEEK\_SET](operacii-s-failovymi-deskriptorami/os.seek_set.md) - параметр функции os.lseek \(\)
 * [os.SEEK\_CUR](operacii-s-failovymi-deskriptorami/os.seek_cur.md) - параметр функции os.lseek \(\)
 * [os.SEEK\_END](operacii-s-failovymi-deskriptorami/os.seek_end.md) - параметр функции os.lseek \(\)
-* os.open \(\)
+* [os.open \(\)](operacii-s-failovymi-deskriptorami/os.open.md) - открывает файл
+* os.O\_RDONLY
+* os.O\_WRONLY
+* os.O\_RDWR
+* os.O\_APPEND
+* os.O\_CREAT
+* os.O\_EXCL
+* os.O\_TRUNC
+* не заполнено...
+* os.O\_NONBLOCK
+* os.\_NOCTTY
+* os.O\_CLOEXEC
+* os.O\_BINARY
 * не заполнено...
 * os.pipe \(\)
 * не заполнено...
