@@ -81,7 +81,7 @@
 * не заполнено...
 * [os.read \(\)](operacii-s-failovymi-deskriptorami/os.read.md) - читает байты из файлового дескриптора
 * не заполнено...
-* os.write \(\)
+* [os.write \(\)](operacii-s-failovymi-deskriptorami/os.write.md)
 * os.writev \(\)
 
 #### Файлы и директории
