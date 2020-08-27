@@ -73,6 +73,8 @@
       * [os.write \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.write.md)
     * [Файлы и директории](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/README.md)
       * [os.getcwd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/getcwd.md)
+      * [os.rename \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.rename.md)
+      * [os.replace \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.replace.md)
     * [Управление процессами](obshie-sluzhby-operacionnoi-sistemy/os/upravlenie-processami/README.md)
       * [os.popen \(\)](obshie-sluzhby-operacionnoi-sistemy/os/upravlenie-processami/os.popen.md)
       * [os.startfile \(\)](obshie-sluzhby-operacionnoi-sistemy/os/upravlenie-processami/os.startfile.md)

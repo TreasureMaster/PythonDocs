@@ -104,7 +104,7 @@
 * не заполнено...
 * os.remove \(\)
 * os.removedirs \(\)
-* os.rename \(\)
+* [os.rename \(\)](faily-i-direktorii/os.rename.md) - переименовывает файл или каталог
 * os.renames \(\)
 * os.replace \(\)
 * os.rmdir \(\)
