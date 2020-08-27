@@ -46,6 +46,7 @@
     * [os.getpid \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.getpid.md)
     * [os.putenv \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.putenv.md)
     * [os.isatty \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.isatty.md)
+    * [os.open \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.open.md)
     * [os.popen \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.popen.md)
     * [os.startfile \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.startfile.md)
     * [os.system \(\)](obshie-sluzhby-operacionnoi-sistemy/os/os.system.md)
