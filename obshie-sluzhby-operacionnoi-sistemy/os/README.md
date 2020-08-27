@@ -30,6 +30,7 @@
 * не заполнено...
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - функция описана ниже
 * не заполнено...
+* os.PathLike class
 * [os.getenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getenv) - возвращает значение ключа переменной среды
 * не заполнено...
 * [os.getpid \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getpid) - возвращает текущий идентификатор процесса
@@ -51,6 +52,18 @@
 * os.close \(\)
 * не заполнено...
 * [os.isatty \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.isatty) - открыт ли файловый дескриптор и подключен к tty?
+* os.lockf \(\)
+* os.F\_LOCK
+* os.F\_TLOCK
+* os.F\_ULOCK
+* os.F\_TEST
+* os.lseek \(\)
+* os.SEEK\_SET
+* os.SEEK\_CUR
+* os.SEEK\_END
+* os.open \(\)
+* не заполнено...
+* os.open \(\)
 * не заполнено...
 
 #### Файлы и директории
