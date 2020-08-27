@@ -89,6 +89,12 @@
 * os.remove \(\)
 * os.removedirs \(\)
 * os.rename \(\)
+* os.renames \(\)
+* os.replace \(\)
+* os.rmdir \(\)
+* os.scandir \(\)
+* os.DirEntry class
+* os.stat \(\)
 * не заполнено...
 * os.unlink \(\)
 * os.utime \(\)
