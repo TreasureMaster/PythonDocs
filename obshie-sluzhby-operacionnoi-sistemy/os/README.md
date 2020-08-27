@@ -59,10 +59,10 @@
 * os.F\_TLOCK
 * os.F\_ULOCK
 * os.F\_TEST
-* os.lseek \(\)
-* os.SEEK\_SET
-* os.SEEK\_CUR
-* os.SEEK\_END
+* [os.lseek \(\)](operacii-s-failovymi-deskriptorami/os.lseek.md) - устанавливает текущую позицию файлового дескриптора
+* [os.SEEK\_SET](operacii-s-failovymi-deskriptorami/os.seek_set.md) - параметр функции os.lseek \(\)
+* [os.SEEK\_CUR](operacii-s-failovymi-deskriptorami/os.seek_cur.md) - параметр функции os.lseek \(\)
+* [os.SEEK\_END](operacii-s-failovymi-deskriptorami/os.seek_end.md) - параметр функции os.lseek \(\)
 * os.open \(\)
 * не заполнено...
 * os.pipe \(\)
