@@ -63,8 +63,10 @@
 * os.SEEK\_END
 * os.open \(\)
 * не заполнено...
-* os.open \(\)
+* os.read \(\)
 * не заполнено...
+* os.write \(\)
+* os.writev \(\)
 
 #### Файлы и директории
 
@@ -72,12 +74,27 @@
 
 * не заполнено...
 * не заполнено...
+* не заполнено...
 
 Описание функций для использования с файлами и директориями:
 
 * os.access \(\)
 * не заполнено...
+* os.chmod \(\)
+* os.chown \(\)
+* os.chroot \(\)
+* os.fchdir \(\)
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
+* не заполнено...
+* os.remove \(\)
+* os.removedirs \(\)
+* os.rename \(\)
+* не заполнено...
+* os.unlink \(\)
+* os.utime \(\)
+* os.walk \(\)
+* os.fwalk \(\)
+* os.memfd\_create \(\)
 * не заполнено...
 
 #### Управление процессами
