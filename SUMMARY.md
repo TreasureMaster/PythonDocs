@@ -71,6 +71,7 @@
       * [os.O\_RDONLY](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.o_rdonly.md)
       * [os.O\_WRONLY](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.o_wronly.md)
       * [os.O\_BINARY](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.o_binary.md)
+      * [os.openpty \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.openpty.md)
       * [os.pipe \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.pipe.md)
       * [os.read \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.read.md)
       * [os.write \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.write.md)
