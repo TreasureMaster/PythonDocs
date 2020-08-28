@@ -5,7 +5,7 @@
 * pathlib
 * [os.path](https://treasuremaster.gitbook.io/python-docs/dostup-k-failam-i-papkam/os.path) - общие манипуляции с путями файлов
 * fileinput
-* stat
+* [stat](stat.md) - интерпретация результатов [os.stat \(\)](../obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.stat.md)
 * filecmp
 * tempfile
 * glob
