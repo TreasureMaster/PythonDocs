@@ -96,8 +96,8 @@
 
 * os.access \(\)
 * не заполнено...
-* [os.chmod \(\)](faily-i-direktorii/os.chmod.md)
-* os.chown \(\)
+* [os.chmod \(\)](faily-i-direktorii/os.chmod.md) - изменяет режим доступа к файлу
+* [os.chown \(\)](faily-i-direktorii/os.chown.md) - изменяет идентификатор владельца/группы файла
 * os.chroot \(\)
 * os.fchdir \(\)
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
