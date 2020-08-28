@@ -120,7 +120,7 @@
 * os.scandir \(\)
 * os.DirEntry class
 * [os.stat \(\)](faily-i-direktorii/os.stat.md) - получает статистическую информацию о файле
-* os.stat\_result class
+* [os.stat\_result class](faily-i-direktorii/os.stat_result.md) - объект, атрибуты которого примерно соответствуют членам stat
 * не заполнено...
 * [os.unlink \(\)](faily-i-direktorii/os.unlink.md) - удаляет файл или каталог по заданному пути \(синоним remove \(\) \)
 * os.utime \(\)
