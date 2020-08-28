@@ -43,7 +43,7 @@
 
 * [os.fdopen \(\)](sozdanie-failovogo-obekta/os.fdopen.md) - возвращает файловый объект, связанный с файловым дескриптором
 
-#### Операции с файловым дескриптором
+### [Операции с файловым дескрипторами](operacii-s-failovymi-deskriptorami/)
 
 Эти функции работают с потоками ввода-вывода, на которые ссылаются файловые дескрипторы.
 
@@ -52,6 +52,8 @@
 При необходимости метод fileno \(\) может использоваться для получения дескриптора файла, связанного с файловым объектом. Обратите внимание, что использование файлового дескриптора напрямую приведет к обходу методов файлового объекта, игнорируя такие аспекты, как внутренняя буферизация данных.
 
 * [os.close \(\)](operacii-s-failovymi-deskriptorami/os.close.md) - закрывает файловый дескриптор
+* не заполнено...
+* os.fstat \(\)
 * не заполнено...
 * [os.isatty \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.isatty) - открыт ли файловый дескриптор и подключен к tty?
 * os.lockf \(\)
@@ -101,6 +103,13 @@
 * os.chroot \(\)
 * os.fchdir \(\)
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
+* os.getcwdb \(\)
+* os.lchflags \(\)
+* os.lchmod \(\)
+* os.lchown \(\)
+* os.link \(\)
+* os.listdir \(\)
+* os.lstat \(\)
 * не заполнено...
 * [os.remove \(\)](faily-i-direktorii/os.remove.md) - удаляет файл или каталог по заданному пути \(синоним unlink \(\) \)
 * os.removedirs \(\)
@@ -110,7 +119,8 @@
 * os.rmdir \(\)
 * os.scandir \(\)
 * os.DirEntry class
-* os.stat \(\)
+* [os.stat \(\)](faily-i-direktorii/os.stat.md) - получает статус файла или файлового дескриптора
+* os.stat\_result class
 * не заполнено...
 * [os.unlink \(\)](faily-i-direktorii/os.unlink.md) - удаляет файл или каталог по заданному пути \(синоним remove \(\) \)
 * os.utime \(\)

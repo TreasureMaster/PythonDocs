@@ -1,0 +1,2 @@
+# os.stat\_result
+
