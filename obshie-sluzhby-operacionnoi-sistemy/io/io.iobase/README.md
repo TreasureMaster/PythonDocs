@@ -29,13 +29,13 @@ with open('spam.txt', 'w') as file:
 * [flush \(\)](io.iobase.flush.md) - выталкивает содержимое буфера для записи в поток
 * [isatty \(\)](io.iobase.isatty.md) - поток подключен к терминалу?
 * readable \(\)
-* readline \(\)
-* readlines \(\)
-* seek \(\)
+* [readline \(\)](io.iobase.readline.md) - читает и возвращает одну строку из потока
+* [readlines \(\)](io.iobase.readlines.md) - читает и возвращает список строк из потока
+* [seek \(\)](io.iobase.seek.md) - изменяет позицию потока на заданное смещение
 * seekable \(\)
 * tell \(\)
 * truncate \(\)
 * writable \(\)
-* writelines \(\)
+* [writelines \(\)](io.iobase.writelines.md) - записывает список строк в поток
 * \_\_del\_\_ \(\)
 
