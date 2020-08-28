@@ -23,10 +23,10 @@ with open('spam.txt', 'w') as file:
 
 **IOBase** предоставляет следующие атрибуты и методы данных:
 
-* close \(\)
+* [close \(\)](io.iobase.close.md) - выталкивает и закрывает поток
 * closed
-* fileno \(\)
-* flush \(\)
+* [fileno \(\)](io.iobase.fileno.md) - возвращает базовый файловый дескриптор
+* [flush \(\)](io.iobase.flush.md) - выталкивает содержимое буфера для записи в поток
 * [isatty \(\)](io.iobase.isatty.md) - поток подключен к терминалу?
 * readable \(\)
 * readline \(\)

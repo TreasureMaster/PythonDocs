@@ -11,9 +11,9 @@
 * newlines
 * buffer
 * detach \(\)
-* read \(\)
+* [read \(\)](io.textiobase.read.md) - читает и возвращает заданное количество символов из строки \(или весь текст\)
 * [readline \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase/io.textiobase.readline) - читает до новой строки или EOF и возвращает одну строку
-* seek \(\)
+* [seek \(\)](io.textiobase.seek.md) - меняет положение указателя потока на заданное смещение
 * tell \(\)
 * [write \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/io/io.textiobase/io.textiobase.write) - пишет строку в поток и возвращает количество записанных символов
 
