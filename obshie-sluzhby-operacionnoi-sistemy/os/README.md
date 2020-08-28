@@ -37,11 +37,11 @@
 * не заполнено...
 * [os.putenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.putenv) - задает значение ключа для переменной среды
 
-#### Создание файлового объекта
+### [Создание файлового объекта](sozdanie-failovogo-obekta/)
 
-Эти функции создают новые файловые объекты. \(см. также open \(\) для открытия файловых дескрипторов.\)
+Эти функции создают новые файловые объекты. \(см. также [os.open \(\)](operacii-s-failovymi-deskriptorami/os.open.md) для открытия файловых дескрипторов.\)
 
-* os.fdopen \(\)
+* [os.fdopen \(\)](sozdanie-failovogo-obekta/os.fdopen.md) - возвращает файловый объект, связанный с файловым дескриптором
 
 #### Операции с файловым дескриптором
 
