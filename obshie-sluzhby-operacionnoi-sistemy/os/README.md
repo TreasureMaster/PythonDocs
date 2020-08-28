@@ -84,7 +84,7 @@
 * [os.write \(\)](operacii-s-failovymi-deskriptorami/os.write.md)
 * os.writev \(\)
 
-#### Файлы и директории
+### [Файлы и директории](faily-i-direktorii/)
 
 На некоторых платформах Unix многие из этих функций поддерживают одну или несколько из следующих возможностей:
 
@@ -96,13 +96,13 @@
 
 * os.access \(\)
 * не заполнено...
-* os.chmod \(\)
+* [os.chmod \(\)](faily-i-direktorii/os.chmod.md)
 * os.chown \(\)
 * os.chroot \(\)
 * os.fchdir \(\)
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
 * не заполнено...
-* [os.remove \(\)](faily-i-direktorii/os.remove.md) - удаляет файл или катлог по заданному пути
+* [os.remove \(\)](faily-i-direktorii/os.remove.md) - удаляет файл или каталог по заданному пути
 * os.removedirs \(\)
 * [os.rename \(\)](faily-i-direktorii/os.rename.md) - переименовывает файл или каталог
 * os.renames \(\)
