@@ -41,6 +41,10 @@ _Изменено в версии 3.3:_ операции, которые ран�
   * writelines \(\)
   * \_\_del\_\_ \(\)
 * io.**RawIOBase** class
+  * read \(\)
+  * readall \(\)
+  * readinto \(\)
+  * write \(\)
 * [io.**BufferedIOBase**](io.bufferediobase/) class - базовый класс для двоичных потоков, поддерживающих буферизацию
   * raw
   * detach \(\)
@@ -64,7 +68,12 @@ _Изменено в версии 3.3:_ операции, которые ран�
   * read1 \(\)
   * readinto1 \(\)
 * io.**BufferedReader** class
+  * peek \(\)
+  * read \(\)
+  * read1 \(\)
 * io.**BufferedWriter** class
+  * flush \(\)
+  * write \(\)
 * io.**BufferedRandom** class
 * io.**BufferedRWPair** class
 
@@ -82,6 +91,9 @@ _Изменено в версии 3.3:_ операции, которые ран�
   * tell \(\)
   * [write \(\)](io.textiobase/io.textiobase.write.md) - пишет строку в поток и возвращает количество записанных символов
 * io.**TextIOWrapper** class
+  * line\_buffering
+  * write\_through
+  * reconfigure \(\)
 * [io.**StringIO**](io.stringio/) class - поток в памяти для текстового ввода-вывода
   * [getvalue \(\)](io.stringio/io.stringio.getvalue.md) - метод возвращает строку, содержащую все содержимое буфера
 * io.**IncrementalNewlineDecoder** class
