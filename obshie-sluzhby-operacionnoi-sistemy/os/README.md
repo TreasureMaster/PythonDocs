@@ -102,7 +102,7 @@
 * os.fchdir \(\)
 * [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
 * не заполнено...
-* [os.remove \(\)](faily-i-direktorii/os.remove.md) - удаляет файл или каталог по заданному пути
+* [os.remove \(\)](faily-i-direktorii/os.remove.md) - удаляет файл или каталог по заданному пути \(синоним unlink \(\) \)
 * os.removedirs \(\)
 * [os.rename \(\)](faily-i-direktorii/os.rename.md) - переименовывает файл или каталог
 * os.renames \(\)
@@ -112,7 +112,7 @@
 * os.DirEntry class
 * os.stat \(\)
 * не заполнено...
-* os.unlink \(\)
+* [os.unlink \(\)](faily-i-direktorii/os.unlink.md) - удаляет файл или каталог по заданному пути \(синоним remove \(\) \)
 * os.utime \(\)
 * os.walk \(\)
 * os.fwalk \(\)
