@@ -174,3 +174,19 @@ b'\x00\x00\x00\x01\x00\x00\x00\x02\x00\x03\x00\x00'
 * модуль [xdrlib](../../formaty-failov/xdrlib.md) - упаковка и распаковка данных XDR
 {% endhint %}
 
+### Классы
+
+Модуль **struct** также определяет следующий тип:
+
+* struct.Struct class
+
+Скомпилированные объекты Struct поддерживают следующие методы и атрибуты:
+
+* pack \(\)
+* pack\_into \(\)
+* unpack \(\)
+* unpack\_from \(\)
+* iter\_unpack \(\)
+* format
+* size
+
