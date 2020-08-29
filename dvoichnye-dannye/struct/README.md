@@ -15,9 +15,9 @@
 Модуль определяет следующие исключения и функции:
 
 * struct.error exception
-* struct.pack \(\)
+* [struct.pack \(\)](struct.pack.md) - возвращает байтовый объект с упакованными в заданном формате данными
 * struct.pack\_into \(\)
-* struct.unpack \(\)
+* [struct.unpack \(\)](struct.unpack.md) - распаковывает упакованный байтовый объект и возвращает кортеж
 * struct.unpack\_from \(\)
 * struct.iter\_unpack \(\)
 * struct.calcsize \(\)
