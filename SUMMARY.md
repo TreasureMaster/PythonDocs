@@ -106,6 +106,7 @@
       * [os.read \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.read.md)
       * [os.write \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.write.md)
     * [Файлы и директории](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/README.md)
+      * [os.chdir \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.chdir.md)
       * [os.chmod \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.chmod.md)
       * [os.chown \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.chown.md)
       * [os.getcwd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/getcwd.md)

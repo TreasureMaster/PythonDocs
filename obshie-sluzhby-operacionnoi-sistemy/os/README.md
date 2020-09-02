@@ -27,10 +27,12 @@
 
 * os.ctermid \(\)
 * [os.environ](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/environ) - словарь переменных окружения
+* os.environb
+* [os.chdir \(\)](./#faily-i-direktorii) - функция описана ниже
+* os.fchdir \(\)
+* [os.getcwd \(\)](./#faily-i-direktorii) - функция описана ниже
 * не заполнено...
-* [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - функция описана ниже
-* не заполнено...
-* [os.PathLike](./#faily-i-direktorii) class
+* os.PathLike class
 * [os.getenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getenv) - возвращает значение ключа переменной среды
 * не заполнено...
 * [os.getpid \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getpid) - возвращает текущий идентификатор процесса
@@ -87,6 +89,8 @@
 
 * os.access \(\)
 * не заполнено...
+* [os.chdir \(\)](faily-i-direktorii/os.chdir.md) - изменяет текущую рабочую директорию на заданную
+* os.chflags \(\)
 * [os.chmod \(\)](faily-i-direktorii/os.chmod.md) - изменяет режим доступа к файлу
 * [os.chown \(\)](faily-i-direktorii/os.chown.md) - изменяет идентификатор владельца/группы файла
 * os.chroot \(\)
