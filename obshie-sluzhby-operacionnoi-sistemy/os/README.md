@@ -31,7 +31,9 @@
 * [os.chdir \(\)](./#faily-i-direktorii) - функция описана ниже
 * os.fchdir \(\)
 * [os.getcwd \(\)](./#faily-i-direktorii) - функция описана ниже
-* не заполнено...
+* os.fsencode \(\)
+* os.fsdecode \(\)
+* os.fspath \(\)
 * os.PathLike class
 * [os.getenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getenv) - возвращает значение ключа переменной среды
 * не заполнено...

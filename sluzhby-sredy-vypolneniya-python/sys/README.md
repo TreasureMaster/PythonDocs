@@ -6,6 +6,10 @@
 * sys.addaudithook \(\)
 * [sys.argv](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.argv) - список аргументов командной строки, переданных скрипту Python
 * не заполнено...
+* [sys.getdefaultencoding \(\)](sys.getdefaultencoding.md) - текущая кодировка строки \(внутри файла\)
+* sys.getdlopenflags \(\)
+* [sys.getfilesystemencoding \(\)](sys.getfilesystemencoding.md) - текущая кодировка названий файлов
+* не заполнено...
 * [sys.path](https://treasuremaster.gitbook.io/python-docs/sluzhby-sredy-vypolneniya-python/sys/sys.path) - список строк, определяющих путь поиска модулей Python
 * sys.path\_hooks
 * sys.path\_importer\_cache
