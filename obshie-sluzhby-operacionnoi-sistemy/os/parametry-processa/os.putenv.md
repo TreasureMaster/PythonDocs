@@ -2,7 +2,7 @@
 
 #### os.putenv \( _key_, _value_ \)
 
-Задает для переменной среды с именем _**key**_ строковое значение. Такие изменения в среде влияют на подпроцессы, запущенные с помощью [os.system \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.system), [os.popen \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.popen) или os.fork \(\) и os.execv \(\).
+Задает для переменной среды с именем _**key**_ строковое значение. Такие изменения в среде влияют на подпроцессы, запущенные с помощью [os.system \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.system), [os.popen \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.popen) или [os.fork \(\)](../upravlenie-processami/os.fork.md) и [os.execv \(\)](../upravlenie-processami/os.execv.md).
 
 **Доступность**: большинство разновидностей Unix, Windows.
 
