@@ -30,7 +30,7 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 * os.path.commonpath \(\)
 * os.path.commonprefix \(\)
 * os.path.dirname \(\)
-* os.path.exists \(\)
+* [os.path.exists \(\)](os.path.exists.md) - отвечает на вопрос: "Существует ли заданный путь или дескриптор файла?"
 * os.path.lexists \(\)
 * os.path.expanduser \(\)
 * os.path.expandvars \(\)

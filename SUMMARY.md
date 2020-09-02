@@ -53,6 +53,7 @@
 * [Доступ к файлам и папкам](dostup-k-failam-i-papkam/README.md)
   * [pathlib](dostup-k-failam-i-papkam/pathlib.md)
   * [os.path](dostup-k-failam-i-papkam/os.path/README.md)
+    * [os.path.exists \(\)](dostup-k-failam-i-papkam/os.path/os.path.exists.md)
     * [os.path.isfile \(\)](dostup-k-failam-i-papkam/os.path/os.path.isfile.md)
     * [os.path.isdir \(\)](dostup-k-failam-i-papkam/os.path/os.path.isdir.md)
     * [os.path.islink \(\)](dostup-k-failam-i-papkam/os.path/os.path.islink.md)
