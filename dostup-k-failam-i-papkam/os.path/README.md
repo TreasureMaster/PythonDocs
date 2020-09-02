@@ -30,19 +30,28 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 * os.path.commonpath \(\)
 * os.path.commonprefix \(\)
 * os.path.dirname \(\)
-* os.path.exists \(\)
-* не заполнено...
-* os.path.getsize \(\)
+* [os.path.exists \(\)](os.path.exists.md) - отвечает на вопрос: "Существует ли заданный путь или дескриптор файла?"
+* os.path.lexists \(\)
+* os.path.expanduser \(\)
+* os.path.expandvars \(\)
+* os.path.getatime \(\)
+* os.path.getmtime \(\)
+* os.path.getctime \(\)
+* [os.path.getsize \(\)](os.path.getsize.md) - возвращает размер файла в байтах
 * os.path.isabs \(\)
-* os.path.isfile \(\)
-* os.path.isdir \(\)
+* [os.path.isfile \(\)](os.path.isfile.md) - отвечает на вопрос: "Существует ли файл по заданному пути?"
+* [os.path.isdir \(\)](os.path.isdir.md) - отвечает на вопрос: "Существует ли каталог по заданному пути?"
 * os.path.islink \(\)
 * os.path.ismount \(\)
 * os.path.join \(\)
 * os.path.normcase \(\)
 * os.path.normpath \(\)
-* не заполнено...
-* os.path.split \(\)
+* os.path.realpath \(\)
+* os.path.relpath \(\)
+* os.path.samefile \(\)
+* os.path.sameopenfile \(\)
+* os.path.samestat \(\)
+* [os.path.split \(\)](os.path.split.md) - разделяет путь к файлу на имя файла и путь к нему
 * os.path.splitdrive \(\)
 * os.path.splitext \(\)
 * os.path.supports\_unicode\_filenames
