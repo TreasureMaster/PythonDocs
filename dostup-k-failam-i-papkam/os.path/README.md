@@ -26,10 +26,10 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 Список атрибутов **os.path**:
 
 * os.path.abspath \(\)
-* os.path.basename \(\)
+* [os.path.basename \(\)](os.path.basename.md) - возвращает базовое имя пути \(вторая часть [os.path.split \(\)](os.path.split.md#os-path-split-path)\)
 * os.path.commonpath \(\)
 * os.path.commonprefix \(\)
-* os.path.dirname \(\) - возвращает имя каталога пути \(первая часть [os.path.split \(\)](os.path.split.md#os-path-split-path) \)
+* [os.path.dirname \(\)](os.path.dirname.md) - возвращает имя каталога пути \(первая часть [os.path.split \(\)](os.path.split.md#os-path-split-path) \)
 * [os.path.exists \(\)](os.path.exists.md) - отвечает на вопрос: "Существует ли заданный путь или дескриптор файла?"
 * os.path.lexists \(\)
 * os.path.expanduser \(\)
