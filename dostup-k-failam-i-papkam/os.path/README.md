@@ -30,27 +30,18 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 * os.path.commonpath \(\)
 * os.path.commonprefix \(\)
 * os.path.dirname \(\)
-* [os.path.exists \(\)](os.path.exists.md) - отвечает на вопрос: "Существует ли заданный путь или дескриптор файла?"
-* os.path.lexists \(\)
-* os.path.expanduser \(\)
-* os.path.expandvars \(\)
-* os.path.getatime \(\)
-* os.path.getmtime \(\)
-* os.path.getctime \(\)
+* os.path.exists \(\)
+* не заполнено...
 * os.path.getsize \(\)
 * os.path.isabs \(\)
-* [os.path.isfile \(\)](os.path.isfile.md) - отвечает на вопрос: "Существует ли файл по заданному пути?"
-* [os.path.isdir \(\)](os.path.isdir.md) - отвечает на вопрос: "Существует ли каталог по заданному пути?"
+* os.path.isfile \(\)
+* os.path.isdir \(\)
 * os.path.islink \(\)
 * os.path.ismount \(\)
 * os.path.join \(\)
 * os.path.normcase \(\)
 * os.path.normpath \(\)
-* os.path.realpath \(\)
-* os.path.relpath \(\)
-* os.path.samefile \(\)
-* os.path.sameopenfile \(\)
-* os.path.samestat \(\)
+* не заполнено...
 * os.path.split \(\)
 * os.path.splitdrive \(\)
 * os.path.splitext \(\)
