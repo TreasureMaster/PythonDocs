@@ -15,13 +15,14 @@
 Все функции в этом модуле вызывают ошибку OSError \(или ее подклассы\) в случае недопустимых или недоступных имен файлов и путей или других аргументов, которые имеют правильный тип, но не принимаются операционной системой.
 {% endhint %}
 
-#### не заполнено...
+* os.error exception
+* os.name \(\)
 
 ### Имена файлов, аргументы командной строки и переменные среды
 
 не заполнено...
 
-#### Параметры процесса
+### [Параметры процесса](parametry-processa/)
 
 Эти функции и элементы данных предоставляют информацию и работают с текущим процессом и пользователем.
 
@@ -31,13 +32,18 @@
 * [os.chdir \(\)](./#faily-i-direktorii) - функция описана ниже
 * os.fchdir \(\)
 * [os.getcwd \(\)](./#faily-i-direktorii) - функция описана ниже
-* не заполнено...
+* os.fsencode \(\)
+* os.fsdecode \(\)
+* os.fspath \(\)
 * os.PathLike class
 * [os.getenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getenv) - возвращает значение ключа переменной среды
 * не заполнено...
 * [os.getpid \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getpid) - возвращает текущий идентификатор процесса
 * не заполнено...
 * [os.putenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.putenv) - задает значение ключа для переменной среды
+* не заполнено...
+* os.uname \(\)
+* os.unsetenv \(\)
 
 ### [Создание файлового объекта](sozdanie-failovogo-obekta/)
 
