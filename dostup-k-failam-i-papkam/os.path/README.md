@@ -25,7 +25,7 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 
 Список атрибутов **os.path**:
 
-* os.path.abspath \(\)
+* [os.path.abspath \(\)](os.path.abspath.md) - возвращает абсолютный путь к файлу
 * [os.path.basename \(\)](os.path.basename.md) - возвращает базовое имя пути \(вторая часть [os.path.split \(\)](os.path.split.md#os-path-split-path)\)
 * os.path.commonpath \(\)
 * os.path.commonprefix \(\)
