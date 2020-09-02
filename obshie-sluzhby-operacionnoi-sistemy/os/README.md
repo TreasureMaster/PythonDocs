@@ -1,11 +1,11 @@
 # os
 
-Этот модуль обеспечивает переносимый способ использования функций, зависящих от операционной системы. Если вы просто хотите прочитать или записать файл, см. open\( \), если вы хотите манипулировать путями, см. модуль [os.path](https://treasuremaster.gitbook.io/python-docs/dostup-k-failam-i-papkam/os.path), а если вы хотите прочитать все строки во всех файлах в командной строке, см. модуль fileinput . Для создания временных файлов и каталогов см. модуль tempfile, а для высокоуровневой обработки файлов и каталогов см. модуль shutil.
+Этот модуль обеспечивает переносимый способ использования функций, зависящих от операционной системы. Если вы просто хотите прочитать или записать файл, см. [open\( \)](../../vstroennye-funkcii/open.md), если вы хотите манипулировать путями, см. модуль [os.path](../../dostup-k-failam-i-papkam/os.path/), а если вы хотите прочитать все строки во всех файлах в командной строке, см. модуль [fileinput](../../dostup-k-failam-i-papkam/fileinput.md) . Для создания временных файлов и каталогов см. модуль [tempfile](../../dostup-k-failam-i-papkam/tempfile.md), а для высокоуровневой обработки файлов и каталогов см. модуль [shutil](../../dostup-k-failam-i-papkam/shutil/).
 
 {% hint style="info" %}
 Примечание о доступности функций:
 
-* Дизайн всех встроенных модулей Python, зависящих от операционной системы, таков, что, пока доступна одна и та же функциональность, он использует один и тот же интерфейс; например, функция os.stat \(path\) возвращает статистическую информацию о пути в том же формате \(который, как оказалось, возник из интерфейса POSIX\).
+* Дизайн всех встроенных модулей Python, зависящих от операционной системы, таков, что, пока доступна одна и та же функциональность, он использует один и тот же интерфейс; например, функция `os.stat (path)` возвращает статистическую информацию о пути в том же формате \(который, как оказалось, возник из интерфейса POSIX\).
 * Расширения, характерные для конкретной операционной системы, также доступны через модуль os, но их использование, конечно, угрожает переносимости.
 * Все функции, принимающие путь или имена файлов, принимают как байтовые, так и строковые объекты и приводят к объекту того же типа, если возвращается путь или имя файла.
 * В VxWorks os.fork, os.execv и os.spawn\*p\* __ не поддерживаются.
@@ -27,7 +27,7 @@
 Эти функции и элементы данных предоставляют информацию и работают с текущим процессом и пользователем.
 
 * os.ctermid \(\)
-* [os.environ](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/environ) - словарь переменных окружения
+* [os.environ](parametry-processa/environ.md) - словарь переменных окружения
 * os.environb
 * [os.chdir \(\)](./#faily-i-direktorii) - функция описана ниже
 * os.fchdir \(\)
@@ -36,11 +36,11 @@
 * os.fsdecode \(\)
 * os.fspath \(\)
 * os.PathLike class
-* [os.getenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getenv) - возвращает значение ключа переменной среды
+* [os.getenv \(\)](parametry-processa/os.getenv.md) - возвращает значение ключа переменной среды
 * не заполнено...
-* [os.getpid \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.getpid) - возвращает текущий идентификатор процесса
+* [os.getpid \(\)](parametry-processa/os.getpid.md) - возвращает текущий идентификатор процесса
 * не заполнено...
-* [os.putenv \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.putenv) - задает значение ключа для переменной среды
+* [os.putenv \(\)](parametry-processa/os.putenv.md) - задает значение ключа для переменной среды
 * не заполнено...
 * os.uname \(\)
 * os.unsetenv \(\)
@@ -63,7 +63,7 @@
 * не заполнено...
 * os.fstat \(\)
 * не заполнено...
-* [os.isatty \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.isatty) - открыт ли файловый дескриптор и подключен к tty?
+* [os.isatty \(\)](operacii-s-failovymi-deskriptorami/os.isatty.md) - открыт ли файловый дескриптор и подключен к tty?
 * os.lockf \(\)
 * os.F\_LOCK
 * os.F\_TLOCK
@@ -101,7 +101,7 @@
 * [os.chown \(\)](faily-i-direktorii/os.chown.md) - изменяет идентификатор владельца/группы файла
 * os.chroot \(\)
 * os.fchdir \(\)
-* [os.getcwd \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/getcwd) - возвращает текущий рабочий каталог
+* [os.getcwd \(\)](faily-i-direktorii/getcwd.md) - возвращает текущий рабочий каталог
 * os.getcwdb \(\)
 * os.lchflags \(\)
 * os.lchmod \(\)
@@ -136,10 +136,10 @@
 
 * os.abort \(\)
 * не заполнено...
-* [os.popen \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.popen) - открывает канал команды исполнения оболочки shell
+* [os.popen \(\)](upravlenie-processami/os.popen.md) - открывает канал команды исполнения оболочки shell
 * не заполнено...
-* [os.startfile \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.startfile) - запускает файл с помощью связанного с ним приложения
-* [os.system \(\)](https://treasuremaster.gitbook.io/python-docs/obshie-sluzhby-operacionnoi-sistemy/os/os.system) - исполняет команду \(строку\) в новой оболочке shell
+* [os.startfile \(\)](upravlenie-processami/os.startfile.md) - запускает файл с помощью связанного с ним приложения
+* [os.system \(\)](upravlenie-processami/os.system.md) - исполняет команду \(строку\) в новой оболочке shell
 * не заполнено...
 
 #### Интерфейс планировщика
