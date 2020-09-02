@@ -45,7 +45,7 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 * os.path.ismount \(\)
 * [os.path.join \(\)](os.path.join.md) - соединяет несколько компонентов пути в один с учетом ОС
 * os.path.normcase \(\)
-* os.path.normpath \(\)
+* [os.path.normpath \(\)](os.path.normpath.md) - нормализует путь для данной операционной системы
 * os.path.realpath \(\)
 * os.path.relpath \(\)
 * os.path.samefile \(\)
@@ -53,6 +53,6 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 * os.path.samestat \(\)
 * [os.path.split \(\)](os.path.split.md) - разделяет путь к файлу на имя файла и путь к нему
 * os.path.splitdrive \(\)
-* os.path.splitext \(\)
+* [os.path.splitext \(\)](os.path.splitext.md) - разделяет путь на имя файла плюс путь к нему и расширение файла
 * os.path.supports\_unicode\_filenames
 
