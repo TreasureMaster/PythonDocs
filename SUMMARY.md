@@ -60,6 +60,7 @@
     * [os.path.isfile \(\)](dostup-k-failam-i-papkam/os.path/os.path.isfile.md)
     * [os.path.isdir \(\)](dostup-k-failam-i-papkam/os.path/os.path.isdir.md)
     * [os.path.islink \(\)](dostup-k-failam-i-papkam/os.path/os.path.islink.md)
+    * [os.path.join \(\)](dostup-k-failam-i-papkam/os.path/os.path.join.md)
     * [os.path.realpath \(\)](dostup-k-failam-i-papkam/os.path/os.path.realpath.md)
     * [os.path.split \(\)](dostup-k-failam-i-papkam/os.path/os.path.split.md)
   * [fileinput](dostup-k-failam-i-papkam/fileinput.md)

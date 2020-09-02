@@ -43,7 +43,7 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 * [os.path.isdir \(\)](os.path.isdir.md) - отвечает на вопрос: "Существует ли каталог по заданному пути?"
 * os.path.islink \(\)
 * os.path.ismount \(\)
-* os.path.join \(\)
+* [os.path.join \(\)](os.path.join.md) - соединяет несколько компонентов пути в один с учетом ОС
 * os.path.normcase \(\)
 * os.path.normpath \(\)
 * os.path.realpath \(\)
