@@ -124,7 +124,7 @@
 * не заполнено...
 * [os.unlink \(\)](faily-i-direktorii/os.unlink.md) - удаляет файл или каталог по заданному пути \(синоним remove \(\) \)
 * os.utime \(\)
-* os.walk \(\)
+* [os.walk \(\)](faily-i-direktorii/os.walk.md) - возвращает список файлов/подкаталогов рекурсивного обхода каталога
 * os.fwalk \(\)
 * os.memfd\_create \(\)
 * не заполнено...
