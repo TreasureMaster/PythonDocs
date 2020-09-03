@@ -25,25 +25,34 @@ _Изменено в версии 3.8:_ exists \(\), lexists \(\), isdir \(\), i
 
 Список атрибутов **os.path**:
 
-* os.path.abspath \(\)
-* os.path.basename \(\)
+* [os.path.abspath \(\)](os.path.abspath.md) - возвращает абсолютный путь к файлу
+* [os.path.basename \(\)](os.path.basename.md) - возвращает базовое имя пути \(вторая часть [os.path.split \(\)](os.path.split.md#os-path-split-path)\)
 * os.path.commonpath \(\)
 * os.path.commonprefix \(\)
-* os.path.dirname \(\)
-* os.path.exists \(\)
-* не заполнено...
-* os.path.getsize \(\)
+* [os.path.dirname \(\)](os.path.dirname.md) - возвращает имя каталога пути \(первая часть [os.path.split \(\)](os.path.split.md#os-path-split-path) \)
+* [os.path.exists \(\)](os.path.exists.md) - отвечает на вопрос: "Существует ли заданный путь или дескриптор файла?"
+* os.path.lexists \(\)
+* os.path.expanduser \(\)
+* os.path.expandvars \(\)
+* os.path.getatime \(\)
+* os.path.getmtime \(\)
+* os.path.getctime \(\)
+* [os.path.getsize \(\)](os.path.getsize.md) - возвращает размер файла в байтах
 * os.path.isabs \(\)
-* os.path.isfile \(\)
-* os.path.isdir \(\)
+* [os.path.isfile \(\)](os.path.isfile.md) - отвечает на вопрос: "Существует ли файл по заданному пути?"
+* [os.path.isdir \(\)](os.path.isdir.md) - отвечает на вопрос: "Существует ли каталог по заданному пути?"
 * os.path.islink \(\)
 * os.path.ismount \(\)
-* os.path.join \(\)
+* [os.path.join \(\)](os.path.join.md) - соединяет несколько компонентов пути в один с учетом ОС
 * os.path.normcase \(\)
-* os.path.normpath \(\)
-* не заполнено...
-* os.path.split \(\)
+* [os.path.normpath \(\)](os.path.normpath.md) - нормализует путь для данной операционной системы
+* os.path.realpath \(\)
+* os.path.relpath \(\)
+* os.path.samefile \(\)
+* os.path.sameopenfile \(\)
+* os.path.samestat \(\)
+* [os.path.split \(\)](os.path.split.md) - разделяет путь к файлу на имя файла и путь к нему
 * os.path.splitdrive \(\)
-* os.path.splitext \(\)
+* [os.path.splitext \(\)](os.path.splitext.md) - разделяет путь на имя файла плюс путь к нему и расширение файла
 * os.path.supports\_unicode\_filenames
 
