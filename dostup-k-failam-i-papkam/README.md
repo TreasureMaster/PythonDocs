@@ -8,7 +8,7 @@
 * [stat](stat.md) - интерпретация результатов [os.stat \(\)](../obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.stat.md)
 * filecmp
 * tempfile
-* [glob](glob/) - расширение шаблона имена пути в стиле Unix
+* [glob](glob/) - расширение шаблона с именами пути в стиле Unix
 * fnmatch
 * linecache
 * shutil
