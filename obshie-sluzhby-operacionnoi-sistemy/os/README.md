@@ -108,7 +108,7 @@
 * os.lchmod \(\)
 * os.lchown \(\)
 * os.link \(\)
-* os.listdir \(\)
+* [os.listdir \(\)](faily-i-direktorii/os.listdir.md) - возвращает список, содержащий имена записей в каталоге
 * os.lstat \(\)
 * не заполнено...
 * [os.remove \(\)](faily-i-direktorii/os.remove.md) - удаляет файл или каталог по заданному пути \(синоним unlink \(\) \)

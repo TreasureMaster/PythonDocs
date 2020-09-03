@@ -134,6 +134,7 @@
       * [os.chmod \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.chmod.md)
       * [os.chown \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.chown.md)
       * [os.getcwd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/getcwd.md)
+      * [os.listdir \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.listdir.md)
       * [os.lstat \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.lstat.md)
       * [os.remove \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.remove.md)
       * [os.rename \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.rename.md)
