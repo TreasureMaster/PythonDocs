@@ -6,6 +6,8 @@
 * sys.addaudithook \(\)
 * [sys.argv](sys.argv.md) - список аргументов командной строки, переданных скрипту Python
 * не заполнено...
+* sys.exit \(\)
+* не заполнено...
 * [sys.getdefaultencoding \(\)](sys.getdefaultencoding.md) - текущая кодировка строки \(внутри файла\)
 * sys.getdlopenflags \(\)
 * [sys.getfilesystemencoding \(\)](sys.getfilesystemencoding.md) - текущая кодировка названий файлов
