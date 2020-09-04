@@ -63,8 +63,6 @@
 * [os.close \(\)](operacii-s-failovymi-deskriptorami/os.close.md) - закрывает файловый дескриптор
 * не заполнено...
 * os.fstat \(\)
-* os.fstatvfs \(\)
-* os.fsync \(\)
 * не заполнено...
 * [os.isatty \(\)](operacii-s-failovymi-deskriptorami/os.isatty.md) - открыт ли файловый дескриптор и подключен к tty?
 * os.lockf \(\)
@@ -139,14 +137,14 @@
 
 * os.abort \(\)
 * os.add\_dll\_directory \(\)
-* [os.execl \(\)](upravlenie-processami/os.execl.md) - запускает новый процесс, заменяя текущий
-* [os.execle \(\)](upravlenie-processami/os.execle.md) - запускает новый процесс, заменяя текущий
-* [os.execlp \(\)](upravlenie-processami/os.execlp.md) - запускает новый процесс, заменяя текущий
-* [os.execlpe \(\)](upravlenie-processami/os.execlpe.md) - запускает новый процесс, заменяя текущий
-* [os.execv \(\)](upravlenie-processami/os.execv.md) - запускает новый процесс, заменяя текущий
-* [os.execve \(\)](upravlenie-processami/os.execve.md) - запускает новый процесс, заменяя текущий
-* [os.execvp \(\)](upravlenie-processami/os.execvp.md) - запускает новый процесс, заменяя текущий
-* [os.execvpe \(\)](upravlenie-processami/os.execvpe.md) - запускает новый процесс, заменяя текущий
+* os.execl \(\)
+* os.execle \(\)
+* os.execlp \(\)
+* os.execlpe \(\)
+* os.execv \(\)
+* os.execve \(\)
+* os.execvp \(\)
+* os.execvpe \(\)
 * [os.\_exit \(\)](upravlenie-processami/os._exit.md) - выходит из процесса с переданным статусом
 * [os.fork \(\)](upravlenie-processami/os.fork.md) - ответвляет дочерние процессы
 * не заполнено...
