@@ -120,6 +120,7 @@
     * [Операции с файловыми дескрипторами](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/README.md)
       * [os.close \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.close.md)
       * [os.fstat \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.fstat.md)
+      * [os.fsync \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.fsync.md)
       * [os.isatty \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.isatty.md)
       * [os.lseek \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.lseek.md)
       * [os.SEEK\_SET](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.seek_set.md)

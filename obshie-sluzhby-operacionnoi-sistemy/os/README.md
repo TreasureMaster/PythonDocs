@@ -63,6 +63,8 @@
 * [os.close \(\)](operacii-s-failovymi-deskriptorami/os.close.md) - закрывает файловый дескриптор
 * не заполнено...
 * os.fstat \(\)
+* os.fstatvfs \(\)
+* os.fsync \(\)
 * не заполнено...
 * [os.isatty \(\)](operacii-s-failovymi-deskriptorami/os.isatty.md) - открыт ли файловый дескриптор и подключен к tty?
 * os.lockf \(\)
