@@ -145,6 +145,7 @@
       * [os.scandir \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.scandir.md)
       * [os.stat \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.stat.md)
       * [os.stat\_result](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.stat_result.md)
+      * [os.supports\_fd \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.supports_fd.md)
       * [os.unlink \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.unlink.md)
       * [os.walk \(\)](obshie-sluzhby-operacionnoi-sistemy/os/faily-i-direktorii/os.walk.md)
     * [Управление процессами](obshie-sluzhby-operacionnoi-sistemy/os/upravlenie-processami/README.md)
