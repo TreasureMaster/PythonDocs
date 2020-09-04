@@ -2,7 +2,7 @@
 
 ### Доступ к времени и его преобразования
 
-Этот модуль предоставляет различные функции, связанные со временем. Для связанных функций см. также модули [datetime](../../specialnye-tipy-dannykh/datetime.md) и [calendar](../../specialnye-tipy-dannykh/calendar.md).
+Этот модуль предоставляет различные функции, связанные со временем. Для связанных функций см. также модули [datetime](../../specialnye-tipy-dannykh/datetime.md) и [calendar](../../specialnye-tipy-dannykh/calendar/).
 
 Хотя этот модуль доступен всегда, не все функции доступны на всех платформах. Большинство функций, определенных в этом модуле, вызывают функции библиотеки C с тем же именем. Иногда может быть полезно обратиться к документации платформы, поскольку семантика этих функций различается для разных платформ.
 
@@ -16,5 +16,20 @@
 * DST \(Daylight Saving Time\) - это переход на летнее время, изменение часового пояса \(обычно\) на один час в течение части года. Правила перехода на летнее время определяются местным законодательством и могут меняться из года в год. В библиотеке C есть таблица, содержащая локальные правила \(часто она читается из системного файла для гибкости\), и в этом отношении она является единственным источником истинной мудрости
 * Точность различных функций реального времени может быть меньше, чем предполагают единицы, в которых выражено их значение или аргумент. Например, в большинстве систем Unix часы «тикают» только 50 или 100 раз в секунду
 * С другой стороны, точность [time \(\)](funkcii-time/time.time.md) и [sleep \(\)](funkcii-time/time.sleep.md) лучше, чем их эквиваленты в Unix: время выражается в виде чисел с плавающей запятой, [time \(\)](funkcii-time/time.time.md) возвращает наиболее точное доступное время \(используя Unix `gettimeofday ()`, где это возможно\), и [sleep \(\)](funkcii-time/time.sleep.md) примет время с ненулевой дробью \(для реализации этого используется Unix `select ()`, если это возможно\)
-* Значение времени, возвращаемое функциями [gmtime \(\)](funkcii-time/time.gmtime.md), [localtime \(\)](funkcii-time/time.localtime.md) и [strptime \(\)](funkcii-time/time.strptime.md) и принимаемое [asctime \(\)](funkcii-time/time.asctime.md), [mktime \(\)](funkcii-time/time.mktime.md) и [strftime \(\)](funkcii-time/time.strftime.md), представляет собой последовательность из 9 целых чисел. Возвращаемые значения [gmtime \(\)](funkcii-time/time.gmtime.md), [localtime \(\)](funkcii-time/time.localtime.md) и [strptime \(\)](funkcii-time/time.strptime.md) также предлагают имена атрибутов для отдельных полей.
+* Значение времени, возвращаемое функциями [gmtime \(\)](funkcii-time/time.gmtime.md), [localtime \(\)](funkcii-time/time.localtime.md) и [strptime \(\)](funkcii-time/time.strptime.md) и принимаемое [asctime \(\)](funkcii-time/time.asctime.md), [mktime \(\)](funkcii-time/time.mktime.md) и [strftime \(\)](funkcii-time/time.strftime.md), представляет собой последовательность из 9 целых чисел. Возвращаемые значения [gmtime \(\)](funkcii-time/time.gmtime.md), [localtime \(\)](funkcii-time/time.localtime.md) и [strptime \(\)](funkcii-time/time.strptime.md) также предлагают имена атрибутов для отдельных полей. См. [struct\_time](funkcii-time/time.struct_time.md) для описания этих объектов. _Изменено в версии 3.3:_ тип [struct\_time](funkcii-time/time.struct_time.md) был расширен для предоставления атрибутов `tm_gmtoff` и `tm_zone`, когда платформа поддерживает соответствующие элементы `struct tm`. _Изменено в версии 3.6:_ атрибуты [struct\_time](funkcii-time/time.struct_time.md) `tm_gmtoff` и `tm_zone` теперь доступны на всех платформах.
+* Используйте следующие функции для преобразования между представлениями времени:
+
+| Из | В | Используйте |
+| :--- | :--- | :--- |
+| секунды с начала эпохи | [struct\_time](funkcii-time/time.struct_time.md) в UTC | [gmtime \(\)](funkcii-time/time.gmtime.md) |
+| секунды с начала эпохи | [struct\_time](funkcii-time/time.struct_time.md) по местному времени | [localtime \(\)](funkcii-time/time.localtime.md) |
+| [struct\_time](funkcii-time/time.struct_time.md) в UTC | секунды с начала эпохи | [calendar.timegm \(\)](../../specialnye-tipy-dannykh/calendar/calendar.timegm.md) |
+| [struct\_time](funkcii-time/time.struct_time.md) по местному времени | секунды с начала эпохи | [mktime \(\)](funkcii-time/time.mktime.md) |
+
+### [Функции time](funkcii-time/)
+
+* time.asctime \(\)
+* не заполнено...
+* [time.sleep \(\)](funkcii-time/time.sleep.md) - приостанавливает выполнение потока на заданное число секунд
+* не заполнено...
 
