@@ -16,6 +16,14 @@
 * sys.path\_hooks
 * sys.path\_importer\_cache
 * [sys.platform](sys.platform.md) - эта строка содержит идентификатор платформы ОС
+* sys.prefix
+* sys.ps1
+* sys.ps2
+* [sys.setcheckinterval \(\)](sys.setcheckinterval.md) - устанавливает "интервал проверки" интерпретатора \(н-р, потоков\)
+* sys.setdlopenflags \(\)
+* sys.setprofile \(\)
+* sys.setrecursionlimit \(\)
+* [sys.setswitchinterval \(\)](sys.setswitchinterval.md) - устанавливает интервал переключения между потоками
 * не заполнено...
 * [sys.stdin](sys.stdin-sys.stdout-sys.stderr.md) - файловый объект, использующий стандартный ввод интерпретатора
 * [sys.stdout](sys.stdin-sys.stdout-sys.stderr.md) - файловый объект, использующий стандартный вывод интерпретатора

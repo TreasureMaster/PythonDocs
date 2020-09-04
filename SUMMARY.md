@@ -274,6 +274,8 @@
     * [sys.getfilesystemencoding \(\)](sluzhby-sredy-vypolneniya-python/sys/sys.getfilesystemencoding.md)
     * [sys.path](sluzhby-sredy-vypolneniya-python/sys/sys.path.md)
     * [sys.platform](sluzhby-sredy-vypolneniya-python/sys/sys.platform.md)
+    * [sys.setcheckinterval \(\)](sluzhby-sredy-vypolneniya-python/sys/sys.setcheckinterval.md)
+    * [sys.setswitchinterval \(\)](sluzhby-sredy-vypolneniya-python/sys/sys.setswitchinterval.md)
     * [sys.stdin, sys.stdout, sys.stderr](sluzhby-sredy-vypolneniya-python/sys/sys.stdin-sys.stdout-sys.stderr.md)
   * [sysconfig](sluzhby-sredy-vypolneniya-python/sysconfig.md)
   * [builtins](sluzhby-sredy-vypolneniya-python/builtins.md)
