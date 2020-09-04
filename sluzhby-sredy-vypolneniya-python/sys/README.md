@@ -6,7 +6,7 @@
 * sys.addaudithook \(\)
 * [sys.argv](sys.argv.md) - список аргументов командной строки, переданных скрипту Python
 * не заполнено...
-* sys.exit \(\)
+* [sys.exit \(\)](sys.exit.md) - выход из Python
 * не заполнено...
 * [sys.getdefaultencoding \(\)](sys.getdefaultencoding.md) - текущая кодировка строки \(внутри файла\)
 * sys.getdlopenflags \(\)
