@@ -4,7 +4,7 @@
 
 Вот обзор:
 
-* threading
+* [threading](threading.md) - потоковый параллелизм
 * multiprocessing
 * multiprocessing.shared\_memory
 * concurrent
