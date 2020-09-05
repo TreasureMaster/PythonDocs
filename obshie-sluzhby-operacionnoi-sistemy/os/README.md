@@ -79,11 +79,11 @@
 * [os.open \(\)](operacii-s-failovymi-deskriptorami/os.open.md) - открывает файл
 * os.openpty \(\)
 * не заполнено...
-* os.pipe \(\)
+* [os.pipe \(\)](operacii-s-failovymi-deskriptorami/os.pipe.md) - создает канал и возвращает пару файловых дескрипторов
 * не заполнено...
 * [os.read \(\)](operacii-s-failovymi-deskriptorami/os.read.md) - читает байты из файлового дескриптора
 * не заполнено...
-* [os.write \(\)](operacii-s-failovymi-deskriptorami/os.write.md)
+* [os.write \(\)](operacii-s-failovymi-deskriptorami/os.write.md) - записывает байтовую строку в файловый дескриптор
 * os.writev \(\)
 
 ### [Файлы и директории](faily-i-direktorii/)
