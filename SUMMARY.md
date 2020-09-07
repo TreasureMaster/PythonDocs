@@ -120,6 +120,7 @@
       * [os.fdopen \(\)](obshie-sluzhby-operacionnoi-sistemy/os/sozdanie-failovogo-obekta/os.fdopen.md)
     * [Операции с файловыми дескрипторами](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/README.md)
       * [os.close \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.close.md)
+      * [os.dup2 \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.dup2.md)
       * [os.fstat \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.fstat.md)
       * [os.fsync \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.fsync.md)
       * [os.isatty \(\)](obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.isatty.md)
