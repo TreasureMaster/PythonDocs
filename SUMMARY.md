@@ -113,6 +113,7 @@
       * [os.getenv \(\)](obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.getenv.md)
       * [os.getenvb \(\)](obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.getenvb.md)
       * [os.getpid \(\)](obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.getpid.md)
+      * [os.getppid \(\)](obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.getppid.md)
       * [os.putenv \(\)](obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.putenv.md)
       * [os.uname \(\)](obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.uname.md)
       * [os.unsetenv \(\)](obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.unsetenv.md)
