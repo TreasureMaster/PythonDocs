@@ -1,2 +1,2 @@
-# os.supports\_fd \(\)
+# os.supports\_fd
 
