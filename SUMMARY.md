@@ -295,6 +295,7 @@
 * [Службы среды выполнения Python](sluzhby-sredy-vypolneniya-python/README.md)
   * [sys](sluzhby-sredy-vypolneniya-python/sys/README.md)
     * [sys.argv](sluzhby-sredy-vypolneniya-python/sys/sys.argv.md)
+    * [sys.executable](sluzhby-sredy-vypolneniya-python/sys/sys.executable.md)
     * [sys.exit \(\)](sluzhby-sredy-vypolneniya-python/sys/sys.exit.md)
     * [sys.getdefaultencoding \(\)](sluzhby-sredy-vypolneniya-python/sys/sys.getdefaultencoding.md)
     * [sys.getfilesystemencoding \(\)](sluzhby-sredy-vypolneniya-python/sys/sys.getfilesystemencoding.md)

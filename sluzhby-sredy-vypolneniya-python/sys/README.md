@@ -6,6 +6,7 @@
 * sys.addaudithook \(\)
 * [sys.argv](sys.argv.md) - список аргументов командной строки, переданных скрипту Python
 * не заполнено...
+* [sys.executable](sys.executable.md) - строка, указывающая абсолютный путь к файлу интерпретатора Python
 * [sys.exit \(\)](sys.exit.md) - выход из Python
 * не заполнено...
 * [sys.getdefaultencoding \(\)](sys.getdefaultencoding.md) - текущая кодировка строки \(внутри файла\)
