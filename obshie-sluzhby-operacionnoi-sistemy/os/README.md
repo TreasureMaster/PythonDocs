@@ -163,7 +163,11 @@
 * [os.execvpe \(\)](upravlenie-processami/os.execvpe.md) - запускает новый процесс, заменяя текущий
 * [os.\_exit \(\)](upravlenie-processami/os._exit.md) - выходит из процесса с переданным статусом
 * [os.fork \(\)](upravlenie-processami/os.fork.md) - ответвляет дочерние процессы
-* не заполнено...
+* os.forkpty \(\)
+* [os.kill \(\)](upravlenie-processami/os.kill.md) - отправляет сигнал процессу, определенному идентификатором
+* os.killpg \(\)
+* os.nice \(\)
+* os.plock \(\)
 * [os.popen \(\)](upravlenie-processami/os.popen.md) - открывает канал команды исполнения оболочки shell
 * не заполнено...
 * [os.startfile \(\)](upravlenie-processami/os.startfile.md) - запускает файл с помощью связанного с ним приложения
