@@ -5,6 +5,7 @@
 ## Общее описание <a id="moduli-standartnoi-biblioteki"></a>
 
 * [Введение](moduli-standartnoi-biblioteki/vvedenie.md)
+* [Оглавление](moduli-standartnoi-biblioteki/oglavlenie.md)
 
 ## Встроенные объекты
 
@@ -349,4 +350,7 @@
     * [msvcrt.getch \(\)](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getch.md)
     * [msvcrt.getche \(\)](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getche.md)
     * [msvcrt.putch \(\)](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.putch.md)
+* [Специальные службы Unix](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix.md)
+* [Замененные модули](moduli-standartnoi-biblioteki-1/zamenennye-moduli.md)
+* [Недокументированные модули](moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli.md)
 
