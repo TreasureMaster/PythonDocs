@@ -6,3 +6,5 @@
 
 ### Не закончено...
 
+удалить \(тестовая надпись\): [msvcrt](specialnye-sluzhby-ms-windows/msvcrt/)
+
