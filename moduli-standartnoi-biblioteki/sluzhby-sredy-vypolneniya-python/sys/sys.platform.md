@@ -32,8 +32,8 @@ _Изменено в версии 3.8:_ В AIX **sys.platform** больше н�
 {% hint style="warning" %}
 **Смотрите также:**
 
-[os.name \(\)](../../obshie-sluzhby-operacionnoi-sistemy/os/os.name.md) имеет более грубую детализацию. [os.uname \(\)](../../obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.uname.md) предоставляет информацию о версии, зависящую от системы.
+[os.name \(\)](../../../obshie-sluzhby-operacionnoi-sistemy/os/os.name.md) имеет более грубую детализацию. [os.uname \(\)](../../../obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.uname.md) предоставляет информацию о версии, зависящую от системы.
 
-Модуль [platform](../../obshie-sluzhby-operacionnoi-sistemy/platform.md) обеспечивает детальную проверку идентичности системы.
+Модуль [platform](../../../obshie-sluzhby-operacionnoi-sistemy/platform.md) обеспечивает детальную проверку идентичности системы.
 {% endhint %}
 

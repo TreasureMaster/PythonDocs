@@ -8,7 +8,7 @@
 
 Если платформа поддерживает функцию [putenv \(\)](os.putenv.md), это сопоставление можно использовать для изменения среды, а также для запроса среды. [putenv \(\)](os.putenv.md) будет вызываться автоматически при изменении сопоставления.
 
-В Unix ключи и значения используют [sys.getfilesystemencoding \(\)](../../../sluzhby-sredy-vypolneniya-python/sys/sys.getfilesystemencoding.md) и обработчик ошибок `'surrogateescape'`. Используйте environb, если хотите использовать другую кодировку.
+В Unix ключи и значения используют [sys.getfilesystemencoding \(\)](../../../moduli-standartnoi-biblioteki/sluzhby-sredy-vypolneniya-python/sys/sys.getfilesystemencoding.md) и обработчик ошибок `'surrogateescape'`. Используйте environb, если хотите использовать другую кодировку.
 
 {% hint style="info" %}
 Прямой вызов [putenv \(\)](os.putenv.md) не меняет _**os.environ**_, поэтому лучше изменить _**os.environ**_.

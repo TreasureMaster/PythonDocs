@@ -6,7 +6,7 @@
 
 Эта кодировка всегда совместима с ASCII.
 
-[os.fsencode \(\)](../../obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.fsencode.md) и [os.fsdecode \(\)](../../obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.fsdecode.md) следует использовать, чтобы убедиться, что используются правильная кодировка и режим ошибок.
+[os.fsencode \(\)](../../../obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.fsencode.md) и [os.fsdecode \(\)](../../../obshie-sluzhby-operacionnoi-sistemy/os/parametry-processa/os.fsdecode.md) следует использовать, чтобы убедиться, что используются правильная кодировка и режим ошибок.
 
 * в режиме UTF-8 на любой платформе используется кодировка `utf-8`
 * в macOS используется кодировка `utf-8`
