@@ -6,5 +6,5 @@
 
 ### Не закончено...
 
-удалить \(тестовая надпись\): [msvcrt](specialnye-sluzhby-ms-windows/msvcrt/)
+удалить \(тестовая надпись\): [msvcrt](moduli-standartnoi-biblioteki/specialnye-sluzhby-ms-windows/msvcrt/)
 

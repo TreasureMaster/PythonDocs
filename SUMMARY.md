@@ -328,9 +328,12 @@
 * [Импортирование модулей](importirovanie-modulei.md)
 * [Службы языка Python](sluzhby-yazyka-python.md)
 * [Разные службы](raznye-sluzhby.md)
-* [Специальные службы MS Windows](specialnye-sluzhby-ms-windows/README.md)
-  * [msvcrt](specialnye-sluzhby-ms-windows/msvcrt/README.md)
-    * [msvcrt.getch \(\)](specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getch.md)
-    * [msvcrt.getche \(\)](specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getche.md)
-    * [msvcrt.putch \(\)](specialnye-sluzhby-ms-windows/msvcrt/msvcrt.putch.md)
+
+## Модули стандартной библиотеки
+
+* [Специальные службы MS Windows](moduli-standartnoi-biblioteki/specialnye-sluzhby-ms-windows/README.md)
+  * [msvcrt](moduli-standartnoi-biblioteki/specialnye-sluzhby-ms-windows/msvcrt/README.md)
+    * [msvcrt.getch \(\)](moduli-standartnoi-biblioteki/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getch.md)
+    * [msvcrt.getche \(\)](moduli-standartnoi-biblioteki/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getche.md)
+    * [msvcrt.putch \(\)](moduli-standartnoi-biblioteki/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.putch.md)
 
