@@ -17,10 +17,10 @@
 
 Список функций модуля:
 
-* fnmatch.fnmatch \(\)
-* fnmatch.fnmatchcase \(\)
-* fnmatch.filter \(\)
-* fnmatch.translate \(\)
+* [fnmatch.fnmatch \(\)](fnmatch.fnmatch.md) - проверяет соответствует ли строка имени файла строке шаблона
+* [fnmatch.fnmatchcase \(\)](fnmatch.fnmatchcase.md) - то же, что и fnmatch \(\), но с учетом регистра имени файла
+* [fnmatch.filter \(\)](fnmatch.filter.md) - возвращает подмножество списка имен, соответствующих шаблону
+* [fnmatch.translate \(\)](fnmatch.translate.md) - возвращает шаблон, преобразованный в регулярное выражение
 
 {% hint style="info" %}
 См. также модуль [glob](../glob/) - расширение пути в стиле оболочки Unix
