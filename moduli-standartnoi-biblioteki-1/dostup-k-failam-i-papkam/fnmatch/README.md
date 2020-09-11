@@ -22,7 +22,7 @@
 * [fnmatch.filter \(\)](fnmatch.filter.md) - возвращает подмножество списка имен, соответствующих шаблону
 * [fnmatch.translate \(\)](fnmatch.translate.md) - возвращает шаблон, преобразованный в регулярное выражение
 
-{% hint style="info" %}
+{% hint style="warning" %}
 См. также модуль [glob](../glob/) - расширение пути в стиле оболочки Unix
 {% endhint %}
 
