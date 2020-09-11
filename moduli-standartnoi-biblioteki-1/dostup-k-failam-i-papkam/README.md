@@ -9,7 +9,7 @@
 * filecmp
 * tempfile
 * [glob](glob/) - расширение шаблона с именами пути в стиле Unix
-* fnmatch
+* [fnmatch](fnmatch/) - сопоставление с образцом имени файла в Unix
 * linecache
 * shutil
 
