@@ -34,19 +34,21 @@
 * [Обработка упорядоченной разметки](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki.md) - формы разметки структурированных данных
 * [Интернет протоколы](../moduli-standartnoi-biblioteki-1/internet-protokoly.md) - интернет-протоколы и соответствующие технологии
 * [Мультимедиа службы](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby.md) - алгоритмы и интерфейсы мультимедийных приложений
-* Интернационализация
-* Программные фреймворки
-* Графические интерфейсы пользователя с Tk
-* Инструменты разработки
-* Отладка и профилирование
-* Упаковка и распространение программ
-* Службы среды выполнения Python
-* Пользовательские интерпретаторы Python
-* Импортирование модулей
-* Службы языка Python
-* Разные службы
-* Специальные службы MS Windows
-* Специальные службы Unix
-* Замененные модули
-* Недокументированные модули
+* [Интернационализация](../moduli-standartnoi-biblioteki-1/internacionalizaciya.md) - адаптация к местным локали и языку
+* [Программные фреймворки](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki.md) - задание структуры программы и интерфейсов командной строки
+* [Графические интерфейсы пользователя с Tk](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk.md) - описание графического интерфейса tkinter
+* [Инструменты разработки](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki.md) - документирование, тестирование, декодирование кода
+* [Отладка и профилирование](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie.md) - отладчики, профилировщики и события аудита
+* [Упаковка и распространение программ](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm.md) - публикация и установка ПО на Python
+* [Службы среды выполнения Python](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/) - взаимодействие интерпретатора Python со своей средой
+* [Пользовательские интерпретаторы Python](../moduli-standartnoi-biblioteki-1/polzovatelskie-interpretatory-python.md) - интерфейсы интерактивного интерпретатора
+* [Импортирование модулей](../moduli-standartnoi-biblioteki-1/importirovanie-modulei.md) - обработчики настройки процесса импорта модулей
+* [Службы языка Python](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python.md) - разметка, синтаксический анализ и дизассемблирование байт-кода
+* [Разные службы](../moduli-standartnoi-biblioteki-1/raznye-sluzhby.md) - различные службы Python
+* [Специальные службы MS Windows](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/) - модули платформы MS Windows
+* [Специальные службы Unix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix.md) - модули, доступные только на UNIX платформе
+* [Замененные модули](../moduli-standartnoi-biblioteki-1/zamenennye-moduli.md) - устаревшие модули
+* [Недокументированные модули](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli.md) - эти модули в настоящее время недокументированы
+
+
 
