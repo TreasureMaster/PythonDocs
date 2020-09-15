@@ -6,6 +6,8 @@
 
 * [Введение](moduli-standartnoi-biblioteki/vvedenie.md)
 * [Оглавление](moduli-standartnoi-biblioteki/oglavlenie.md)
+* [Содержание по порядку](moduli-standartnoi-biblioteki/soderzhanie-po-poryadku.md)
+* [Содержание по алфавиту](moduli-standartnoi-biblioteki/soderzhanie-po-alfavitu.md)
 
 ## Встроенные объекты
 
