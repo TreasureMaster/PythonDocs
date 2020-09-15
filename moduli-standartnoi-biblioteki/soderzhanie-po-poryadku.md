@@ -282,5 +282,5 @@
   * optparse
   * imp
 * [Недокументированные модули](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli.md) - эти модули в настоящее время недокументированы
-  * [С](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/)пецифичные модули платформы
+  * Специфичные модули платформы
 
