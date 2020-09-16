@@ -21,12 +21,12 @@
 * [Двоичные данные](../moduli-standartnoi-biblioteki-1/dvoichnye-dannye/) - базовые сервисные операции с двоичными данными
 * [Специальные типы данных](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/) - различные типы данных \(дата, время, массивы, очереди и т.п.\)
 * [Математические модули](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/) - числовые и математические функции и типы данных
-* [Функциональные программные модули](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli.md) - объекты для функционального программирования
+* [Функциональные программные модули](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/) - объекты для функционального программирования
 * [Доступ к файлам и папкам](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/) - работа с файлами и каталогами
 * [Хранение данных](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/) - сериализация и хранение данных на диске
-* [Сжатие и архивирование данных](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh.md) - сжатие данных и создание архивов
+* [Сжатие и архивирование данных](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/) - сжатие данных и создание архивов
 * [Форматы файлов](../moduli-standartnoi-biblioteki-1/formaty-failov/) - анализ различных форматов файлов
-* [Криптографические службы](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby.md) - алгоритмы криптографического характера
+* [Криптографические службы](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby/) - алгоритмы криптографического характера
 * [Общие службы операционной системы](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/) - интерфейсы к функциям операционной системы
 * [Параллельное выполнение](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/) - одновременное выполнение кода в процессах или потоках
 * [Сетевое и межпроцессное взаимодействие](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/) - механизмы взаимодействия в сети/процессах

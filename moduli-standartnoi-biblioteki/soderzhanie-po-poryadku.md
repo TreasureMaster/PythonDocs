@@ -38,10 +38,10 @@
   * [fractions](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/fractions.md) - 
   * [random](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/random.md) - 
   * [statistics](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/statistics.md) - 
-* [Функциональные программные модули](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli.md) - объекты для функционального программирования
-  * itertools
-  * functools
-  * operator
+* [Функциональные программные модули](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/) - объекты для функционального программирования
+  * [itertools](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/itertools.md) - 
+  * [functools](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools.md) - 
+  * [operator](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/operator.md) - 
 * [Доступ к файлам и папкам](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/) - работа с файлами и каталогами
   * [pathlib](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/pathlib.md) - 
   * [os.path](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/os.path/) - 
@@ -55,28 +55,28 @@
   * [shutil](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/shutil/) - 
 * [Хранение данных](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/) - сериализация и хранение данных на диске
   * [pickle](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/pickle/) - 
-  * copyreg
-  * shelve
-  * marshal
-  * dbm
-  * sqlite3
-* [Сжатие и архивирование данных](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh.md) - сжатие данных и создание архивов
-  * zlib
-  * gzip
-  * bz2
-  * lzma
-  * zipfile
-  * tarfile
+  * [copyreg](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/copyreg.md) - 
+  * [shelve](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/shelve.md) - 
+  * [marshal](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/marshal.md) - 
+  * [dbm](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/dbm.md) - 
+  * [sqlite3](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/sqlite3.md) - 
+* [Сжатие и архивирование данных](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/) - сжатие данных и создание архивов
+  * [zlib](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/zlib.md) - 
+  * [gzip](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/gzip.md) - 
+  * [bz2](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/bz2.md) - 
+  * [lzma](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/lzma.md) - 
+  * [zipfile](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/zipfile.md) - 
+  * [tarfile](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/tarfile.md) - 
 * [Форматы файлов](../moduli-standartnoi-biblioteki-1/formaty-failov/) - анализ различных форматов файлов
   * [csv](../moduli-standartnoi-biblioteki-1/formaty-failov/csv.md) - 
   * [configparser](../moduli-standartnoi-biblioteki-1/formaty-failov/configparser.md) - 
   * [netrc](../moduli-standartnoi-biblioteki-1/formaty-failov/netrc.md) - 
   * [xdrlib](../moduli-standartnoi-biblioteki-1/formaty-failov/xdrlib.md) - 
   * [plistlib](../moduli-standartnoi-biblioteki-1/formaty-failov/plistlib.md) - 
-* [Криптографические службы](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby.md) - алгоритмы криптографического характера
-  * hashlib
-  * hmac
-  * secrets
+* [Криптографические службы](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby/) - алгоритмы криптографического характера
+  * [hashlib](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby/hashlib.md) - 
+  * [hmac](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby/hmac.md) - 
+  * [secrets](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby/secrets.md) - 
 * [Общие службы операционной системы](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/) - интерфейсы к функциям операционной системы
   * [os](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/os/) - 
   * [io](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/io/) - 
