@@ -260,10 +260,10 @@
 * [Разные службы](../moduli-standartnoi-biblioteki-1/raznye-sluzhby.md) - различные службы Python
   * formatter
 * [Специальные службы MS Windows](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/) - модули платформы MS Windows
-  * msilib
+  * [msilib](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msilib.md) - 
   * [msvcrt](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/) - 
-  * winreg
-  * winsound
+  * [winreg](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/winreg.md) - 
+  * [winsound](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/winsound.md) - 
 * [Специальные службы Unix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix.md) - модули, доступные только на UNIX платформе
   * posix
   * pwd
