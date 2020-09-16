@@ -5,56 +5,56 @@
 #### Модули стандартной библиотеки
 
 * [Обработка текста](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/) - обработка строк и текста
-  * string
-  * re
-  * difflib
-  * textwrap
-  * unicodedata
-  * stringprep
-  * readline
-  * rlcompleter
+  * [string](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/string.md) - 
+  * [re](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/re/) - 
+  * [difflib](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/difflib.md) - 
+  * [textwrap](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/textwrap.md) - 
+  * [unicodedata](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/unicodedata.md) - 
+  * [stringprep](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/stringprep.md) - 
+  * [readline](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/readline.md) - 
+  * [rlcompleter](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/rlcompleter.md) - 
 * [Двоичные данные](../moduli-standartnoi-biblioteki-1/dvoichnye-dannye/) - базовые сервисные операции с двоичными данными
-  * struct
-  * codecs
+  * [struct](../moduli-standartnoi-biblioteki-1/dvoichnye-dannye/struct/) - 
+  * [codecs](../moduli-standartnoi-biblioteki-1/dvoichnye-dannye/codecs.md) - 
 * [Специальные типы данных](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/) - различные типы данных \(дата, время, массивы, очереди и т.п.\)
-  * datetime
-  * calendar
-  * collections
-  * collections.abc
-  * heapq
-  * bisect
-  * array
-  * weakref
-  * types
-  * copy
-  * pprint
-  * reprlib
-  * enum
+  * [datetime](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/datetime.md) - 
+  * [calendar](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/calendar/) - 
+  * [collections](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/collections.md) - 
+  * [collections.abc](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/collections.abc.md) - 
+  * [heapq](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/heapq.md) - 
+  * [bisect](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/bisect.md) - 
+  * [array](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/array.md) - 
+  * [weakref](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/weakref.md) - 
+  * [types](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/types.md) - 
+  * [copy](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/copy.md) - 
+  * [pprint](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/pprint.md) - 
+  * [reprlib](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/reprlib.md) - 
+  * [enum](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/enum.md) - 
 * [Математические модули](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/) - числовые и математические функции и типы данных
-  * numbers
-  * math
-  * cmath
-  * decimal
-  * fractions
-  * random
-  * statistics
+  * [numbers](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/numbers.md) - 
+  * [math](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/math.md) - 
+  * [cmath](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/cmath.md) - 
+  * [decimal](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/decimal.md) - 
+  * [fractions](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/fractions.md) - 
+  * [random](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/random.md) - 
+  * [statistics](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/statistics.md) - 
 * [Функциональные программные модули](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli.md) - объекты для функционального программирования
   * itertools
   * functools
   * operator
 * [Доступ к файлам и папкам](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/) - работа с файлами и каталогами
-  * pathlib
-  * os.path
-  * fileinput
-  * stat
-  * filecmp
-  * tempfile
-  * glob
-  * fnmatch
-  * linecache
-  * shutil
+  * [pathlib](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/pathlib.md) - 
+  * [os.path](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/os.path/) - 
+  * [fileinput](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/fileinput.md) - 
+  * [stat](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/stat.md) - 
+  * [filecmp](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/filecmp.md) - 
+  * [tempfile](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/tempfile.md) - 
+  * [glob](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/glob/) - 
+  * [fnmatch](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/fnmatch/) - 
+  * [linecache](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/linecache.md) - 
+  * [shutil](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/shutil/) - 
 * [Хранение данных](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/) - сериализация и хранение данных на диске
-  * pickle
+  * [pickle](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/pickle/) - 
   * copyreg
   * shelve
   * marshal
@@ -68,32 +68,32 @@
   * zipfile
   * tarfile
 * [Форматы файлов](../moduli-standartnoi-biblioteki-1/formaty-failov/) - анализ различных форматов файлов
-  * csv
-  * configparser
-  * netrc
-  * xdrlib
-  * plistlib
+  * [csv](../moduli-standartnoi-biblioteki-1/formaty-failov/csv.md) - 
+  * [configparser](../moduli-standartnoi-biblioteki-1/formaty-failov/configparser.md) - 
+  * [netrc](../moduli-standartnoi-biblioteki-1/formaty-failov/netrc.md) - 
+  * [xdrlib](../moduli-standartnoi-biblioteki-1/formaty-failov/xdrlib.md) - 
+  * [plistlib](../moduli-standartnoi-biblioteki-1/formaty-failov/plistlib.md) - 
 * [Криптографические службы](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby.md) - алгоритмы криптографического характера
   * hashlib
   * hmac
   * secrets
 * [Общие службы операционной системы](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/) - интерфейсы к функциям операционной системы
-  * os
-  * io
-  * time
-  * argparse
-  * getopt
-  * logging
-  * logging.config
-  * logging.handlers
-  * getpass
-  * curses
-  * curses.textpad
-  * curses.ascii
-  * curses.panel
-  * platform
-  * errno
-  * ctypes
+  * [os](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/os/) - 
+  * [io](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/io/) - 
+  * [time](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/) - 
+  * [argparse](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/argparse.md) - 
+  * [getopt](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/getopt.md) - 
+  * [logging](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/logging.md) - 
+  * [logging.config](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/logging.config.md) - 
+  * [logging.handlers](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/logging.handlers.md) - 
+  * [getpass](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/getpass.md) - 
+  * [curses](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/curses.md) - 
+  * [curses.textpad](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/curses.textpad.md) - 
+  * [curses.ascii](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/curses.ascii.md) - 
+  * [curses.panel](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/curses.panel.md) - 
+  * [platform](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/platform.md) - 
+  * [errno](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/errno.md) - 
+  * [ctypes](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/ctypes.md) - 
 * [Параллельное выполнение](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/) - одновременное выполнение кода в процессах или потоках
   * threading
   * multiprocessing
