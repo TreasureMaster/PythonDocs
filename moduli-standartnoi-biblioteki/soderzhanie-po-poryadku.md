@@ -95,28 +95,28 @@
   * [errno](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/errno.md) - 
   * [ctypes](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/ctypes.md) - 
 * [Параллельное выполнение](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/) - одновременное выполнение кода в процессах или потоках
-  * threading
-  * multiprocessing
-  * multiprocessing.shared\_memory
-  * concurrent
-  * concurrent.futures
-  * subprocess
-  * sched
-  * queue
-  * \_thread
-  * \_dummy_\__thread
-  * dummy\_threading
-  * contextvars
+  * [threading](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/threading/) - 
+  * [multiprocessing](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/multiprocessing.md) - 
+  * [multiprocessing.shared\_memory](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/multiprocessing.shared_memory.md) - 
+  * [concurrent](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/concurrent.md) - 
+  * [concurrent.futures](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/concurrent.futures.md) - 
+  * [subprocess](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/subprocess/) - 
+  * [sched](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/sched.md) - 
+  * [queue](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/queue.md) - 
+  * [\_thread](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/_thread.md) - 
+  * [\_dummy_\__thread](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/_dummy_thread.md) - 
+  * [dummy\_threading](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/dummy_threading.md) - 
+  * [contextvars](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/contextvars.md) - 
 * [Сетевое и межпроцессное взаимодействие](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/) - механизмы взаимодействия в сети/процессах
-  * asyncio
-  * socket
-  * ssl
-  * select
-  * selectors
-  * asyncore
-  * asynchat
-  * signal
-  * mmap
+  * [asyncio](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asyncio.md) - 
+  * [socket](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/socket.md) - 
+  * [ssl](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/ssl.md) - 
+  * [select](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/select.md) - 
+  * [selectors](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/selectors.md) - 
+  * [asyncore](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asyncore.md) - 
+  * [asynchat](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asynchat.md) - 
+  * [signal](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/) - 
+  * [mmap](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/mmap.md) - 
 * [Обработка интернет данных](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh.md) - обработка форматов данных, используемых в интернете
   * email
   * json
@@ -219,20 +219,20 @@
   * venv
   * zipapp
 * [Службы среды выполнения Python](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/) - взаимодействие интерпретатора Python со своей средой
-  * sys
-  * sysconfig
-  * builtins
-  * \_\_main\_\_
-  * warnings
-  * dataclasses
-  * contextlib
-  * abc
-  * atexit
-  * traceback
-  * \_\_future\_\_
-  * gc
-  * inspect
-  * site
+  * [sys](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/sys/) - 
+  * [sysconfig](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/sysconfig.md) - 
+  * [builtins](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/builtins.md) - 
+  * [\_\_main\_\_](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/__main__.md) - 
+  * [warnings](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/warnings.md) - 
+  * [dataclasses](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/dataclasses.md) - 
+  * [contextlib](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/contextlib.md) - 
+  * [abc](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/abc.md) - 
+  * [atexit](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/atexit.md) - 
+  * [traceback](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/traceback.md) - 
+  * [\_\_future\_\_](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/__future__.md) - 
+  * [gc](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/gc.md) - 
+  * [inspect](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/inspect.md) - 
+  * [site](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/site.md) - 
 * [Пользовательские интерпретаторы Python](../moduli-standartnoi-biblioteki-1/polzovatelskie-interpretatory-python.md) - интерфейсы интерактивного интерпретатора
   * code
   * codeop
@@ -261,7 +261,7 @@
   * formatter
 * [Специальные службы MS Windows](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/) - модули платформы MS Windows
   * msilib
-  * msvcrt
+  * [msvcrt](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/) - 
   * winreg
   * winsound
 * [Специальные службы Unix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix.md) - модули, доступные только на UNIX платформе
