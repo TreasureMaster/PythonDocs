@@ -117,76 +117,77 @@
   * [asynchat](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asynchat.md) - 
   * [signal](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/) - 
   * [mmap](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/mmap.md) - 
-* [Обработка интернет данных](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh.md) - обработка форматов данных, используемых в интернете
-  * email
-  * json
-  * mailcap
-  * mailbox
-  * mimetypes
-  * base64
-  * binhex
-  * binascii
-  * quopri
-  * uu
-* [Обработка упорядоченной разметки](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki.md) - формы разметки структурированных данных
-  * html
-  * html.parser
-  * html.entities
-  * xml.etree.ElementTree
-  * xml.dom
-  * xml.dom.minidom
-  * xml.dom.pulldom
-  * xml.sax
-  * xml.sax.handler
-  * xml.sax.saxutils
-  * xml.sax.xmlreader
-  * xml.parsers.expat
-* [Интернет протоколы](../moduli-standartnoi-biblioteki-1/internet-protokoly.md) - интернет-протоколы и соответствующие технологии
-  * webbrowser
-  * cgi
-  * cgitb
-  * wsgiref
-  * urllib
-  * urllib.request
-  * urllib.response
-  * urllib.parse
-  * urllib.error
-  * urllib.robotparser
-  * http
-  * http.client
-  * ftplib
-  * poplib
-  * imaplib
-  * nntplib
-  * smtplib
-  * smtpd
-  * telnetlib
-  * uuid
-  * socketserver
-  * http.server
-  * http.cookies
-  * http.cookiejar
-  * xmlrpc
-  * xmlrpc.client
-  * xmlrpc.server
-  * ipaddress
-* [Мультимедиа службы](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby.md) - алгоритмы и интерфейсы мультимедийных приложений
-  * audioop
-  * aifc
-  * sunau
-  * wave
-  * chunk
-  * colorsys
-  * imghdr
-  * sndhdr
-  * ossaudiodev
-* [Интернационализация](../moduli-standartnoi-biblioteki-1/internacionalizaciya.md) - адаптация к местным локали и языку
-  * gettext
-  * locale
-* [Программные фреймворки](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki.md) - задание структуры программы и интерфейсов командной строки
-  * turtle
-  * cmd
-  * shlex
+* [Обработка интернет данных](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/) - обработка форматов данных, используемых в интернете
+  * [email](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/email.md) - 
+  * [json](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/json.md) - 
+  * [mailcap](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/mailcap.md) - 
+  * [mailbox](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/mailbox.md) - 
+  * [mimetypes](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/mimetypes.md) - 
+  * [base64](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/base64.md) - 
+  * [binhex](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/binhex.md) - 
+  * [binascii](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/binascii.md) - 
+  * [quopri](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/quopri.md) - 
+  * [uu](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/uu.md) - 
+* [Обработка упорядоченной разметки](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/) - формы разметки структурированных данных
+  * [html](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/html.md) - 
+  * [html.parser](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/html.parser.md) - 
+  * [html.entities](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/html.entities.md) - 
+  * [модули обработки XML](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/moduli-obrabotki-xml.md) - 
+  * [xml.etree.ElementTree](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.etree.elementtree.md) - 
+  * [xml.dom](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.dom.md) - 
+  * [xml.dom.minidom](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.dom.minidom.md) - 
+  * [xml.dom.pulldom](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.dom.pulldom.md) - 
+  * [xml.sax](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.md) - 
+  * [xml.sax.handler](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.handler.md) - 
+  * [xml.sax.saxutils](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.saxutils.md) - 
+  * [xml.sax.xmlreader](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.xmlreader.md) - 
+  * [xml.parsers.expat](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.parsers.expat.md) - 
+* [Интернет протоколы](../moduli-standartnoi-biblioteki-1/internet-protokoly/) - интернет-протоколы и соответствующие технологии
+  * [webbrowser](../moduli-standartnoi-biblioteki-1/internet-protokoly/webbrowser.md) - 
+  * [cgi](../moduli-standartnoi-biblioteki-1/internet-protokoly/cgi.md) - 
+  * [cgitb](../moduli-standartnoi-biblioteki-1/internet-protokoly/cgitb.md) - 
+  * [wsgiref](../moduli-standartnoi-biblioteki-1/internet-protokoly/wsgiref.md) - 
+  * [urllib](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.md) - 
+  * [urllib.request](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.request.md) - 
+  * [urllib.response](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.response.md) - 
+  * [urllib.parse](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.parse.md) - 
+  * [urllib.error](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.error.md) - 
+  * [urllib.robotparser](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.robotparser.md) - 
+  * [http](../moduli-standartnoi-biblioteki-1/internet-protokoly/http.md) - 
+  * [http.client](../moduli-standartnoi-biblioteki-1/internet-protokoly/http.client.md) - 
+  * [ftplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/ftplib.md) - 
+  * [poplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/poplib.md) - 
+  * [imaplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/imaplib.md) - 
+  * [nntplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/nntplib.md) - 
+  * [smtplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/smtplib.md) - 
+  * [smtpd](../moduli-standartnoi-biblioteki-1/internet-protokoly/smtpd.md) - 
+  * [telnetlib](../moduli-standartnoi-biblioteki-1/internet-protokoly/telnetlib.md) - 
+  * [uuid](../moduli-standartnoi-biblioteki-1/internet-protokoly/uuid.md) - 
+  * [socketserver](../moduli-standartnoi-biblioteki-1/internet-protokoly/socketserver.md) - 
+  * [http.server](../moduli-standartnoi-biblioteki-1/internet-protokoly/http.server.md) - 
+  * [http.cookies](../moduli-standartnoi-biblioteki-1/internet-protokoly/http.cookies.md) - 
+  * [http.cookiejar](../moduli-standartnoi-biblioteki-1/internet-protokoly/http.cookiejar.md) - 
+  * [xmlrpc](../moduli-standartnoi-biblioteki-1/internet-protokoly/xmlrpc.md) - 
+  * [xmlrpc.client](../moduli-standartnoi-biblioteki-1/internet-protokoly/xmlrpc.client.md) - 
+  * [xmlrpc.server](../moduli-standartnoi-biblioteki-1/internet-protokoly/xmlrpc.server.md) - 
+  * [ipaddress](../moduli-standartnoi-biblioteki-1/internet-protokoly/ipaddress.md) - 
+* [Мультимедиа службы](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/) - алгоритмы и интерфейсы мультимедийных приложений
+  * [audioop](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/audioop.md) - 
+  * [aifc](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/aifc.md) - 
+  * [sunau](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/sunau.md) - 
+  * [wave](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/wave.md) - 
+  * [chunk](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/chunk.md) - 
+  * [colorsys](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/colorsys.md) - 
+  * [imghdr](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/imghdr.md) - 
+  * [sndhdr](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/sndhdr.md) - 
+  * [ossaudiodev](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/ossaudiodev.md) - 
+* [Интернационализация](../moduli-standartnoi-biblioteki-1/internacionalizaciya/) - адаптация к местным локали и языку
+  * [gettext](../moduli-standartnoi-biblioteki-1/internacionalizaciya/gettext.md) - 
+  * [locale](../moduli-standartnoi-biblioteki-1/internacionalizaciya/locale.md) - 
+* [Программные фреймворки](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/) - задание структуры программы и интерфейсов командной строки
+  * [turtle](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/turtle.md) - 
+  * [cmd](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/cmd.md) - 
+  * [shlex](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/shlex.md) - 
 * [Графические интерфейсы пользователя с Tk](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk.md) - описание графического интерфейса tkinter
   * tkinter
   * tkinter.ttk

@@ -30,12 +30,12 @@
 * [Общие службы операционной системы](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/) - интерфейсы к функциям операционной системы
 * [Параллельное выполнение](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/) - одновременное выполнение кода в процессах или потоках
 * [Сетевое и межпроцессное взаимодействие](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/) - механизмы взаимодействия в сети/процессах
-* [Обработка интернет данных](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh.md) - обработка форматов данных, используемых в интернете
-* [Обработка упорядоченной разметки](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki.md) - формы разметки структурированных данных
-* [Интернет протоколы](../moduli-standartnoi-biblioteki-1/internet-protokoly.md) - интернет-протоколы и соответствующие технологии
-* [Мультимедиа службы](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby.md) - алгоритмы и интерфейсы мультимедийных приложений
-* [Интернационализация](../moduli-standartnoi-biblioteki-1/internacionalizaciya.md) - адаптация к местным локали и языку
-* [Программные фреймворки](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki.md) - задание структуры программы и интерфейсов командной строки
+* [Обработка интернет данных](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/) - обработка форматов данных, используемых в интернете
+* [Обработка упорядоченной разметки](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/) - формы разметки структурированных данных
+* [Интернет протоколы](../moduli-standartnoi-biblioteki-1/internet-protokoly/) - интернет-протоколы и соответствующие технологии
+* [Мультимедиа службы](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/) - алгоритмы и интерфейсы мультимедийных приложений
+* [Интернационализация](../moduli-standartnoi-biblioteki-1/internacionalizaciya/) - адаптация к местным локали и языку
+* [Программные фреймворки](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/) - задание структуры программы и интерфейсов командной строки
 * [Графические интерфейсы пользователя с Tk](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk.md) - описание графического интерфейса tkinter
 * [Инструменты разработки](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki.md) - документирование, тестирование, декодирование кода
 * [Отладка и профилирование](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie.md) - отладчики, профилировщики и события аудита
