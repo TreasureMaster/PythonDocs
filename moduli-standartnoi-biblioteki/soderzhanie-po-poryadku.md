@@ -188,37 +188,37 @@
   * [turtle](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/turtle.md) - 
   * [cmd](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/cmd.md) - 
   * [shlex](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/shlex.md) - 
-* [Графические интерфейсы пользователя с Tk](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk.md) - описание графического интерфейса tkinter
-  * tkinter
-  * tkinter.ttk
-  * tkinter.tix
-  * tkinter.scrolledtext
-  * IDLE
-  * Другие пакеты графических интерфейсов
-* [Инструменты разработки](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki.md) - документирование, тестирование, декодирование кода
-  * typing
-  * pydoc
-  * doctest
-  * unittest
-  * unittest.mock
-  * 2to3
-  * test
-  * test.support
-  * test.support.script\_helper
-* [Отладка и профилирование](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie.md) - отладчики, профилировщики и события аудита
-  * Таблица событий аудита
-  * bdb
-  * faulthandler
-  * pdb
-  * Профилировщики Python
-  * timeit
-  * trace
-  * tracemalloc
-* [Упаковка и распространение программ](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm.md) - публикация и установка ПО на Python
-  * distutils
-  * ensurepip
-  * venv
-  * zipapp
+* [Графические интерфейсы пользователя с Tk](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/) - описание графического интерфейса tkinter
+  * [tkinter](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.md) - 
+  * [tkinter.ttk](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.ttk.md) - 
+  * [tkinter.tix](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.tix.md) - 
+  * [tkinter.scrolledtext](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.scrolledtext.md) - 
+  * [IDLE](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/idle.md) - 
+  * [Другие пакеты графических интерфейсов](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/drugie-pakety-graficheskikh-interfeisov.md) - 
+* [Инструменты разработки](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/) - документирование, тестирование, декодирование кода
+  * [typing](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/typing.md) - 
+  * [pydoc](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/pydoc.md) - 
+  * [doctest](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/doctest.md) - 
+  * [unittest](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/unittest.md) - 
+  * [unittest.mock](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/unittest.mock.md) - 
+  * [2to3](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/2to3.md) - 
+  * [test](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/test.md) - 
+  * [test.support](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/test.support.md) - 
+  * [test.support.script\_helper](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/test.support.script_helper.md) - 
+* [Отладка и профилирование](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/) - отладчики, профилировщики и события аудита
+  * [Таблица событий аудита](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/tablica-sobytii-audita.md) - 
+  * [bdb](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/bdb.md) - 
+  * [faulthandler](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/faulthandler.md) - 
+  * [pdb](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/pdb.md) - 
+  * [Профилировщики Python](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/profilirovshiki-python.md) - 
+  * [timeit](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/timeit.md) - 
+  * [trace](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/trace.md) - 
+  * [tracemalloc](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/tracemalloc.md) - 
+* [Упаковка и распространение программ](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/) - публикация и установка ПО на Python
+  * [distutils](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/distutils.md) - 
+  * [ensurepip](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/ensurepip.md) - 
+  * [venv](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/venv.md) - 
+  * [zipapp](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/zipapp.md) - 
 * [Службы среды выполнения Python](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/) - взаимодействие интерпретатора Python со своей средой
   * [sys](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/sys/) - 
   * [sysconfig](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/sysconfig.md) - 
@@ -234,16 +234,16 @@
   * [gc](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/gc.md) - 
   * [inspect](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/inspect.md) - 
   * [site](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/site.md) - 
-* [Пользовательские интерпретаторы Python](../moduli-standartnoi-biblioteki-1/polzovatelskie-interpretatory-python.md) - интерфейсы интерактивного интерпретатора
-  * code
-  * codeop
-* [Импортирование модулей](../moduli-standartnoi-biblioteki-1/importirovanie-modulei.md) - обработчики настройки процесса импорта модулей
-  * zipimport
-  * pkgutil
-  * modulefinder
-  * runpy
-  * importlib
-  * importlib.metadata
+* [Пользовательские интерпретаторы Python](../moduli-standartnoi-biblioteki-1/polzovatelskie-interpretatory-python/) - интерфейсы интерактивного интерпретатора
+  * [code](../moduli-standartnoi-biblioteki-1/polzovatelskie-interpretatory-python/code.md) - 
+  * [codeop](../moduli-standartnoi-biblioteki-1/polzovatelskie-interpretatory-python/codeop.md) - 
+* [Импортирование модулей](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/) - обработчики настройки процесса импорта модулей
+  * [zipimport](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/zipimport.md) - 
+  * [pkgutil](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/pkgutil.md) - 
+  * [modulefinder](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/modulefinder.md) - 
+  * [runpy](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/runpy.md) - 
+  * [importlib](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/importlib.md) - 
+  * [importlib.metadata](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/importlib.metadata.md) - 
 * [Службы языка Python](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python.md) - разметка, синтаксический анализ и дизассемблирование байт-кода
   * parser
   * ast
