@@ -4,21 +4,30 @@
 
 #### Модули стандартной библиотеки
 
+### 2
+
+| Название | Описание |
+| :--- | :--- |
+| 2to3 |  |
+
 ### A
 
 | Название | Описание |
 | :--- | :--- |
+| aifc |  |
 | argparse |  |
 | array |  |
 | asynchat |  |
 | asyncio |  |
 | asyncore |  |
+| audioop |  |
 
 ### B
 
 | Название | Описание |
 | :--- | :--- |
 | base64 |  |
+| bdb |  |
 | binascii |  |
 | binhex |  |
 | bisect |  |
@@ -29,10 +38,15 @@
 | Название | Описание |
 | :--- | :--- |
 | calendar |  |
+| cgi |  |
+| cgitb |  |
+| chunk |  |
 | cmath |  |
+| cmd |  |
 | codecs |  |
 | collections |  |
 | collections.abc |  |
+| colorsys |  |
 | concurrent |  |
 | concurrent.futures |  |
 | configparser |  |
@@ -54,6 +68,8 @@
 | dbm |  |
 | decimal |  |
 | difflib |  |
+| distutils |  |
+| doctest |  |
 | \_dummy\_thread |  |
 | dummy\_threading |  |
 
@@ -63,16 +79,19 @@
 | :--- | :--- |
 | email |  |
 | enum |  |
+| ensurepip |  |
 | errno |  |
 
 ### F
 
 | Название | Описание |
 | :--- | :--- |
+| faulthandler |  |
 | filecmp |  |
 | fileinput |  |
 | fnmatch |  |
 | fractions |  |
+| ftplib |  |
 | functools |  |
 
 ### G
@@ -81,6 +100,7 @@
 | :--- | :--- |
 | getopt |  |
 | getpass |  |
+| gettext |  |
 | glob |  |
 | gzip |  |
 
@@ -91,12 +111,24 @@
 | hashlib |  |
 | heapq |  |
 | hmac |  |
+| html |  |
+| html.entities |  |
+| html.parser |  |
+| http |  |
+| http.client |  |
+| http.cookiejar |  |
+| http.cookies |  |
+| http.server |  |
 
 ### I
 
 | Название | Описание |
 | :--- | :--- |
+| IDLE |  |
+| imaplib |  |
+| imghdr |  |
 | io |  |
+| ipaddress |  |
 | itertools |  |
 
 ### J
@@ -116,6 +148,7 @@
 | Название | Описание |
 | :--- | :--- |
 | linecache |  |
+| locale |  |
 | logging |  |
 | logging.config |  |
 | logging.handlers |  |
@@ -139,6 +172,7 @@
 | Название | Описание |
 | :--- | :--- |
 | netrc |  |
+| nntplib |  |
 | numbers |  |
 
 ### O
@@ -148,16 +182,20 @@
 | operator |  |
 | os |  |
 | os.path |  |
+| ossaudiodev |  |
 
 ### P
 
 | Название | Описание |
 | :--- | :--- |
 | pathlib |  |
+| pdb |  |
 | pickle |  |
 | platform |  |
 | plistlib |  |
+| poplib |  |
 | pprint |  |
+| pydoc |  |
 
 ### Q
 
@@ -185,9 +223,14 @@
 | select |  |
 | selectors |  |
 | shelve |  |
+| shlex |  |
 | shutil |  |
 | signal |  |
+| smtpd |  |
+| smtplib |  |
+| sndhdr |  |
 | socket |  |
+| socketserver |  |
 | sqlite3 |  |
 | ssl |  |
 | stat |  |
@@ -196,43 +239,81 @@
 | stringprep |  |
 | struct |  |
 | subprocess |  |
+| sunau |  |
 
 ### T
 
 | Название | Описание |
 | :--- | :--- |
 | tarfile |  |
+| telnetlib |  |
 | tempfile |  |
+| test |  |
+| test.support |  |
+| test.support.script\_helper |  |
 | textwrap |  |
 | \_thread |  |
 | threading |  |
 | time |  |
+| timeit |  |
+| tkinter |  |
+| tkinter.scrolledtext |  |
+| tkinter.tix |  |
+| tkinter.ttk |  |
+| trace |  |
+| tracemallock |  |
+| turtle |  |
 | types |  |
+| typing |  |
 
 ### U
 
 | Название | Описание |
 | :--- | :--- |
 | unicodedata |  |
+| unittest |  |
+| unittest.mock |  |
+| urllib |  |
+| urllib.error |  |
+| urllib.parse |  |
+| urllib.request |  |
+| urllib.response |  |
+| urllib.robotparser |  |
 | uu |  |
+| uuid |  |
 
 ### V
 
 | Название | Описание |
 | :--- | :--- |
-|  |  |
+| venv |  |
 
 ### W
 
 | Название | Описание |
 | :--- | :--- |
+| wave |  |
 | weakref |  |
+| webbrowser |  |
+| wsgiref |  |
 
 ### X
 
 | Название | Описание |
 | :--- | :--- |
 | xdrlib |  |
+| xml.etree.ElementTree |  |
+| xml.dom |  |
+| xml.dom.minidom |  |
+| xml.dom.pulldom |  |
+| xml.parsers.expat |  |
+| xml.sax |  |
+| xml.sax.handler |  |
+| xml.sax.saxutils |  |
+| xml.sax.xmlreader |  |
+| xmlrpc |  |
+| xmlrpc.client |  |
+| xmlrpc.server |  |
 
 ### Y
 
@@ -244,6 +325,31 @@
 
 | Название | Описание |
 | :--- | :--- |
+| zipapp |  |
 | zipfile |  |
 | zlib |  |
+
+### Д
+
+| Название | Описание |
+| :--- | :--- |
+| другие пакеты графических интерфейсов |  |
+
+### М
+
+| Название | Описание |
+| :--- | :--- |
+| модули обработки XML |  |
+
+### П
+
+| Название | Описание |
+| :--- | :--- |
+| профилировщики Python |  |
+
+### Т
+
+| Название | Описание |
+| :--- | :--- |
+| таблица событий аудита |  |
 
