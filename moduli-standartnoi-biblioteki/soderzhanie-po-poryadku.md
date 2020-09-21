@@ -244,44 +244,44 @@
   * [runpy](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/runpy.md) - 
   * [importlib](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/importlib.md) - 
   * [importlib.metadata](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/importlib.metadata.md) - 
-* [Службы языка Python](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python.md) - разметка, синтаксический анализ и дизассемблирование байт-кода
-  * parser
-  * ast
-  * symtable
-  * symbol
-  * token
-  * keyword
-  * tokenize
-  * tabnanny
-  * pyclbr
-  * py\_compile
-  * compileall
-  * dis
-  * pickletools
-* [Разные службы](../moduli-standartnoi-biblioteki-1/raznye-sluzhby.md) - различные службы Python
-  * formatter
+* [Службы языка Python](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/) - разметка, синтаксический анализ и дизассемблирование байт-кода
+  * [parser](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/parser.md) - 
+  * [ast](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/ast.md) - 
+  * [symtable](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/symtable.md) - 
+  * [symbol](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/symbol.md) - 
+  * [token](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/token.md) - 
+  * [keyword](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/keyword.md) - 
+  * [tokenize](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/tokenize.md) - 
+  * [tabnanny](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/tabnanny.md) - 
+  * [pyclbr](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/pyclbr.md) - 
+  * [py\_compile](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/py_compile.md) - 
+  * [compileall](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/compileall.md) - 
+  * [dis](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/dis.md) - 
+  * [pickletools](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/pickletools.md) - 
+* [Разные службы](../moduli-standartnoi-biblioteki-1/raznye-sluzhby/) - различные службы Python
+  * [formatter](../moduli-standartnoi-biblioteki-1/raznye-sluzhby/formatter.md) - 
 * [Специальные службы MS Windows](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/) - модули платформы MS Windows
   * [msilib](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msilib.md) - 
   * [msvcrt](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/) - 
   * [winreg](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/winreg.md) - 
   * [winsound](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/winsound.md) - 
-* [Специальные службы Unix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix.md) - модули, доступные только на UNIX платформе
-  * posix
-  * pwd
-  * spwd
-  * grp
-  * crypt
-  * termios
-  * tty
-  * pty
-  * fcntl
-  * pipes
-  * resource
-  * nis
-  * syslog
-* [Замененные модули](../moduli-standartnoi-biblioteki-1/zamenennye-moduli.md) - устаревшие модули
-  * optparse
-  * imp
-* [Недокументированные модули](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli.md) - эти модули в настоящее время недокументированы
-  * Специфичные модули платформы
+* [Специальные службы Unix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/) - модули, доступные только на UNIX платформе
+  * [posix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/posix.md) - 
+  * [pwd](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/pwd.md) - 
+  * [spwd](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/spwd.md) - 
+  * [grp](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/grp.md) - 
+  * [crypt](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/crypt.md) - 
+  * [termios](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/termios.md) - 
+  * [tty](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/tty.md) - 
+  * [pty](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/pty.md) - 
+  * [fcntl](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/fcntl.md) - 
+  * [pipes](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/pipes.md) - 
+  * [resource](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/resource.md) - 
+  * [nis](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/nis.md) - 
+  * [syslog](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/syslog.md) - 
+* [Замененные модули](../moduli-standartnoi-biblioteki-1/zamenennye-moduli/) - устаревшие модули
+  * [optparse](../moduli-standartnoi-biblioteki-1/zamenennye-moduli/optparse.md) - 
+  * [imp](../moduli-standartnoi-biblioteki-1/zamenennye-moduli/imp.md) - 
+* [Недокументированные модули](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli/) - эти модули в настоящее время недокументированы
+  * [Специфичные модули платформы](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli/specifichnye-moduli-platformy.md) - 
 

@@ -43,12 +43,12 @@
 * [Службы среды выполнения Python](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/) - взаимодействие интерпретатора Python со своей средой
 * [Пользовательские интерпретаторы Python](../moduli-standartnoi-biblioteki-1/polzovatelskie-interpretatory-python/) - интерфейсы интерактивного интерпретатора
 * [Импортирование модулей](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/) - обработчики настройки процесса импорта модулей
-* [Службы языка Python](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python.md) - разметка, синтаксический анализ и дизассемблирование байт-кода
-* [Разные службы](../moduli-standartnoi-biblioteki-1/raznye-sluzhby.md) - различные службы Python
+* [Службы языка Python](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/) - разметка, синтаксический анализ и дизассемблирование байт-кода
+* [Разные службы](../moduli-standartnoi-biblioteki-1/raznye-sluzhby/) - различные службы Python
 * [Специальные службы MS Windows](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/) - модули платформы MS Windows
-* [Специальные службы Unix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix.md) - модули, доступные только на UNIX платформе
-* [Замененные модули](../moduli-standartnoi-biblioteki-1/zamenennye-moduli.md) - устаревшие модули
-* [Недокументированные модули](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli.md) - эти модули в настоящее время недокументированы
+* [Специальные службы Unix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/) - модули, доступные только на UNIX платформе
+* [Замененные модули](../moduli-standartnoi-biblioteki-1/zamenennye-moduli/) - устаревшие модули
+* [Недокументированные модули](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli/) - эти модули в настоящее время недокументированы
 
 
 
