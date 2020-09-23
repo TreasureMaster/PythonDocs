@@ -14,12 +14,15 @@
 
 | Название | Описание |
 | :--- | :--- |
+| abc |  |
 | aifc |  |
 | argparse |  |
 | array |  |
+| ast |  |
 | asynchat |  |
 | asyncio |  |
 | asyncore |  |
+| atexit |  |
 | audioop |  |
 
 ### B
@@ -31,6 +34,7 @@
 | binascii |  |
 | binhex |  |
 | bisect |  |
+| builtins |  |
 | bz2 |  |
 
 ### C
@@ -43,16 +47,21 @@
 | chunk |  |
 | cmath |  |
 | cmd |  |
+| code |  |
 | codecs |  |
+| codeop |  |
 | collections |  |
 | collections.abc |  |
 | colorsys |  |
+| compileall |  |
 | concurrent |  |
 | concurrent.futures |  |
 | configparser |  |
+| contextlib |  |
 | contextvars |  |
 | copy |  |
 | copyreg |  |
+| crypt |  |
 | csv |  |
 | ctypes |  |
 | curses |  |
@@ -64,10 +73,12 @@
 
 | Название | Описание |
 | :--- | :--- |
+| dataclasses |  |
 | datetime |  |
 | dbm |  |
 | decimal |  |
 | difflib |  |
+| dis |  |
 | distutils |  |
 | doctest |  |
 | \_dummy\_thread |  |
@@ -87,21 +98,26 @@
 | Название | Описание |
 | :--- | :--- |
 | faulthandler |  |
+| fcntl |  |
 | filecmp |  |
 | fileinput |  |
 | fnmatch |  |
+| formatter |  |
 | fractions |  |
 | ftplib |  |
 | functools |  |
+| \_\_future\_\_ |  |
 
 ### G
 
 | Название | Описание |
 | :--- | :--- |
+| gc |  |
 | getopt |  |
 | getpass |  |
 | gettext |  |
 | glob |  |
+| grp |  |
 | gzip |  |
 
 ### H
@@ -127,6 +143,10 @@
 | IDLE |  |
 | imaplib |  |
 | imghdr |  |
+| imp |  |
+| importlib |  |
+| importlib.metadata |  |
+| inspect |  |
 | io |  |
 | ipaddress |  |
 | itertools |  |
@@ -141,7 +161,7 @@
 
 | Название | Описание |
 | :--- | :--- |
-|  |  |
+| keyword |  |
 
 ### L
 
@@ -160,10 +180,14 @@
 | :--- | :--- |
 | mailbox |  |
 | mailcap |  |
+| \_\_main\_\_ |  |
 | marshal |  |
 | math |  |
 | mimetypes |  |
 | mmap |  |
+| modulefinder |  |
+| msilib |  |
+| msvcrt |  |
 | multiprocessing |  |
 | multiprocessing.shared\_memory |  |
 
@@ -172,6 +196,7 @@
 | Название | Описание |
 | :--- | :--- |
 | netrc |  |
+| nis |  |
 | nntplib |  |
 | numbers |  |
 
@@ -180,6 +205,7 @@
 | Название | Описание |
 | :--- | :--- |
 | operator |  |
+| optparse |  |
 | os |  |
 | os.path |  |
 | ossaudiodev |  |
@@ -188,14 +214,23 @@
 
 | Название | Описание |
 | :--- | :--- |
+| parser |  |
 | pathlib |  |
 | pdb |  |
 | pickle |  |
+| pickletools |  |
+| pipes |  |
 | platform |  |
 | plistlib |  |
+| pkgutil |  |
 | poplib |  |
+| posix |  |
 | pprint |  |
+| pty |  |
+| pyclbr |  |
 | pydoc |  |
+| py\_compile |  |
+| pwd |  |
 
 ### Q
 
@@ -212,7 +247,9 @@
 | re |  |
 | readline |  |
 | reprlib |  |
+| resource |  |
 | rlcompleter |  |
+| runpy |  |
 
 ### S
 
@@ -226,11 +263,13 @@
 | shlex |  |
 | shutil |  |
 | signal |  |
+| site |  |
 | smtpd |  |
 | smtplib |  |
 | sndhdr |  |
 | socket |  |
 | socketserver |  |
+| spwd |  |
 | sqlite3 |  |
 | ssl |  |
 | stat |  |
@@ -240,14 +279,21 @@
 | struct |  |
 | subprocess |  |
 | sunau |  |
+| symbol |  |
+| symtable |  |
+| sys |  |
+| sysconfig |  |
+| syslog |  |
 
 ### T
 
 | Название | Описание |
 | :--- | :--- |
+| tabnanny |  |
 | tarfile |  |
 | telnetlib |  |
 | tempfile |  |
+| termios |  |
 | test |  |
 | test.support |  |
 | test.support.script\_helper |  |
@@ -260,8 +306,12 @@
 | tkinter.scrolledtext |  |
 | tkinter.tix |  |
 | tkinter.ttk |  |
+| token |  |
+| tokenize |  |
 | trace |  |
-| tracemallock |  |
+| traceback |  |
+| tracemalloc |  |
+| tty |  |
 | turtle |  |
 | types |  |
 | typing |  |
@@ -292,9 +342,12 @@
 
 | Название | Описание |
 | :--- | :--- |
+| warnings |  |
 | wave |  |
 | weakref |  |
 | webbrowser |  |
+| winreg |  |
+| winsound |  |
 | wsgiref |  |
 
 ### X
@@ -327,6 +380,7 @@
 | :--- | :--- |
 | zipapp |  |
 | zipfile |  |
+| zipimport |  |
 | zlib |  |
 
 ### Д
@@ -346,6 +400,12 @@
 | Название | Описание |
 | :--- | :--- |
 | профилировщики Python |  |
+
+### С
+
+| Название | Описание |
+| :--- | :--- |
+| специфичные модули платфомы |  |
 
 ### Т
 
