@@ -176,195 +176,195 @@
 
 | Название | Описание |
 | :--- | :--- |
-| mailbox |  |
-| mailcap |  |
-| \_\_main\_\_ |  |
-| marshal |  |
-| math |  |
-| mimetypes |  |
-| mmap |  |
-| modulefinder |  |
-| msilib |  |
-| msvcrt |  |
-| multiprocessing |  |
-| multiprocessing.shared\_memory |  |
+| [mailbox](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/mailbox.md) |  |
+| [mailcap](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/mailcap.md) |  |
+| [\_\_main\_\_](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/__main__.md) |  |
+| [marshal](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/marshal.md) |  |
+| [math](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/math.md) |  |
+| [mimetypes](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/mimetypes.md) |  |
+| [mmap](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/mmap.md) |  |
+| [modulefinder](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/modulefinder.md) |  |
+| [msilib](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msilib.md) |  |
+| [msvcrt](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/) |  |
+| [multiprocessing](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/multiprocessing.md) |  |
+| [multiprocessing.shared\_memory](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/multiprocessing.shared_memory.md) |  |
 
 ### N
 
 | Название | Описание |
 | :--- | :--- |
-| netrc |  |
-| nis |  |
-| nntplib |  |
-| numbers |  |
+| [netrc](../moduli-standartnoi-biblioteki-1/formaty-failov/netrc.md) |  |
+| [nis](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/nis.md) |  |
+| [nntplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/nntplib.md) |  |
+| [numbers](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/numbers.md) |  |
 
 ### O
 
 | Название | Описание |
 | :--- | :--- |
-| operator |  |
-| optparse |  |
-| os |  |
-| os.path |  |
-| ossaudiodev |  |
+| [operator](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/operator.md) |  |
+| [optparse](../moduli-standartnoi-biblioteki-1/zamenennye-moduli/optparse.md) |  |
+| [os](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/os/) |  |
+| [os.path](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/os.path/) |  |
+| [ossaudiodev](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/ossaudiodev.md) |  |
 
 ### P
 
 | Название | Описание |
 | :--- | :--- |
-| parser |  |
-| pathlib |  |
-| pdb |  |
-| pickle |  |
-| pickletools |  |
-| pipes |  |
-| platform |  |
-| plistlib |  |
-| pkgutil |  |
-| poplib |  |
-| posix |  |
-| pprint |  |
-| pty |  |
-| pyclbr |  |
-| pydoc |  |
-| py\_compile |  |
-| pwd |  |
+| [parser](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/parser.md) |  |
+| [pathlib](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/pathlib.md) |  |
+| [pdb](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/pdb.md) |  |
+| [pickle](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/pickle/) |  |
+| [pickletools](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/pickletools.md) |  |
+| [pipes](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/pipes.md) |  |
+| [platform](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/platform.md) |  |
+| [plistlib](../moduli-standartnoi-biblioteki-1/formaty-failov/plistlib.md) |  |
+| [pkgutil](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/pkgutil.md) |  |
+| [poplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/poplib.md) |  |
+| [posix](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/posix.md) |  |
+| [pprint](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/pprint.md) |  |
+| [pty](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/pty.md) |  |
+| [pyclbr](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/pyclbr.md) |  |
+| [pydoc](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/pydoc.md) |  |
+| [py\_compile](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/py_compile.md) |  |
+| [pwd](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/pwd.md) |  |
 
 ### Q
 
 | Название | Описание |
 | :--- | :--- |
-| queue |  |
-| quopri |  |
+| [queue](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/queue.md) |  |
+| [quopri](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/quopri.md) |  |
 
 ### R
 
 | Название | Описание |
 | :--- | :--- |
-| random |  |
-| re |  |
-| readline |  |
-| reprlib |  |
-| resource |  |
-| rlcompleter |  |
-| runpy |  |
+| [random](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/random.md) |  |
+| [re](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/re/) |  |
+| [readline](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/readline.md) |  |
+| [reprlib](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/reprlib.md) |  |
+| [resource](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/resource.md) |  |
+| [rlcompleter](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/rlcompleter.md) |  |
+| [runpy](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/runpy.md) |  |
 
 ### S
 
 | Название | Описание |
 | :--- | :--- |
-| sched |  |
-| secrets |  |
-| select |  |
-| selectors |  |
-| shelve |  |
-| shlex |  |
-| shutil |  |
-| signal |  |
-| site |  |
-| smtpd |  |
-| smtplib |  |
-| sndhdr |  |
-| socket |  |
-| socketserver |  |
-| spwd |  |
-| sqlite3 |  |
-| ssl |  |
-| stat |  |
-| statistics |  |
-| string |  |
-| stringprep |  |
-| struct |  |
-| subprocess |  |
-| sunau |  |
-| symbol |  |
-| symtable |  |
-| sys |  |
-| sysconfig |  |
-| syslog |  |
+| [sched](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/sched.md) |  |
+| [secrets](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby/secrets.md) |  |
+| [select](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/select.md) |  |
+| [selectors](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/selectors.md) |  |
+| [shelve](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/shelve.md) |  |
+| [shlex](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/shlex.md) |  |
+| [shutil](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/shutil/) |  |
+| [signal](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/) |  |
+| [site](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/site.md) |  |
+| [smtpd](../moduli-standartnoi-biblioteki-1/internet-protokoly/smtpd.md) |  |
+| [smtplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/smtplib.md) |  |
+| [sndhdr](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/sndhdr.md) |  |
+| [socket](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/socket.md) |  |
+| [socketserver](../moduli-standartnoi-biblioteki-1/internet-protokoly/socketserver.md) |  |
+| [spwd](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/spwd.md) |  |
+| [sqlite3](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/sqlite3.md) |  |
+| [ssl](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/ssl.md) |  |
+| [stat](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/stat.md) |  |
+| [statistics](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/statistics.md) |  |
+| [string](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/string.md) |  |
+| [stringprep](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/stringprep.md) |  |
+| [struct](../moduli-standartnoi-biblioteki-1/dvoichnye-dannye/struct/) |  |
+| [subprocess](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/subprocess/) |  |
+| [sunau](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/sunau.md) |  |
+| [symbol](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/symbol.md) |  |
+| [symtable](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/symtable.md) |  |
+| [sys](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/sys/) |  |
+| [sysconfig](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/sysconfig.md) |  |
+| [syslog](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/syslog.md) |  |
 
 ### T
 
 | Название | Описание |
 | :--- | :--- |
-| tabnanny |  |
-| tarfile |  |
-| telnetlib |  |
-| tempfile |  |
-| termios |  |
-| test |  |
-| test.support |  |
-| test.support.script\_helper |  |
-| textwrap |  |
-| \_thread |  |
-| threading |  |
-| time |  |
-| timeit |  |
-| tkinter |  |
-| tkinter.scrolledtext |  |
-| tkinter.tix |  |
-| tkinter.ttk |  |
-| token |  |
-| tokenize |  |
-| trace |  |
-| traceback |  |
-| tracemalloc |  |
-| tty |  |
-| turtle |  |
-| types |  |
-| typing |  |
+| [tabnanny](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/tabnanny.md) |  |
+| [tarfile](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/tarfile.md) |  |
+| [telnetlib](../moduli-standartnoi-biblioteki-1/internet-protokoly/telnetlib.md) |  |
+| [tempfile](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/tempfile.md) |  |
+| [termios](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/termios.md) |  |
+| [test](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/test.md) |  |
+| [test.support](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/test.support.md) |  |
+| [test.support.script\_helper](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/test.support.script_helper.md) |  |
+| [textwrap](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/textwrap.md) |  |
+| [\_thread](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/_thread.md) |  |
+| [threading](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/threading/) |  |
+| [time](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/) |  |
+| [timeit](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/timeit.md) |  |
+| [tkinter](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.md) |  |
+| [tkinter.scrolledtext](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.scrolledtext.md) |  |
+| [tkinter.tix](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.tix.md) |  |
+| [tkinter.ttk](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/tkinter.ttk.md) |  |
+| [token](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/token.md) |  |
+| [tokenize](../moduli-standartnoi-biblioteki-1/sluzhby-yazyka-python/tokenize.md) |  |
+| [trace](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/trace.md) |  |
+| [traceback](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/traceback.md) |  |
+| [tracemalloc](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/tracemalloc.md) |  |
+| [tty](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-unix/tty.md) |  |
+| [turtle](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/turtle.md) |  |
+| [types](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/types.md) |  |
+| [typing](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/typing.md) |  |
 
 ### U
 
 | Название | Описание |
 | :--- | :--- |
-| unicodedata |  |
-| unittest |  |
-| unittest.mock |  |
-| urllib |  |
-| urllib.error |  |
-| urllib.parse |  |
-| urllib.request |  |
-| urllib.response |  |
-| urllib.robotparser |  |
-| uu |  |
-| uuid |  |
+| [unicodedata](../moduli-standartnoi-biblioteki-1/obrabotka-teksta/unicodedata.md) |  |
+| [unittest](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/unittest.md) |  |
+| [unittest.mock](../moduli-standartnoi-biblioteki-1/instrumenty-razrabotki/unittest.mock.md) |  |
+| [urllib](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.md) |  |
+| [urllib.error](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.error.md) |  |
+| [urllib.parse](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.parse.md) |  |
+| [urllib.request](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.request.md) |  |
+| [urllib.response](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.response.md) |  |
+| [urllib.robotparser](../moduli-standartnoi-biblioteki-1/internet-protokoly/urllib.robotparser.md) |  |
+| [uu](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/uu.md) |  |
+| [uuid](../moduli-standartnoi-biblioteki-1/internet-protokoly/uuid.md) |  |
 
 ### V
 
 | Название | Описание |
 | :--- | :--- |
-| venv |  |
+| [venv](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/venv.md) |  |
 
 ### W
 
 | Название | Описание |
 | :--- | :--- |
-| warnings |  |
-| wave |  |
-| weakref |  |
-| webbrowser |  |
-| winreg |  |
-| winsound |  |
-| wsgiref |  |
+| [warnings](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/warnings.md) |  |
+| [wave](../moduli-standartnoi-biblioteki-1/multimedia-sluzhby/wave.md) |  |
+| [weakref](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/weakref.md) |  |
+| [webbrowser](../moduli-standartnoi-biblioteki-1/internet-protokoly/webbrowser.md) |  |
+| [winreg](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/winreg.md) |  |
+| [winsound](../moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/winsound.md) |  |
+| [wsgiref](../moduli-standartnoi-biblioteki-1/internet-protokoly/wsgiref.md) |  |
 
 ### X
 
 | Название | Описание |
 | :--- | :--- |
-| xdrlib |  |
-| xml.etree.ElementTree |  |
-| xml.dom |  |
-| xml.dom.minidom |  |
-| xml.dom.pulldom |  |
-| xml.parsers.expat |  |
-| xml.sax |  |
-| xml.sax.handler |  |
-| xml.sax.saxutils |  |
-| xml.sax.xmlreader |  |
-| xmlrpc |  |
-| xmlrpc.client |  |
-| xmlrpc.server |  |
+| [xdrlib](../moduli-standartnoi-biblioteki-1/formaty-failov/xdrlib.md) |  |
+| [xml.etree.ElementTree](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.etree.elementtree.md) |  |
+| [xml.dom](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.dom.md) |  |
+| [xml.dom.minidom](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.dom.minidom.md) |  |
+| [xml.dom.pulldom](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.dom.pulldom.md) |  |
+| [xml.parsers.expat](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.parsers.expat.md) |  |
+| [xml.sax](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.md) |  |
+| [xml.sax.handler](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.handler.md) |  |
+| [xml.sax.saxutils](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.saxutils.md) |  |
+| [xml.sax.xmlreader](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/xml.sax.xmlreader.md) |  |
+| [xmlrpc](../moduli-standartnoi-biblioteki-1/internet-protokoly/xmlrpc.md) |  |
+| [xmlrpc.client](../moduli-standartnoi-biblioteki-1/internet-protokoly/xmlrpc.client.md) |  |
+| [xmlrpc.server](../moduli-standartnoi-biblioteki-1/internet-protokoly/xmlrpc.server.md) |  |
 
 ### Y
 
@@ -376,18 +376,18 @@
 
 | Название | Описание |
 | :--- | :--- |
-| zipapp |  |
-| zipfile |  |
-| zipimport |  |
-| zlib |  |
+| [zipapp](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/zipapp.md) |  |
+| [zipfile](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/zipfile.md) |  |
+| [zipimport](../moduli-standartnoi-biblioteki-1/importirovanie-modulei/zipimport.md) |  |
+| [zlib](../moduli-standartnoi-biblioteki-1/szhatie-i-arkhivirovanie-dannykh/zlib.md) |  |
 
 ### Д - М - П - С - Т
 
 | Название | Описание |
 | :--- | :--- |
-| другие пакеты графических интерфейсов |  |
-| модули обработки XML |  |
-| профилировщики Python |  |
-| специфичные модули платформы |  |
-| таблица событий аудита |  |
+| [другие пакеты графических интерфейсов](../moduli-standartnoi-biblioteki-1/graficheskie-interfeisy-polzovatelya-s-tk/drugie-pakety-graficheskikh-interfeisov.md) |  |
+| [модули обработки XML](../moduli-standartnoi-biblioteki-1/obrabotka-uporyadochennoi-razmetki/moduli-obrabotki-xml.md) |  |
+| [профилировщики Python](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/profilirovshiki-python.md) |  |
+| [специфичные модули платформы](../moduli-standartnoi-biblioteki-1/nedokumentirovannye-moduli/specifichnye-moduli-platformy.md) |  |
+| [таблица событий аудита](../moduli-standartnoi-biblioteki-1/otladka-i-profilirovanie/tablica-sobytii-audita.md) |  |
 
