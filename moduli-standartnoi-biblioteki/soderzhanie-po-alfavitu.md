@@ -234,7 +234,7 @@
 
 | Название | Описание |
 | :--- | :--- |
-| [queue](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/queue.md) |  |
+| [queue](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/queue/) |  |
 | [quopri](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/quopri.md) |  |
 
 ### R

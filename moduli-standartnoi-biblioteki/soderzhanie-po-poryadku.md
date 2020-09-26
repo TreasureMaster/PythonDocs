@@ -102,7 +102,7 @@
   * [concurrent.futures](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/concurrent.futures.md) - 
   * [subprocess](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/subprocess/) - 
   * [sched](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/sched.md) - 
-  * [queue](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/queue.md) - 
+  * [queue](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/queue/) - 
   * [\_thread](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/_thread.md) - 
   * [\_dummy_\__thread](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/_dummy_thread.md) - 
   * [dummy\_threading](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/dummy_threading.md) - 
