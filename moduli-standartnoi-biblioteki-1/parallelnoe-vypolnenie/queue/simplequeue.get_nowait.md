@@ -1,0 +1,2 @@
+# SimpleQueue.get\_nowait \(\)
+

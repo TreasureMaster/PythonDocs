@@ -39,12 +39,12 @@ Queue объекты \(Queue, LifoQueue или PriorityQueue\) предоста�
 
 SimpleQueue объекты предоставляют общедоступные методы, описанные ниже.
 
-* Queue.qsize \(\)
-* Queue.empty \(\)
-* Queue.put \(\)
-* Queue.put\_nowait \(\)
-* Queue.get \(\)
-* Queue.get\_nowait \(\)
+* SimpleQueue.qsize \(\)
+* SimpleQueue.empty \(\)
+* SimpleQueue.put \(\)
+* SimpleQueue.put\_nowait \(\)
+* SimpleQueue.get \(\)
+* SimpleQueue.get\_nowait \(\)
 
 {% hint style="warning" %}
 Смотрите также:
