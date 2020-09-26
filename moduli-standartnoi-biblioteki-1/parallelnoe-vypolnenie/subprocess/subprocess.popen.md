@@ -50,7 +50,7 @@ Popen(['/bin/sh', '-c', args[0], args[1], ...])
 **Примечание:** прочтите раздел «Вопросы безопасности» перед использованием `shell = True`.
 {% endhint %}
 
-_**bufsize**_ будет предоставлен в качестве соответствующего аргумента функции open \(\) при создании файловых объектов [stdin](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdin) / [stdout](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdout) / [stderr](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stderr) pipe:
+_**bufsize**_ будет предоставлен в качестве соответствующего аргумента функции open \(\) при создании файловых объектов [stdin](popen.stdin.md) / [stdout](popen.stdout.md) / [stderr](popen.stderr.md) pipe:
 
 * **0** - означает небуферизованный \(чтение и запись являются одним системным вызовом и могут возвращаться коротко\)
 * **1** - означает буферизацию строки \(можно использовать, только если `universal_newlines = True`, т.е. в текстовом режиме\)
@@ -65,7 +65,7 @@ _Изменено в версии 3.6:_ параметр _**executable**_ при
 
 _Изменено в версии 3.8:_ параметр _**executable**_ принимает байты и объект, подобный пути \(_path-like object_ \) в Windows.
 
-_\*\*\*\*_[_**stdin**_](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdin), [_**stdout**_](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdout) и [_**stderr**_](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stderr) определяют дескрипторы стандартного ввода, стандартного вывода и стандартного файла ошибок исполняемой программы соответственно. Допустимые значения: [PIPE](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/subprocess.pipe), DEVNULL, существующий дескриптор файла \(положительное целое число\), существующий файловый объект и `None`. [PIPE](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/subprocess.pipe) указывает, что должен быть создан новый канал для дочернего элемента. DEVNULL указывает, что будет использоваться специальный файл os.devnull. Если по умолчанию установлено значение `None`, перенаправление не произойдет; дескрипторы дочерних файлов будут унаследованы от родительского. Кроме того, _**stderr**_ может быть STDOUT, что указывает на то, что данные _**stderr**_ из приложений должны быть записаны в тот же дескриптор файла, что и для _**stdout**_.
+_\*\*\*\*_[_**stdin**_](popen.stdin.md), [_**stdout**_](popen.stdout.md) и [_**stderr**_](popen.stderr.md) определяют дескрипторы стандартного ввода, стандартного вывода и стандартного файла ошибок исполняемой программы соответственно. Допустимые значения: [PIPE](subprocess.pipe.md), DEVNULL, существующий дескриптор файла \(положительное целое число\), существующий файловый объект и `None`. [PIPE](subprocess.pipe.md) указывает, что должен быть создан новый канал для дочернего элемента. DEVNULL указывает, что будет использоваться специальный файл os.devnull. Если по умолчанию установлено значение `None`, перенаправление не произойдет; дескрипторы дочерних файлов будут унаследованы от родительского. Кроме того, _**stderr**_ может быть STDOUT, что указывает на то, что данные _**stderr**_ из приложений должны быть записаны в тот же дескриптор файла, что и для _**stdout**_.
 
 Если для _**preexec\_fn**_ задан вызываемый объект, этот объект будет вызываться в дочернем процессе непосредственно перед выполнением дочернего процесса. \(Только POSIX\)
 
@@ -113,7 +113,7 @@ _Изменено в версии 3.2:_ добавлен _**start\_new\_session*
 Если указано, _**env**_ должен предоставить все переменные, необходимые для выполнения программы. В Windows для запуска параллельной сборки указанный _**env**_ должен включать действительный SystemRoot.
 {% endhint %}
 
-Если указаны _**encoding**_ или _**errors**_, либо _**text**_ имеет значение `True`, файловые объекты [_**stdin**_](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdin), [_**stdout**_](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdout) и _**stderr**_ открываются в текстовом режиме с указанной _**encoding**_ и _**errors**_, как описано выше в разделе «Часто используемые аргументы». Аргумент _**universal\_newlines**_ эквивалентен тексту и предоставляется для обратной совместимости. По умолчанию файловые объекты открываются в двоичном режиме.
+Если указаны _**encoding**_ или _**errors**_, либо _**text**_ имеет значение `True`, файловые объекты [_**stdin**_](popen.stdin.md), [_**stdout**_](popen.stdout.md) и [_**stderr**_](popen.stderr.md) открываются в текстовом режиме с указанной _**encoding**_ и _**errors**_, как описано выше в разделе «Часто используемые аргументы». Аргумент _**universal\_newlines**_ эквивалентен тексту и предоставляется для обратной совместимости. По умолчанию файловые объекты открываются в двоичном режиме.
 
 _Новое в версии 3.6:_ добавлены _**encoding**_ и _**errors**_.
 

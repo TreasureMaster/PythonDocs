@@ -15,14 +15,14 @@
 
 ### Использование модуля subprocess
 
-Рекомендуемый подход к вызову субпроцессов - использовать функцию run \(\) для всех возможных вариантов использования. Для более сложных случаев использования можно напрямую использовать базовый интерфейс [Popen](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/subprocess.popen).
+Рекомендуемый подход к вызову субпроцессов - использовать функцию run \(\) для всех возможных вариантов использования. Для более сложных случаев использования можно напрямую использовать базовый интерфейс [Popen](subprocess.popen.md).
 
 Функция run \(\) была добавлена в Python 3.5; если вам нужно сохранить совместимость со старыми версиями, см. раздел Older high-level API.
 
 * run \(\)
 * CompletedProcess class
 * DEVNULL
-* [PIPE](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/subprocess.pipe) - специальное значение для аргументов stdin, stdout, stderr класса Popen
+* [PIPE](subprocess.pipe.md) - специальное значение для аргументов stdin, stdout, stderr класса Popen
 * STDOUT
 * SubprocessError exception
 * TimeoutExpired exception
@@ -36,7 +36,7 @@
 
 Создание базового процесса и управление им в этом модуле осуществляется классом **Popen**. Он предлагает большую гибкость, поэтому разработчики могут обрабатывать менее распространенные случаи, не охватываемые вспомогательными функциями.
 
-* [Popen](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/subprocess.popen) class - выполняет дочернюю программу в новом процессе
+* [Popen](subprocess.popen.md) class - выполняет дочернюю программу в новом процессе
 
 #### Исключения
 
@@ -48,20 +48,20 @@
 
 #### Объекты Popen
 
-Экземпляры класса [**Popen**](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/subprocess.popen) имеют следующие методы:
+Экземпляры класса [**Popen**](subprocess.popen.md) имеют следующие методы:
 
 * poll \(\)
-* [wait \(\)](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.wait) - ожидает пока дочерний процесс завершится
-* [communicate \(\)](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.communicate) - взаимодействие с процессом
+* [wait \(\)](popen.wait.md) - ожидает пока дочерний процесс завершится
+* [communicate \(\)](popen.communicate.md) - взаимодействие с процессом
 * send\_signal \(\)
 * terminate \(\)
 * kill \(\)
-* [args](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.args) - переданный в Popen аргумент _**args**_
-* [stdin](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdin) - записываемый объект потока, если аргумент `stdin = PIPE`
-* [stdout](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stdout) - считываемый объект потока, если аргумент `stdout = PIPE`
-* [stderr](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.stderr) - считываемый объект потока, если аргумент `stderr = PIPE`
-* [pid](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.pid) - идентификатор ID дочернего процесса
-* [returncode](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/popen.returncode) - код завершения дочернего процесса
+* [args](popen.args.md) - переданный в Popen аргумент _**args**_
+* [stdin](popen.stdin.md) - записываемый объект потока, если аргумент `stdin = PIPE`
+* [stdout](popen.stdout.md) - считываемый объект потока, если аргумент `stdout = PIPE`
+* [stderr](popen.stderr.md) - считываемый объект потока, если аргумент `stderr = PIPE`
+* [pid](popen.pid.md) - идентификатор ID дочернего процесса
+* [returncode](popen.returncode.md) - код завершения дочернего процесса
 
 #### Помощники Popen в Windows
 
@@ -78,7 +78,7 @@
 
 До Python 3.5 эти три функции составляли высокоуровневый API для сопроцессов. Теперь вы можете использовать run \(\) во многих случаях, но многие из существующих кодов вызывают эти функции.
 
-* [call \(\)](https://treasuremaster.gitbook.io/python-docs/parallelnoe-vypolnenie/subprocess/subprocess.call) - запускает команду, переданную в _args_
+* [call \(\)](subprocess.call.md) - запускает команду, переданную в _args_
 * check\_call \(\)
 * check\_output \(\)
 
