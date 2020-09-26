@@ -14,11 +14,11 @@
 
 Модуль **queue** определяет следующие классы и исключения:
 
-* queue.Queue class
+* [queue.Queue](queue.queue.md) class - конструктор очереди FIFO
 * queue.LifoQueue class
 * queue.PriorityQueue class
 * queue.SimpleQueue class
-* queue.Empty exception
+* [queue.Empty](queue.empty.md) exception - исключение в случае пустого объекта Queue
 * queue.Full exception
 
 ### Объекты Queue
@@ -28,10 +28,13 @@ Queue объекты \(Queue, LifoQueue или PriorityQueue\) предоста�
 * Queue.qsize \(\)
 * Queue.empty \(\)
 * Queue.full \(\)
-* Queue.put \(\)
+* [Queue.put \(\)](queue.put.md) - помещает заданный объект в очередь
 * Queue.put\_nowait \(\)
-* Queue.get \(\)
+* [Queue.get \(\)](queue.get.md) - извлекает объект из очереди
 * Queue.get\_nowait \(\)
+
+Предлагаются два метода для поддержки отслеживания того, были ли задачи, поставленные в очередь, полностью обработаны потоками-потребителями демона.
+
 * Queue.task\_done \(\)
 * Queue.join \(\)
 
