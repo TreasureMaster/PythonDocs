@@ -28,7 +28,9 @@
 
 ### [Функции time](funkcii-time/)
 
-* time.asctime \(\)
+* [time.asctime \(\)](funkcii-time/time.asctime.md) - преобразует кортеж или struct\_time в строку, представляющую время
+* не заполнено...
+* [time.ctime \(\)](funkcii-time/time.ctime.md) - конвертирует секунды с начала эпохи в строку, представляющую время
 * не заполнено...
 * [time.sleep \(\)](funkcii-time/time.sleep.md) - приостанавливает выполнение потока на заданное число секунд
 * не заполнено...

@@ -263,6 +263,7 @@
   * [time](moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/README.md)
     * [Функции time](moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/funkcii-time/README.md)
       * [time.asctime \(\)](moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/funkcii-time/time.asctime.md)
+      * [time.ctime \(\)](moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/funkcii-time/time.ctime.md)
       * [time.gmtime \(\)](moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/funkcii-time/time.gmtime.md)
       * [time.localtime \(\)](moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/funkcii-time/time.localtime.md)
       * [time.mktime \(\)](moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/time/funkcii-time/time.mktime.md)
