@@ -29,6 +29,12 @@
 * [sys.stdin](sys.stdin-sys.stdout-sys.stderr.md) - файловый объект, использующий стандартный ввод интерпретатора
 * [sys.stdout](sys.stdin-sys.stdout-sys.stderr.md) - файловый объект, использующий стандартный вывод интерпретатора
 * [sys.stderr](sys.stdin-sys.stdout-sys.stderr.md) - файловый объект, использующий стандартный вывод ошибок
+* sys.\_\_stdin\_\_
+* sys.\_\_stdout\_\_
+* sys.\_\_stderr\_\_
+* sys.thread\_info
+* sys.tracebacklimit
+* sys.unraisablehook \(\)
 * не заполнено...
 
 

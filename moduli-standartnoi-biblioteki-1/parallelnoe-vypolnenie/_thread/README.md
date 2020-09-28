@@ -10,11 +10,11 @@ _Изменено в версии 3.7_: раньше этот модуль бы�
 
 * \_thread.error exception
 * \_thread.LockType
-* \_thread.start\_new\_thread \(\)
+* [\_thread.start\_new\_thread \(\)](_thread.start_new_thread.md) - запускает новый поток
 * \_thread.interrupt_\__main \(\)
-* \_thread.exit \(\)
-* \_thread.allocate_\__lock \(\)
-* \_thread.get\_ident \(\)
+* [\_thread.exit \(\)](_thread.exit.md) - вызывает исключение SystemExit
+* [\_thread.allocate_\__lock \(\)](_thread.allocate_lock.md) - возвращает новый объект блокировки
+* [\_thread.get\_ident \(\)](_thread.get_ident.md) - возвращает идентификатор текущего потока
 * \_thread.get\_native\_id \(\)
 * \_thread.stack\_size \(\)
 * \_thread.TIMEOUT\_MAX
