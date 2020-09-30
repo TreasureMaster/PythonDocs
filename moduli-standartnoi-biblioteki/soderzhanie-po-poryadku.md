@@ -29,7 +29,7 @@
   * [copy](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/copy.md) - 
   * [pprint](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/pprint.md) - 
   * [reprlib](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/reprlib.md) - 
-  * [enum](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/enum.md) - 
+  * [enum](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/enum/) - 
 * [Математические модули](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/) - числовые и математические функции и типы данных
   * [numbers](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/numbers.md) - 
   * [math](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/math.md) - 

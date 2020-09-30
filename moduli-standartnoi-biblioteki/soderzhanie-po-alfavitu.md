@@ -87,7 +87,7 @@
 | Название | Описание |
 | :--- | :--- |
 | [email](../moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/email.md) |  |
-| [enum](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/enum.md) |  |
+| [enum](../moduli-standartnoi-biblioteki-1/specialnye-tipy-dannykh/enum/) |  |
 | [ensurepip](../moduli-standartnoi-biblioteki-1/upakovka-i-rasprostranenie-programm/ensurepip.md) |  |
 | [errno](../moduli-standartnoi-biblioteki-1/obshie-sluzhby-operacionnoi-sistemy/errno.md) |  |
 

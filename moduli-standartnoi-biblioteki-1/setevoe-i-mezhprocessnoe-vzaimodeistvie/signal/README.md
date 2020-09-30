@@ -25,3 +25,19 @@
 
 ### Содержание модуля
 
+_Изменено в версии 3.5_: перечисленные ниже константы, связанные с сигналом \(SIG\*\), обработчиком \([SIG\_DFL](konstanty-signalov/signal.sig_dfl.md), [SIG\_IGN](konstanty-signalov/signal.sig_ign.md)\) и sigmask \([SIG\_BLOCK](konstanty-signalov/signal.sig_block.md), [SIG\_UNBLOCK](konstanty-signalov/signal.sig_unblock.md), [SIG\_SETMASK](konstanty-signalov/signal.sig_setmask.md)\), были преобразованы в перечисления [enums](../../specialnye-tipy-dannykh/enum/soderzhanie-modulya/enum.intenum.md). Функции [getsignal \(\)](funkcii-modulya-signal/signal.getsignal.md), [pthread\_sigmask \(\)](funkcii-modulya-signal/signal.pthread_sigmask.md), [sigpending \(\)](funkcii-modulya-signal/signal.sigpending.md) и [sigwait \(\)](funkcii-modulya-signal/signal.sigwait.md) возвращают удобочитаемые перечисления [enums](../../specialnye-tipy-dannykh/enum/soderzhanie-modulya/enum.intenum.md).
+
+В модуле **signal** определены следующие переменные:
+
+* [signal.SIG\_DFL](konstanty-signalov/signal.sig_dfl.md) - выполняет функцию по умолчанию для сигнала
+* [signal.SIG\_IGN](konstanty-signalov/signal.sig_ign.md) - обработчик просто игнорирует данный сигнал
+* signal.SIGABRT
+* [signal.SIGALRM](konstanty-signalov/signal.sigalrm.md) - сигнал таймера от alarm\(2\) в Unix
+* signal.SIGBREAK
+* signal.SIGBUS
+* [signal.SIGCHLD](konstanty-signalov/signal.sigchld.md) - дочерний процесс остановлен или прекращен
+* не заполнено...
+* [signal.SIGUSR1](konstanty-signalov/signal.sigusr1.md) - определяемый пользователем сигнал 1
+* [signal.SIGUSR2](konstanty-signalov/signal.sigusr2.md) - определяемый пользователем сигнал 2
+* не заполнено...
+
