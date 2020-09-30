@@ -53,7 +53,7 @@ _Изменено в версии 3.5_: перечисленные ниже ко
 * signal. valid\_signals \(\)
 * [signal.pause \(\)](funkcii-modulya-signal/signal.pause.md) - приостанавливает процесс, пока не будет перехвачен следующий сигнал
 * не заполнено...
-* signal.signal \(\)
+* [signal.signal \(\)](funkcii-modulya-signal/signal.signal.md) - задает обработчик для сигнала
 * не заполнено...
 
 ### Пример
