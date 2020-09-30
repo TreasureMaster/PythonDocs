@@ -41,3 +41,69 @@ _Изменено в версии 3.5_: перечисленные ниже ко
 * [signal.SIGUSR2](konstanty-signalov/signal.sigusr2.md) - определяемый пользователем сигнал 2
 * не заполнено...
 
+Модуль **signal** определяет одно исключение:
+
+* signal.ItimerError exception
+
+Модуль signal определяет следующие функции:
+
+* [signal.alarm \(\)](funkcii-modulya-signal/signal.alarm.md) - отправляет сигнал SIGALRM через указанное количество секунд
+* signal.getsignal \(\)
+* signal.strsignal \(\)
+* signal. valid\_signals \(\)
+* [signal.pause \(\)](funkcii-modulya-signal/signal.pause.md) - приостанавливает процесс, пока не будет перехвачен следующий сигнал
+* не заполнено...
+* signal.signal \(\)
+* не заполнено...
+
+### Пример
+
+Вот минимальный пример программы. Он использует функцию [alarm \(\)](funkcii-modulya-signal/signal.alarm.md), чтобы ограничить время ожидания открытия файла; это полезно, если файл предназначен для последовательного устройства, которое не может быть включено, что обычно приводит к зависанию [os.open \(\)](../../obshie-sluzhby-operacionnoi-sistemy/os/operacii-s-failovymi-deskriptorami/os.open.md) на неопределенное время. Решение - установить 5-секундный сигнал тревоги перед открытием файла; если операция длится слишком долго, будет отправлен аварийный сигнал, и обработчик вызовет исключение.
+
+```python
+import signal, os
+
+def handler(signum, frame):
+    print('Signal handler called with signal', signum)
+    raise OSError("Couldn't open device!")
+
+# Установите обработчик сигнала и 5-секундный будильник
+signal.signal(signal.SIGALRM, handler)
+signal.alarm(5)
+
+# Этот open () может зависать бесконечно
+fd = os.open('/dev/ttyS0', os.O_RDWR)
+
+signal.alarm(0)          # Отключить будильник
+```
+
+### Примечание для SIGPIPE
+
+Передача вывода вашей программы по конвейеру таким инструментам, как [head\(1\)](https://manpages.debian.org/buster/coreutils/head.1.en.html), вызовет отправку сигнала [SIGPIPE](konstanty-signalov/signal.sigpipe.md) вашему процессу, когда приемник его стандартного вывода закроется раньше. Это приводит к возникновению исключения, например `BrokenPipeError: [Errno 32] Broken pipe`. Чтобы обработать этот случай, оберните вашу точку входа, чтобы перехватить это исключение, следующим образом:
+
+```python
+import os
+import sys
+
+def main():
+    try:
+        # имитировать большой вывод (ваш код заменяет этот цикл)
+        for x in range(10000):
+            print("y")
+        # очистить вывод здесь, чтобы принудительно запустить SIGPIPE
+        # находясь внутри этого блока try.
+        sys.stdout.flush()
+    except BrokenPipeError:
+        # Python сбрасывает стандартные потоки при выходе;
+        # перенаправить оставшийся вывод на devnull,
+        # чтобы избежать еще одной BrokenPipeError при завершении работы
+        devnull = os.open(os.devnull, os.O_WRONLY)
+        os.dup2(devnull, sys.stdout.fileno())
+        sys.exit(1)  # Python выходит с кодом ошибки 1 на EPIPE
+
+if __name__ == '__main__':
+    main()
+```
+
+Не устанавливайте для [SIGPIPE](konstanty-signalov/signal.sigpipe.md) значение [SIG\_DFL](konstanty-signalov/signal.sig_dfl.md), чтобы избежать ошибки BrokenPipeError. Это может привести к неожиданному завершению вашей программы также всякий раз, когда какое-либо соединение сокета прерывается, пока ваша программа все еще пишет в него.
+

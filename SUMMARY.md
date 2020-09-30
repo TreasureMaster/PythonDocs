@@ -394,6 +394,8 @@
       * [signal.signal \(\)](moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/funkcii-modulya-signal/signal.signal.md)
       * [signal.sigpending \(\)](moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/funkcii-modulya-signal/signal.sigpending.md)
       * [signal.sigwait \(\)](moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/funkcii-modulya-signal/signal.sigwait.md)
+      * [signal.sigwaitinfo \(\)](moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/funkcii-modulya-signal/signal.sigwaitinfo.md)
+      * [signal.sigtimedwait \(\)](moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/signal/funkcii-modulya-signal/signal.sigtimedwait.md)
   * [mmap](moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/mmap.md)
 * [Обработка интернет данных](moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/README.md)
   * [email](moduli-standartnoi-biblioteki-1/obrabotka-internet-dannykh/email.md)
