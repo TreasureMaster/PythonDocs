@@ -558,6 +558,7 @@
 * [Специальные службы MS Windows](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/README.md)
   * [msilib](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msilib.md)
   * [msvcrt](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/README.md)
+    * [msvcrt.kbhit \(\)](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.kbhit.md)
     * [msvcrt.getch \(\)](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getch.md)
     * [msvcrt.getche \(\)](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.getche.md)
     * [msvcrt.putch \(\)](moduli-standartnoi-biblioteki-1/specialnye-sluzhby-ms-windows/msvcrt/msvcrt.putch.md)
