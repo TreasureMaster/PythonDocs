@@ -155,3 +155,99 @@ OSError: exception: access violation reading 0x00000020
 
 **ctypes** определяет ряд примитивных типов данных, совместимых с C:
 
+| Тип ctypes | Тип С | Тип Python |
+| :--- | :--- | :--- |
+| c\_bool | \_Bool | bool \(1\) |
+| c\_char | char | 1-символьный байтовый объект |
+| c\_wchar | wchar\_t | 1-символьная строка |
+| c\_byte | char | int |
+| c\_ubyte | unsigned char | int |
+| c\_short | short | int |
+| c\_ushort | unsigned short | int |
+| c\_int | int | int |
+| c\_uint | unsigned int | int |
+| c\_long | long | int |
+| c\_ulong | unsigned long | int |
+| c\_longlong | \_\_int64 или long long | int |
+| c\_ulonglong | unsigned \_\_int64 или unsigned long long | int |
+| c\_size\_t | size\_t | int |
+| c\_ssize\_t | ssize\_t или Py\_ssize\_t | int |
+| c\_float | float | float |
+| c\_double | double | float |
+| c\_longdouble | long double | float |
+| c\_char\_p | char \* \(NUL ограниченный\) | байтовый объект или None |
+| c\_wchar\_p | wchar\_t \* \(NUL ограниченный\) | string или None |
+| c\_void\_p | void \* | int или None |
+
+1. Конструктор принимает любой объект со значением истинности.
+
+Все эти типы можно создать, вызвав их с необязательным инициализатором правильного типа и значения:
+
+```python
+>>> c_int()
+c_long(0)
+>>> c_wchar_p("Hello, World")
+c_wchar_p(140018365411392)
+>>> c_ushort(-3)
+c_ushort(65533)
+>>>
+```
+
+Поскольку эти типы изменчивы, их значение также можно изменить впоследствии:
+
+```python
+>>> i = c_int(42)
+>>> print(i)
+c_long(42)
+>>> print(i.value)
+42
+>>> i.value = -99
+>>> print(i.value)
+-99
+>>>
+```
+
+Присвоение нового значения экземплярам типов указателей c\_char\_p, c\_wchar\_p и c\_void\_p изменяет _**место в памяти**_, на которое они указывают, а _**не содержимое блока памяти**_ \(конечно, нет, потому что объекты байтов Python неизменяемы\):
+
+```python
+>>> s = "Hello, World"
+>>> c_s = c_wchar_p(s)
+>>> print(c_s)
+c_wchar_p(139966785747344)
+>>> print(c_s.value)
+Hello World
+>>> c_s.value = "Hi, there"
+>>> print(c_s)              # место в памяти изменилось
+c_wchar_p(139966783348904)
+>>> print(c_s.value)
+Hi, there
+>>> print(s)                # первый объект без изменений
+Hello, World
+>>>
+```
+
+Однако вы должны быть осторожны, чтобы не передавать их функциям, ожидающим указателей на изменяемую память. Если вам нужны изменяемые блоки памяти, **ctypes** имеет функцию create\_string\_buffer \(\), которая создает их различными способами. К текущему содержимому блока памяти можно получить доступ \(или изменить\) с помощью свойства `raw`; если вы хотите получить доступ к нему как к строке с завершающим NUL, используйте свойство `value`:
+
+```python
+>>> from ctypes import *
+>>> p = create_string_buffer(3)            # создать 3-байтовый буфер, инициализированный байтами NUL
+>>> print(sizeof(p), repr(p.raw))
+3 b'\x00\x00\x00'
+>>> p = create_string_buffer(b"Hello")     # создать буфер, содержащий строку с завершающим NUL
+>>> print(sizeof(p), repr(p.raw))
+6 b'Hello\x00'
+>>> print(repr(p.value))
+b'Hello'
+>>> p = create_string_buffer(b"Hello", 10) # создать 10-байтовый буфер
+>>> print(sizeof(p), repr(p.raw))
+10 b'Hello\x00\x00\x00\x00\x00'
+>>> p.value = b"Hi"
+>>> print(sizeof(p), repr(p.raw))
+10 b'Hi\x00lo\x00\x00\x00\x00\x00'
+>>>
+```
+
+Функция create\_string\_buffer \(\) заменяет функцию `c_buffer ()` \(которая все еще доступна как псевдоним\), а также функцию `c_string ()` из более ранних выпусков **ctypes**. Чтобы создать изменяемый блок памяти, содержащий символы Юникода типа C `wchar_t`, используйте функцию create\_unicode\_buffer \(\).
+
+### Вызов функций, продолжение
+
