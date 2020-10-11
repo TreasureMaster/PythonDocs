@@ -23,7 +23,7 @@
 | :--- | :--- | :--- |
 | секунды с начала эпохи | [struct\_time](funkcii-time/time.struct_time.md) в UTC | [gmtime \(\)](funkcii-time/time.gmtime.md) |
 | секунды с начала эпохи | [struct\_time](funkcii-time/time.struct_time.md) по местному времени | [localtime \(\)](funkcii-time/time.localtime.md) |
-| [struct\_time](funkcii-time/time.struct_time.md) в UTC | секунды с начала эпохи | [calendar.timegm \(\)](../../specialnye-tipy-dannykh/calendar/calendar.timegm.md) |
+| [struct\_time](funkcii-time/time.struct_time.md) в UTC | секунды с начала эпохи | [calendar.timegm \(\)](../../specialnye-tipy-dannykh/calendar/calendar.calendar/calendar.timegm.md) |
 | [struct\_time](funkcii-time/time.struct_time.md) по местному времени | секунды с начала эпохи | [mktime \(\)](funkcii-time/time.mktime.md) |
 
 ### [Функции time](funkcii-time/)
@@ -31,6 +31,9 @@
 * [time.asctime \(\)](funkcii-time/time.asctime.md) - преобразует кортеж или struct\_time в строку, представляющую время
 * не заполнено...
 * [time.ctime \(\)](funkcii-time/time.ctime.md) - конвертирует секунды с начала эпохи в строку, представляющую время
+* time.get\_clock\_info \(\)
+* [time.gmtime \(\)](funkcii-time/time.gmtime.md) - конвертирует секунды с начала эпохи в формат UTC
+* [time.localtime \(\)](funkcii-time/time.localtime.md) - конвертирует секунды с начала эпохи в формат местного времени
 * не заполнено...
 * [time.sleep \(\)](funkcii-time/time.sleep.md) - приостанавливает выполнение потока на заданное число секунд
 * не заполнено...
