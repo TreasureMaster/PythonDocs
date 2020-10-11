@@ -173,6 +173,10 @@
 * [os.startfile \(\)](upravlenie-processami/os.startfile.md) - запускает файл с помощью связанного с ним приложения
 * [os.system \(\)](upravlenie-processami/os.system.md) - исполняет команду \(строку\) в новой оболочке shell
 * не заполнено...
+* [os.waitpid \(\)](upravlenie-processami/os.waitpid.md) - дождаться завершения процесса, заданного идентификатором
+* не заполнено...
+* [os.WNOHANG](upravlenie-processami/os.wnohang.md) - немедленный возврат из **waitpid\(\)**, если процесс недоступен
+* не заполнено...
 
 #### Интерфейс планировщика
 
