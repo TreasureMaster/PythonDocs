@@ -109,7 +109,7 @@
   * [contextvars](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/contextvars.md) - 
 * [Сетевое и межпроцессное взаимодействие](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/) - механизмы взаимодействия в сети/процессах
   * [asyncio](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asyncio.md) - 
-  * [socket](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/socket.md) - 
+  * [socket](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/socket/) - 
   * [ssl](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/ssl.md) - 
   * [select](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/select.md) - 
   * [selectors](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/selectors.md) - 
