@@ -106,7 +106,7 @@
 
 _Изменено в версии 3.2_: добавлена поддержка протокола диспетчера контекста. Выход из диспетчера контекста эквивалентен вызову [close \(\)](funkcii-soketov/socket.close.md).
 
-* socket.accept \(\)
+* [socket.accept \(\)](obekty-soketov/socket.accept.md) - принимает соединение
 * [socket.bind \(\)](obekty-soketov/socket.bind.md) - привязывает сокет к адресу
 * socket.close \(\)
 * socket.connect \(\)
