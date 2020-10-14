@@ -71,7 +71,7 @@
 
 Все следующие функции создают объекты сокетов.
 
-* socket.socket \(\)
+* [socket.socket \(\)](funkcii-soketov/socket.socket.md) - создает новый сокет
 * socket.socketpair \(\)
 * socket.create\_connection \(\)
 * 

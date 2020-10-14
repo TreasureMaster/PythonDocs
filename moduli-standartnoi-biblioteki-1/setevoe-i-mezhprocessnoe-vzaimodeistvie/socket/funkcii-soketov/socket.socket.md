@@ -30,3 +30,15 @@ sock = socket.socket(
 
 _Изменено в версии 3.9_: Добавлен протокол **CAN\_J1939**.
 
+### Пример
+
+```python
+sockobj = socket(AF_INET, SOCK_STREAM)
+```
+
+{% hint style="success" %}
+Здесь с помощью модуля socket создается объект сокета TCP. Имена [AF\_INET](../konstanty-soketov/socket.af_inet.md) и [SOCK\_STREAM](../konstanty-soketov/socket.sock_stream.md) принадлежат предопределенным переменным, импортируемым из модуля socket; их совместное применение означает "создать сокет TCP/IP", стандартное средство связи для Интернета. Более точно, AF\_INET означает протокол адресов IP, а SOCK\_STREAM означает протокол передачи TCP. Комбинация AF\_INET/SOCK\_STREAM используется по умолчанию, потому что является наиболее типичной, но при этом обычно она указывается явно.
+
+При использовании в этом вызове других имен можно создавать такие объекты, как сокеты UDP без логического соединения \(второй параметр [SOCK\_DGRAM](../konstanty-soketov/socket.sock_dgram.md)\) и доменные сокеты UNIX на локальном компьютере \(первый параметр [AF\_UNIX](../konstanty-soketov/socket.af_unix.md)\).
+{% endhint %}
+
