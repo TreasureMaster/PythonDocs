@@ -107,7 +107,7 @@
 _Изменено в версии 3.2_: добавлена поддержка протокола диспетчера контекста. Выход из диспетчера контекста эквивалентен вызову [close \(\)](funkcii-soketov/socket.close.md).
 
 * socket.accept \(\)
-* socket.bind \(\)
+* [socket.bind \(\)](obekty-soketov/socket.bind.md) - привязывает сокет к адресу
 * socket.close \(\)
 * socket.connect \(\)
 * socket.connect\_ex \(\)
@@ -121,7 +121,7 @@ _Изменено в версии 3.2_: добавлена поддержка п
 * socket.getblocking \(\)
 * socket.gettimeout \(\)
 * socket.ioctl \(\)
-* socket.listen \(\)
+* [socket.listen \(\)](obekty-soketov/socket.listen.md) - разрешает серверу принимать заданное количество соединений
 * socket.makefile \(\)
 * socket.recv \(\)
 * socket.recvfrom \(\)
