@@ -123,7 +123,7 @@ _Изменено в версии 3.2_: добавлена поддержка п
 * socket.ioctl \(\)
 * [socket.listen \(\)](obekty-soketov/socket.listen.md) - разрешает серверу принимать заданное количество соединений
 * socket.makefile \(\)
-* socket.recv \(\)
+* [socket.recv \(\)](obekty-soketov/socket.recv.md) - получает данные из сокета
 * socket.recvfrom \(\)
 * socket.recvmsg \(\)
 * socket.recvmsg\_into \(\)
