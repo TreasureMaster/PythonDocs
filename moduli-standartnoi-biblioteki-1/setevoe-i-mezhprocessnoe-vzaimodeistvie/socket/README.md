@@ -129,7 +129,7 @@ _Изменено в версии 3.2_: добавлена поддержка п
 * socket.recvmsg\_into \(\)
 * socket.recvfrom\_into \(\)
 * socket.recv\_into \(\)
-* socket.send \(\)
+* [socket.send \(\)](obekty-soketov/socket.send.md) - отправляет данные в сокет
 * socket.sendall \(\)
 * socket.sendto \(\)
 * socket.sendmsg \(\)
