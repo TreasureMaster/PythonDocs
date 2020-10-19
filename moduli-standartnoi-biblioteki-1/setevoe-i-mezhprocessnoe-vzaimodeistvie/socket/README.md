@@ -79,7 +79,7 @@
 
 Модуль **socket** также предлагает различные сетевые услуги:
 
-* socket.close \(\)
+* [socket.close \(\)](funkcii-soketov/socket.close.md) - закрывает дескриптор файла сокета
 * не заполнено...
 * socket.gethostbyname \(\)
 * socket.gethostbyname\_ex \(\)
@@ -108,8 +108,8 @@ _Изменено в версии 3.2_: добавлена поддержка п
 
 * [socket.accept \(\)](obekty-soketov/socket.accept.md) - принимает соединение
 * [socket.bind \(\)](obekty-soketov/socket.bind.md) - привязывает сокет к адресу
-* socket.close \(\)
-* socket.connect \(\)
+* [socket.close \(\)](obekty-soketov/socket.close.md) - помечает сокет закрытым
+* [socket.connect \(\)](obekty-soketov/socket.connect.md) - подключается к удаленному сокету по заданному адресу
 * socket.connect\_ex \(\)
 * socket.detach \(\)
 * socket.dup \(\)
