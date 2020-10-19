@@ -80,17 +80,18 @@
 Модуль **socket** также предлагает различные сетевые услуги:
 
 * [socket.close \(\)](funkcii-soketov/socket.close.md) - закрывает дескриптор файла сокета
-* не заполнено...
-* socket.gethostbyname \(\)
+* socket.getaddrinfo \(\)
+* socket.getfqdn \(\)
+* [socket.gethostbyname \(\)](funkcii-soketov/socket.gethostbyname.md) - преобразует имя хоста в формат адреса IPv4
 * socket.gethostbyname\_ex \(\)
-* socket.gethostname \(\)
+* [socket.gethostname \(\)](funkcii-soketov/socket.gethostname.md) - возвращает строку с именем хоста, где выполняется Python
 * socket.gethostbyaddr \(\)
 * socket.getnameinfo \(\)
 * socket.getprotobyname \(\)
 * socket.getservbyname \(\)
 * socket.getservbyport \(\)
-* socket.ntohl \(\)
-* socket.ntohs \(\)
+* [socket.ntohl \(\)](funkcii-soketov/socket.ntohl.md) - преобразует 32-битные целые числа из сети в порядок байтов хоста
+* [socket.ntohs \(\)](funkcii-soketov/socket.ntohl.md) - преобразует 32-битные целые числа из хоста в сетевой порядок байтов
 * socket.htonl \(\)
 * не заполнено...
 * socket.getdeafulttimeout \(\)
