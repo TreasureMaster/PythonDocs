@@ -74,7 +74,12 @@
 * [socket.socket \(\)](funkcii-soketov/socket.socket.md) - создает новый сокет
 * socket.socketpair \(\)
 * socket.create\_connection \(\)
-* 
+* socket.create\_server \(\)
+* socket.has\_dualstack\_ipv6 \(\)
+* socket.fromfd \(\)
+* socket.fromshare \(\)
+* socket.SocketType
+
 #### Другие функции
 
 Модуль **socket** также предлагает различные сетевые услуги:
