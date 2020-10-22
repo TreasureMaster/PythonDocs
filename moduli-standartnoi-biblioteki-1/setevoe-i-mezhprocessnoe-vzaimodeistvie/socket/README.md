@@ -80,20 +80,26 @@
 Модуль **socket** также предлагает различные сетевые услуги:
 
 * [socket.close \(\)](funkcii-soketov/socket.close.md) - закрывает дескриптор файла сокета
-* socket.getaddrinfo \(\)
-* socket.getfqdn \(\)
+* [socket.getaddrinfo \(\)](funkcii-soketov/socket.getaddrinfo.md) - преобразует аргументы в кортеж с данными для создания сокета
+* [socket.getfqdn \(\)](funkcii-soketov/socket.getfqdn.md) - возвращает полное доменное имя
 * [socket.gethostbyname \(\)](funkcii-soketov/socket.gethostbyname.md) - преобразует имя хоста в формат адреса IPv4
-* socket.gethostbyname\_ex \(\)
+* [socket.gethostbyname\_ex \(\)](funkcii-soketov/socket.gethostbyname_ex.md) - преобразует имя хоста в расширенный формат адреса IPv4
 * [socket.gethostname \(\)](funkcii-soketov/socket.gethostname.md) - возвращает строку с именем хоста, где выполняется Python
-* socket.gethostbyaddr \(\)
-* socket.getnameinfo \(\)
-* socket.getprotobyname \(\)
-* socket.getservbyname \(\)
-* socket.getservbyport \(\)
+* [socket.gethostbyaddr \(\)](funkcii-soketov/socket.gethostbyaddr.md) - преобразует адрес формата IPv4/v6 в расширенное имя хоста
+* [socket.getnameinfo \(\)](funkcii-soketov/socket.getnameinfo.md) - преобразует адрес сокета в кортеж хост/порт
+* [socket.getprotobyname \(\)](funkcii-soketov/socket.getprotobyname.md) - преобразует имя интернет-протокола в константу для [socket\(\)](funkcii-soketov/socket.socket.md)
+* [socket.getservbyname \(\)](funkcii-soketov/socket.getservbyname.md) - преобразует имя интернет-службы и имя протокола в номер порта
+* [socket.getservbyport \(\)](funkcii-soketov/socket.getservbyport.md) - преобразует номер интернет-порта и имя протокола в имя службы
 * [socket.ntohl \(\)](funkcii-soketov/socket.ntohl.md) - преобразует 32-битные целые числа из сети в порядок байтов хоста
-* [socket.ntohs \(\)](funkcii-soketov/socket.ntohl.md) - преобразует 32-битные целые числа из хоста в сетевой порядок байтов
-* socket.htonl \(\)
-* не заполнено...
+* socket.ntohs \(\)
+* [socket.htonl \(\)](funkcii-soketov/socket.htonl.md) - преобразует 32-битные целые числа из хоста в сетевой порядок байтов
+* socket.htons \(\)
+* socket.inet\_aton \(\)
+* socket.inet\_ntoa \(\)
+* socket.inet\_pton \(\)
+* socket.inet\_ntop \(\)
+* socket.CMSG\_LEN \(\)
+* socket.CMSG\_SPACE \(\)
 * socket.getdeafulttimeout \(\)
 * socket.setdefaulttimeout \(\)
 * socket.sethostname \(\)
