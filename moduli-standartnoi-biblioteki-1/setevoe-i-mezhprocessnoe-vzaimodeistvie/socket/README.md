@@ -18,19 +18,19 @@
 Модуль [ssl](../ssl.md) - оболочка TLS/SSL для объектов сокета.
 {% endhint %}
 
-### [Семейство сокетов](semeistvo-soketov.md)
+### [Семейство сокетов](semeistvo-soketov/)
 
 В зависимости от системы и параметров сборки этот модуль поддерживает различные семейства сокетов.
 
 Формат адреса, необходимый для конкретного объекта сокета, выбирается автоматически на основе семейства адресов, указанного при создании объекта сокета. Адреса сокетов представлены следующим образом:
 
-* AF\_UNIX
-* AF\_INET
-* AF\_INET6
-* AF\_NETLINK
-* AF\_TIPC
-* AF\_CAN
-* PF\_SYSTEM
+* [AF\_UNIX](semeistvo-soketov/af_unix.md) - сокеты для межпроцессного взаимодействия UNIX-машин
+* [AF\_INET](semeistvo-soketov/af_inet.md) - сокеты сетевого протокола IPv4
+* [AF\_INET6](semeistvo-soketov/af_inet6.md) - сокеты сетевого протокола IPv6
+* [AF\_NETLINK](semeistvo-soketov/af_netlink.md) - сокеты для передачи информации между ядром системы и процессами
+* [AF\_TIPC](semeistvo-soketov/af_tipc.md) - сокеты TIPC, протокола, не основанного на IP \(кластерная среда\)
+* [AF\_CAN](semeistvo-soketov/af_can.md) - сокеты промышленной сети CAN
+* [PF\_SYSTEM](semeistvo-soketov/pf_system.md) - сокеты для передачи информации между ядром системы и процессами
 * AF\_BLUETOOTH
 * AF\_ALG
 * AF\_VSOCK
