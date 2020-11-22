@@ -111,7 +111,7 @@
   * [asyncio](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asyncio.md) - 
   * [socket](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/socket/) - 
   * [ssl](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/ssl.md) - 
-  * [select](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/select.md) - 
+  * [select](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/select/) - 
   * [selectors](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/selectors.md) - 
   * [asyncore](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asyncore.md) - 
   * [asynchat](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/asynchat.md) - 

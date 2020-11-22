@@ -255,7 +255,7 @@
 | :--- | :--- |
 | [sched](../moduli-standartnoi-biblioteki-1/parallelnoe-vypolnenie/sched.md) |  |
 | [secrets](../moduli-standartnoi-biblioteki-1/kriptograficheskie-sluzhby/secrets.md) |  |
-| [select](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/select.md) |  |
+| [select](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/select/) |  |
 | [selectors](../moduli-standartnoi-biblioteki-1/setevoe-i-mezhprocessnoe-vzaimodeistvie/selectors.md) |  |
 | [shelve](../moduli-standartnoi-biblioteki-1/khranenie-dannykh/shelve.md) |  |
 | [shlex](../moduli-standartnoi-biblioteki-1/programmnye-freimvorki/shlex.md) |  |
