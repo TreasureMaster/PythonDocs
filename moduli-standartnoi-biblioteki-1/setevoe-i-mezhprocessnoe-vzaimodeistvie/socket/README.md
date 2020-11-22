@@ -134,7 +134,7 @@ _Изменено в версии 3.2_: добавлена поддержка п
 * socket.gettimeout \(\)
 * socket.ioctl \(\)
 * [socket.listen \(\)](obekty-soketov/socket.listen.md) - разрешает серверу принимать заданное количество соединений
-* socket.makefile \(\)
+* [socket.makefile \(\)](obekty-soketov/socket.makefile.md) - возвращает объект файла, связанный с сокетом
 * [socket.recv \(\)](obekty-soketov/socket.recv.md) - получает данные из сокета
 * socket.recvfrom \(\)
 * socket.recvmsg \(\)
