@@ -31,9 +31,9 @@
 * [AF\_TIPC](semeistvo-soketov/af_tipc.md) - сокеты TIPC, протокола, не основанного на IP \(кластерная среда\)
 * [AF\_CAN](semeistvo-soketov/af_can.md) - сокеты промышленной сети CAN
 * [PF\_SYSTEM](semeistvo-soketov/pf_system.md) - сокеты для передачи информации между ядром системы и процессами
-* AF\_BLUETOOTH
-* AF\_ALG
-* AF\_VSOCK
+* [AF\_BLUETOOTH](semeistvo-soketov/af_bluetooth.md) - сокеты для передачи информации в сети Bluetooth
+* [AF\_ALG](semeistvo-soketov/af_alg.md) - интерфейс сокетов в Linux для криптографии ядра
+* [AF\_VSOCK](semeistvo-soketov/af_vsock.md) - сокеты для связи виртуальных машин с их хостами
 * AF\_PACKET
 * AF\_QIPCRTR
 * IPPROTO\_UDPLITE
