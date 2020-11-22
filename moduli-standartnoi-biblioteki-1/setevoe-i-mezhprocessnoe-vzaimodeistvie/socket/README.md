@@ -151,7 +151,7 @@ _Изменено в версии 3.2_: добавлена поддержка п
 * socket.sendfile \(\)
 * socket.set\_inheritable \(\)
 * [socket.setblocking \(\)](obekty-soketov/socket.setblocking.md) - устанавливает блокирующий или неблокирующий режим сокета
-* socket.settimeout \(\)
+* [socket.settimeout \(\)](obekty-soketov/socket.settimeout.md) - устанавливает тайм-аут для блокировки операций сокета
 * socket.setsockopt \(\)
 * socket.shutdown \(\)
 * socket.share \(\)
