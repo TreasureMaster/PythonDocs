@@ -50,10 +50,10 @@
 
 ### [Исключения](isklyucheniya-soketov/)
 
-* socket.error exception
+* [socket.error _exception_](isklyucheniya-soketov/socket.error.md) - устаревший псевдоним OSError
 * socket.herror exception
 * socket.gaierror exception
-* socket.timeout exception
+* [socket.timeout _exception_](isklyucheniya-soketov/socket.timeout.md) - исключение возникает, когда тайм-аут происходит в сокете
 
 ### [Константы](konstanty-soketov/)
 
