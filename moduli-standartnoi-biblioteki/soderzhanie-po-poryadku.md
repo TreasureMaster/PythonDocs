@@ -40,7 +40,7 @@
   * [statistics](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/statistics.md) - 
 * [Функциональные программные модули](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/) - объекты для функционального программирования
   * [itertools](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/itertools.md) - 
-  * [functools](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools.md) - 
+  * [functools](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools/) - 
   * [operator](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/operator.md) - 
 * [Доступ к файлам и папкам](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/) - работа с файлами и каталогами
   * [pathlib](../moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/pathlib.md) - 

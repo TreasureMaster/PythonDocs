@@ -103,7 +103,7 @@
 | [formatter](../moduli-standartnoi-biblioteki-1/raznye-sluzhby/formatter.md) |  |
 | [fractions](../moduli-standartnoi-biblioteki-1/matematicheskie-moduli/fractions.md) |  |
 | [ftplib](../moduli-standartnoi-biblioteki-1/internet-protokoly/ftplib.md) |  |
-| [functools](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools.md) |  |
+| [functools](../moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools/) |  |
 | [\_\_future\_\_](../moduli-standartnoi-biblioteki-1/sluzhby-sredy-vypolneniya-python/__future__.md) |  |
 
 ### G
