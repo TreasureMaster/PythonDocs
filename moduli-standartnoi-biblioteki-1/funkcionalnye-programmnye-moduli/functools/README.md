@@ -6,7 +6,7 @@
 
 Модуль **functools** определяет следующие функции:
 
-*  @functools.cache\(\)
+*  [@functools.cache\(\)](functools.cache.md) - кеширует функции
 *  @functools.cached\_property\(\)
 *  functools.cmp\_to\_key\(\)
 *  @functools.lru\_cache\(\)
