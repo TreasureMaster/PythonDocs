@@ -16,7 +16,7 @@
 *  functools.reduce\(\)
 *  @functools.singledispatch
 *  _class_ functools.singledispatchmethod\(\)
-*  functools.update\_wrapper\(\)
+*  [functools.update\_wrapper\(\)](functools.update_wrapper.md) - обновляет обернутую функцию до оборачиваемой
 *  [@functools.wraps\(\)](functools.wraps.md) - удобная функция вызова [update\_wrapper\(\)](functools.update_wrapper.md), декоратор
 
 Объекты partial
