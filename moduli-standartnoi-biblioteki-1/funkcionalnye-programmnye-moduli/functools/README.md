@@ -7,9 +7,8 @@
 Модуль **functools** определяет следующие функции:
 
 *  [@functools.cache\(\)](functools.cache.md) - кеширует функции
-*  @functools.cached\_property\(\)
-*  functools.cmp\_to\_key\(\)
-*  @functools.lru\_cache\(\)
+*  [@functools.cached\_property\(\)](functools.cached_property.md) - преобразует метод класса в кешированное свойство
+*  [functools.cmp\_to\_key\(\)](functools.cmp_to_key.md) - преобразует функцию сравнения старого стиля в ключевую функцию
 *  @functools.lru\_cache\(\)
 *  @functools.total\_ordering
 *  functools.partial\(\)
