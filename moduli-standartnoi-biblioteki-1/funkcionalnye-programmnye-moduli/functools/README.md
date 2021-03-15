@@ -9,7 +9,7 @@
 *  [@functools.cache\(\)](functools.cache.md) - кеширует функции
 *  [@functools.cached\_property\(\)](functools.cached_property.md) - преобразует метод класса в кешированное свойство
 *  [functools.cmp\_to\_key\(\)](functools.cmp_to_key.md) - преобразует функцию сравнения старого стиля в ключевую функцию
-*  @functools.lru\_cache\(\)
+*  [@functools.lru\_cache\(\)](functools.lru_cache.md) - декоратор для обертывания функции мемоизирущим объектом
 *  @functools.total\_ordering
 *  functools.partial\(\)
 *  _class_ functools.partialmethod\(\)
