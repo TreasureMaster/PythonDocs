@@ -99,6 +99,7 @@
     * [functools.singledispatchmethod\(\)](moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools/functools.singledispatchmethod.md)
     * [functools.update\_wrapper\(\)](moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools/functools.update_wrapper.md)
     * [functools.wraps\(\)](moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools/functools.wraps.md)
+    * [Объекты partial](moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/functools/obekty-partial.md)
   * [operator](moduli-standartnoi-biblioteki-1/funkcionalnye-programmnye-moduli/operator.md)
 * [Доступ к файлам и папкам](moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/README.md)
   * [pathlib](moduli-standartnoi-biblioteki-1/dostup-k-failam-i-papkam/pathlib.md)
