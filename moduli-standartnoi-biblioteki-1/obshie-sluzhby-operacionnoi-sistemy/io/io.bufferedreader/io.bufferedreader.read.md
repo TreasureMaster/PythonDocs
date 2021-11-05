@@ -1,6 +1,5 @@
-# io.BufferedReader.read \(\)
+# io.BufferedReader.read ()
 
-### io.BufferedReader.read \( \[ _size_ \] \)
+### io.BufferedReader.read ( \[ _size _] )
 
 Читает и возвращает байты размера _**size**_ или, если размер не задан или отрицателен, до EOF или если вызов чтения заблокируется в неблокирующем режиме.
-

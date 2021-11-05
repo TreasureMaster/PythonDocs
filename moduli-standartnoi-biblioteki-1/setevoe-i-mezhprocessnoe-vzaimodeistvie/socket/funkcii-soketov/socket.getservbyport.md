@@ -1,8 +1,7 @@
-# socket.getservbyport \(\)
+# socket.getservbyport ()
 
-### socket.getservbyport \( _port_ \[, _protocolname_ \] \)
+### socket.getservbyport ( _port _\[, _protocolname _] )
 
 Преобразует номер интернет-порта и имя протокола в имя службы для этой службы. Необязательное имя протокола, если указано, должно быть `'tcp'` или `'udp'`, в противном случае будет совпадать любой протокол.
 
 Вызывает событие аудита `socket.getservbyport` с аргументами _**port**_, _**protocolname**_.
-

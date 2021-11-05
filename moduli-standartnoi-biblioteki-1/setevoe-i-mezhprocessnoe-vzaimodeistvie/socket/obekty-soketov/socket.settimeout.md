@@ -1,10 +1,9 @@
-# socket.settimeout \(\)
+# socket.settimeout ()
 
-### socket.settimeout \( _value_ \)
+### socket.settimeout ( _value _)
 
 Устанавливает тайм-аут для блокировки операций сокета. Аргумент _**value**_ может быть неотрицательным числом с плавающей запятой, выражающим секунды, или `None`. Если задано ненулевое значение, последующие операции сокета вызовут исключение тайм-аута [socket.timeout](../isklyucheniya-soketov/socket.timeout.md), если значение _**value**_ периода тайм-аута истекло до завершения операции. Если задан ноль, сокет переводится в неблокирующий режим. Если задано `None`, сокет переводится в режим блокировки.
 
 Для получения дополнительной информации см. [примечания о тайм-аутах сокетов](../#primechaniya-otnositelno-taim-autov-soketov).
 
-_Изменено в версии 3.7:_ метод больше не переключает флаг [SOCK\_NONBLOCK](../konstanty-soketov/socket.sock_nonblock.md) на [socket.type](socket.type.md).
-
+_Изменено в версии 3.7:_ метод больше не переключает флаг [SOCK\_NONBLOCK](../konstanty-soketov/socket.sock\_nonblock.md) на [socket.type](socket.type.md).

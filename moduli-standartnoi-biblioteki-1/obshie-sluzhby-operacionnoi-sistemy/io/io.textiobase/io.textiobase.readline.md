@@ -1,8 +1,7 @@
-# io.TextIOBase.readline \(\)
+# io.TextIOBase.readline ()
 
-#### io.TextIOBase.readline \( _size=-1_ \)
+#### io.TextIOBase.readline ( _size=-1 _)
 
 Читает до новой строки или EOF и возвращает одну строку. Если поток уже находится в EOF, возвращается пустая строка.
 
 Если указан _**size**_, будет прочитано не более символов _**size**_.
-

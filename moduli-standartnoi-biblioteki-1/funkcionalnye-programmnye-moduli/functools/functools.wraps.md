@@ -1,8 +1,8 @@
-# functools.wraps\(\)
+# functools.wraps()
 
-####  @functools.wraps\( _wrapped_, _assigned=WRAPPER\_ASSIGNMENTS_, _updated=WRAPPER\_UPDATES_ \)
+#### &#x20;@functools.wraps( _wrapped_, _assigned=WRAPPER\_ASSIGNMENTS_, _updated=WRAPPER\_UPDATES _)
 
-Это удобная функция для вызова [update\_wrapper \(\)](functools.update_wrapper.md) в качестве декоратора функции при определении функции-оболочки. Это эквивалентно `partial(update_wrapper, wrapped=wrapped, assigned=assigned, updated=updated)`. Например:
+Это удобная функция для вызова [update\_wrapper ()](functools.update\_wrapper.md) в качестве декоратора функции при определении функции-оболочки. Это эквивалентно `partial(update_wrapper, wrapped=wrapped, assigned=assigned, updated=updated)`. Например:
 
 ```python
 >>> from functools import wraps
@@ -27,5 +27,4 @@ Called example function
 'Docstring'
 ```
 
-Без использования этой фабрики декораторов имя функции примера было бы `'wrapper'`, а строка документации исходного **example \(\)** была бы потеряна.
-
+Без использования этой фабрики декораторов имя функции примера было бы `'wrapper'`, а строка документации исходного **example ()** была бы потеряна.

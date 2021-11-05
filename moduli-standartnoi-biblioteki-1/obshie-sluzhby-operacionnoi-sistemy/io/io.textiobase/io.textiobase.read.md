@@ -1,6 +1,5 @@
-# io.TextIOBase.read \(\)
+# io.TextIOBase.read ()
 
-### io.TextIOBase \( _size=-1_ \)
+### io.TextIOBase ( _size=-1 _)
 
 Читает и возвращает максимальный размер _**size**_ из потока в виде одной строки. Если размер _**size**_ отрицательный или `None`, считывается до EOF.
-

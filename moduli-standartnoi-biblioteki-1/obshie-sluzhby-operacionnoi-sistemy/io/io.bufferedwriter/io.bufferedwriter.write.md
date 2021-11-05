@@ -1,6 +1,5 @@
-# io.BufferedWriter.write \(\)
+# io.BufferedWriter.write ()
 
-### io.BufferedWriter.write \( _b_ \)
+### io.BufferedWriter.write ( _b _)
 
 Записывает байтовый объект _**b**_ и возвращает количество записанных байтов. В неблокирующем режиме возникает ошибка BlockingIOError, если необходимо записать буфер, но необработанный поток блокируется.
-

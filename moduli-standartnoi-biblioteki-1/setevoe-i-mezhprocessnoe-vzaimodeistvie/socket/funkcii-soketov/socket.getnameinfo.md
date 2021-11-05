@@ -1,12 +1,11 @@
-# socket.getnameinfo \(\)
+# socket.getnameinfo ()
 
-### socket.getnameinfo \( _sockaddr_, _flags_ \)
+### socket.getnameinfo ( _sockaddr_, _flags _)
 
 Преобразует адрес сокета _**sockaddr**_ в кортеж 2 элементов `(host, port)`. В зависимости от настроек _**flags**_ результат может содержать полное доменное имя или числовое представление адреса на хосте _**host**_. Точно так же порт _**port**_ может содержать строковое имя порта или числовой номер порта.
 
 Для адресов IPv6, `%scope_id` добавляется к части хоста, если _**sockaddr**_ содержит значимый _**scope\_id**_. Обычно это происходит для многоадресных адресов.
 
-Для получения дополнительной информации о флагах _**flags**_ вы можете обратиться к [getnameinfo\(3\)](https://manpages.debian.org/buster/manpages-dev/getnameinfo.3.en.html).
+Для получения дополнительной информации о флагах _**flags**_ вы можете обратиться к [getnameinfo(3)](https://manpages.debian.org/buster/manpages-dev/getnameinfo.3.en.html).
 
 Вызывает событие аудита `socket.getnameinfo` с аргументом _**sockaddr**_.
-

@@ -6,7 +6,6 @@
 
 Такой сокет должен быть построен с сокетом `socket (AF_INET, SOCK_DGRAM, IPPROTO_UDPLITE)` для IPv4 или сокетом `socket (AF_INET6, SOCK_DGRAM, IPPROTO_UDPLITE)` для IPv6.
 
-**Доступность:** Linux&gt; = 2.6.20, FreeBSD&gt; = 10.1-RELEASE
+**Доступность: **Linux> = 2.6.20, FreeBSD> = 10.1-RELEASE
 
 _Новое в версии 3.9._
-

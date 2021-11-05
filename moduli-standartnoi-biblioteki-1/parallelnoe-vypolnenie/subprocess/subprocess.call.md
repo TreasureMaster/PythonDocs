@@ -1,10 +1,10 @@
-# subprocess.call \(\)
+# subprocess.call ()
 
-#### subprocess.call \( _args_, _\*_, _stdin=None_, _stdout=None_, _stderr=None_, _shell=False_, _cwd=None_, _timeout=None_, _\*\*other\_popen\_kwargs_ \)
+#### subprocess.call ( _args_, _\*_, _stdin=None_, _stdout=None_, _stderr=None_, _shell=False_, _cwd=None_, _timeout=None_, _\*\*other\_popen\_kwargs _)
 
 Запускает команду, описанную _**args**_. Ожидает завершения команды, затем возвращает атрибут кода возврата [returncode](popen.returncode.md).
 
-Код, которому необходимо захватить [**stdout**](popen.stdout.md) или [**stderr**](popen.stderr.md), должен вместо этого использовать run \(\):
+Код, которому необходимо захватить [**stdout**](popen.stdout.md) или [**stderr**](popen.stderr.md), должен вместо этого использовать run ():
 
 ```python
 run(...).returncode
@@ -19,4 +19,3 @@ run(...).returncode
 {% endhint %}
 
 _Изменено в версии 3.3:_ добавлен _**timeout**_.
-
